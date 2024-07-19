@@ -1,0 +1,33 @@
+import { mintTo } from "@solana/spl-token";
+import "dotenv/config";
+import {
+    getExplorerLink,
+    getKeypairFromEnvironment,
+} from "@solana-developers/helpers";
+import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
+const apiUrl = process.env.API_URL
+const connection = new Connection(apiUrl ?? clusterApiUrl("devnet"));
+
+// Our token has two decimal places
+const MINOR_UNITS_PER_MAJOR_UNITS = Math.pow(10, 2);
+
+const user = getKeypairFromEnvironment("SK");
+
+// Subtitute in your token mint account from create-token-mint.ts
+const tokenMintAccount = new PublicKey("GpnaPjEzqnpjbU4tPRm1AVnHvqbthFZTM9qm4xGS9Kwj");
+
+// Substitute in your own, or a friend's token account address, based on the previous step.
+const recipientAssociatedTokenAccount = new PublicKey("5atfkswAAAU9it69MepdTV3fznv9nypAGtTWzKUHLK1Z");
+
+const transactionSignature = await mintTo(
+    connection,
+    user,
+    tokenMintAccount,
+    recipientAssociatedTokenAccount,
+    user,
+    1//10 * MINOR_UNITS_PER_MAJOR_UNITS
+);
+
+const link = getExplorerLink("transaction", transactionSignature, apiUrl ? 'localnet' : "devnet");
+
+console.log(`✅ Success! Mint Token Transaction: ${link}`);

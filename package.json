@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
     "@solana-developers/helpers": "^2.3.0",
+    "@solana/spl-token": "^0.4.8",
     "@solana/web3.js": "^1.95.1",
     "esrun": "^3.2.26",
     "typescript": "^5.5.3"
@@ -13,6 +15,11 @@
   "scripts": {
     "keypair-generate": "npx esrun keypair-generate.ts",
     "read-balance": "npx esrun read-balance.ts",
+    "create-token-mint": "npx esrun token/create-token-mint.ts",
+    "create-token-metadata": "npx esrun token/create-token-metadata.ts",
+    "create-token-account": "npx esrun token/create-token-account.ts",
+    "mint-token": "npx esrun token/mint-tokens.ts",
+    "transfer-tokens": "npx esrun token/transfer-tokens.ts",
     "transfer": "npx esrun transfer.ts"
   },
   "author": "",
