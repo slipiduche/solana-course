@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/web3.js": "^1.95.1",
+    "esrun": "^3.2.26",
+    "typescript": "^5.5.3"
+  },
+  "name": "course",
+  "version": "1.0.0",
+  "description": "solana tests",
+  "main": "keypair-generate.js",
+  "type": "module",
+  "scripts": {
+    "keypair-generate": "npx esrun keypair-generate.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
