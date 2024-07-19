@@ -11,7 +11,8 @@
   "main": "keypair-generate.js",
   "type": "module",
   "scripts": {
-    "keypair-generate": "npx esrun keypair-generate.ts"
+    "keypair-generate": "npx esrun keypair-generate.ts",
+    "read-balance": "npx esrun read-balance.ts"
   },
   "author": "",
   "license": "ISC"
