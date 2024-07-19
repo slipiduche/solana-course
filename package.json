@@ -12,7 +12,8 @@
   "type": "module",
   "scripts": {
     "keypair-generate": "npx esrun keypair-generate.ts",
-    "read-balance": "npx esrun read-balance.ts"
+    "read-balance": "npx esrun read-balance.ts",
+    "transfer": "npx esrun transfer.ts"
   },
   "author": "",
   "license": "ISC"
