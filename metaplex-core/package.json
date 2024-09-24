@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Interacting with Core Assets",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "test-wallets": "ts-node src/test-wallets.ts"
   },
   "keywords": [],
   "devDependencies": {
@@ -17,6 +18,8 @@
     "@metaplex-foundation/umi": "^0.9.2",
     "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
     "@solana/web3.js": "^1.95.1",
-    "dotenv": "^16.0.1"
+    "bip39": "^3.1.0",
+    "dotenv": "^16.0.1",
+    "micro-ed25519-hdkey": "^0.1.2"
   }
 }
