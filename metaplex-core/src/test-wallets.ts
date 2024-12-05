@@ -10,16 +10,20 @@ import * as bip39 from 'bip39'
 import { HDKey } from "micro-ed25519-hdkey";
 const API = process.env.API_URL ?? 'http://localhost:8899'
 const base58key = process.env.sk2
-const mnemonic = process.env.mnemonic
-const keypairHelper = getKeypairFromEnvironment("SK3")
+const mnemonic = process.env.mnemonic_prod
+const keypairHelper = getKeypairFromEnvironment("WAYRU_SK")
 const keypair: Keypair = {
   publicKey: publicKey(keypairHelper.publicKey),
   secretKey: keypairHelper.secretKey
 }
 
 async function main() {
-  console.log('sk3 helper pub:', keypairHelper.publicKey)
-  console.log('sk3 helper sk:', keypairHelper.secretKey)
+  console.log('PROD_PK:', keypairHelper.publicKey.toBase58())
+  console.log('PROD_SK:', keypairHelper.secretKey)
+  console.log('PROD_SK_base58:', base58.deserialize(keypairHelper.secretKey)[0])
+  const keypairfrombase68string = KeypairHelper.fromSeed(base58.serialize(base58.deserialize(keypairHelper.secretKey)[0]).slice(0, 32))
+  console.log('keypair.pk:',keypairfrombase68string.publicKey.toBase58())
+  console.log('keypair.sk:',keypairfrombase68string.secretKey)
   console.log('base58:', base58key)
   console.log('base58 serialize:', base58.serialize(base58key ?? ''))
   console.log('mnemonic:', mnemonic)
