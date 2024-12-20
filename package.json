@@ -4,6 +4,7 @@
     "@metaplex-foundation/mpl-token-metadata": "2.11.1",
     "@metaplex-foundation/umi": "^0.9.2",
     "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@pinata/sdk": "^2.1.0",
     "@solana-developers/helpers": "^2.3.0",
     "@solana/codecs-core": "^2.0.0",
     "@solana/errors": "^2.0.0",
@@ -30,7 +31,7 @@
     "mint-token": "npx esrun token/mint-tokens.ts",
     "transfer-tokens": "npx esrun token/transfer-tokens.ts",
     "transfer": "npx esrun transfer.ts",
-    "spl-token": "npx esrun spl-token/create-spl-token"
+    "spl-token": "npx esrun spl-token/index.ts"
   },
   "author": "",
   "license": "ISC"
