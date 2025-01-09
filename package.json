@@ -17,6 +17,7 @@
     "esrun": "^3.2.26",
     "micro-ed25519-hdkey": "^0.1.2",
     "rpc-websockets": "7.5.1",
+    "tweetnacl": "^1.0.3",
     "typescript": "^5.5.3"
   },
   "name": "course",
@@ -38,6 +39,7 @@
     "reward-system-claim": "npx esrun spl-token/reward-system/claim-token.ts",
     "reward-system-check-claim": "npx esrun spl-token/reward-system/check-claim.ts",
     "reward-system-check-account": "npx esrun spl-token/reward-system/check-account.ts",
+    "reward-system-check-program-details": "npx esrun spl-token/reward-system/check-program-details.ts",
     "reward-system-create-token": "npx esrun spl-token/reward-system/create-token.ts"
   },
   "author": "",
