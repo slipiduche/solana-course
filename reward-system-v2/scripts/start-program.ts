@@ -1,8 +1,7 @@
-import { ADMIN_PRIVATE_KEY, USER_PRIVATE_SEED } from "../constants";
+import { USER_PRIVATE_SEED } from "../constants";
 import { getRewardSystemProgram } from "../helpers/program";
 import { getKeypair } from "../../spl-token/helpers/getKeyPair";
 import { getAdminKeypair } from "../helpers/keypair";
-import { getAdminKeypair as getAdminKeypairV1 } from "../../reward-system/utils/keypar";
 import { initializeSystem } from "../actions/initialize-system";
 import { getAccountBalance } from "../helpers/get-balance";
 import { createNewWallet } from "../helpers/wallet";
