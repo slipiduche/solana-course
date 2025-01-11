@@ -35,12 +35,12 @@
     "transfer-tokens": "npx esrun token/transfer-tokens.ts",
     "transfer": "npx esrun transfer.ts",
     "spl-token": "npx esrun spl-token/index.ts",
-    "reward-system-deposit": "npx esrun spl-token/reward-system/deposit-token.ts",
-    "reward-system-claim": "npx esrun spl-token/reward-system/claim-token.ts",
-    "reward-system-check-claim": "npx esrun spl-token/reward-system/check-claim.ts",
-    "reward-system-check-account": "npx esrun spl-token/reward-system/check-account.ts",
-    "reward-system-check-program-details": "npx esrun spl-token/reward-system/check-program-details.ts",
-    "reward-system-create-token": "npx esrun spl-token/reward-system/create-token.ts"
+    "reward-system-deposit": "npx esrun reward-system/deposit-token.ts",
+    "reward-system-claim": "npx esrun reward-system/claim-token.ts",
+    "reward-system-check-claim": "npx esrun reward-system/check-claim.ts",
+    "reward-system-check-account": "npx esrun reward-system/check-account.ts",
+    "reward-system-check-program-details": "npx esrun reward-system/check-program-details.ts",
+    "reward-system-create-token": "npx esrun reward-system/create-token.ts"
   },
   "author": "",
   "license": "ISC"
