@@ -41,7 +41,10 @@
     "reward-system-check-account": "npx esrun reward-system/check-account.ts",
     "reward-system-check-program-details": "npx esrun reward-system/check-program-details.ts",
     "reward-system-create-token": "npx esrun reward-system/create-token.ts",
-    "reward-system-v2-start-program": "npx esrun reward-system-v2/scripts/start-program.ts"
+    "reward-system-v2-start-program": "npx esrun reward-system-v2/scripts/start-program.ts",
+    "reward-system-v2-initialize-nfnode": "npx esrun reward-system-v2/scripts/initialize-nfnode.ts",
+    "reward-system-v2-fund-token-storage": "npx esrun reward-system-v2/scripts/fund-token-storage.ts",
+    "reward-system-v2-claim-rewards": "npx esrun reward-system-v2/scripts/claim-rewards.ts"
   },
   "author": "",
   "license": "ISC"

@@ -1,12 +1,12 @@
 import * as anchor from "@coral-xyz/anchor";
 import { PublicKey, Transaction } from "@solana/web3.js";
 import { getRewardSystemProgram } from "./utils/program";
-import { getAdminKeypair } from "./utils/keypar";
+import { getAdminKeypair,  } from "./utils/keypar";
 import { TOKENS, CLAIM_AMOUNT, USER_PRIVATE_SEED } from "./constants";
 import { getAssociatedTokenAddress, TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { initializeSystemIfNeeded } from "./utils/initialize-system";
 import { BN } from "bn.js";
-import { getKeypair } from "../helpers/getKeyPair";
+import { getKeypair } from "../spl-token/helpers/getKeyPair";
 import { convertToTokenAmount } from "./utils/token";
 
 export const processClaimInBackend = async (

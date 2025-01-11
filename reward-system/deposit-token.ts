@@ -4,7 +4,7 @@ import { getAdminKeypair } from "./utils/keypar";
 import { getRewardSystemProgram } from "./utils/program";
 import { getAssociatedTokenAddress, createAssociatedTokenAccountInstruction, createTransferInstruction } from "@solana/spl-token";
 import { BN } from "bn.js";
-import { getKeypair } from "../helpers/getKeyPair";
+import { getKeypair } from "../spl-token/helpers/getKeyPair";
 import { OWNER_TOKENS_PRIVATE_SEED, TOKENS, DECIMALS } from "./constants";
 import { convertToTokenAmount } from "./utils/token";
 

@@ -5,6 +5,7 @@ import { getAdminKeypair } from "../helpers/keypair";
 import { getAdminKeypair as getAdminKeypairV1 } from "../../reward-system/utils/keypar";
 import { initializeSystem } from "../actions/initialize-system";
 import { getAccountBalance } from "../helpers/get-balance";
+import { createNewWallet } from "../helpers/wallet";
 
 
 const startProgram = async () => {
@@ -25,7 +26,8 @@ const startProgram = async () => {
     }
 
     // initialize system
-    await initializeSystem(program, adminKeypair);
+    // await initializeSystem(program, adminKeypair);
+    const newWallet = createNewWallet();
     console.log("System initialized");
 }
 

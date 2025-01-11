@@ -3,16 +3,17 @@ import { getRewardSystemProgram } from "./utils/program";
 import { createTokenWithMetadata } from "./utils/token";
 import { getOrCreateAssociatedTokenAccount, mintTo } from "@solana/spl-token";
 import { BN } from "bn.js";
-import { pinataSdk } from '../helpers/pinata';
-import { getKeypair } from "../helpers/getKeyPair";
+import { pinataSdk } from '../spl-token/helpers/pinata';
+import { getKeypair } from '../spl-token/helpers/getKeyPair';
 import { OWNER_TOKENS_PRIVATE_SEED } from "./constants";
+import { getAdminKeypair } from "../reward-system-v2/helpers/keypair";
 
 async function main() {
     try {
         console.log("1. Iniciando programa...");
         const program = await getRewardSystemProgram();
         const provider = program.provider as anchor.AnchorProvider;
-        const ownerKeypair = getKeypair(OWNER_TOKENS_PRIVATE_SEED);
+        const ownerKeypair = getAdminKeypair(); 
         console.log("Owner Keypair:", ownerKeypair.publicKey.toString());
 
         const DECIMALS = 6; // Definir explícitamente los decimales

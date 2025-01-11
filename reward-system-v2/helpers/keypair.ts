@@ -1,5 +1,6 @@
 import { Keypair } from "@solana/web3.js";
-import { ADMIN_PRIVATE_KEY } from "../constants";
+import { ADMIN_PRIVATE_KEY, USER_PRIVATE_SEED } from "../constants";
+import { getKeypair } from "../../spl-token/helpers/getKeyPair";
 
 export const getAdminKeypair = () => {
     if (!ADMIN_PRIVATE_KEY) {
@@ -14,4 +15,15 @@ export const getAdminKeypair = () => {
         console.error(`Error creating admin keypair:`, e);
         throw e;
     }
+}
+
+export const getUserKeypair = () => {
+    const userKeypair = getKeypair(USER_PRIVATE_SEED);
+    return userKeypair;
+}
+
+export const getWalletFromUnit8Array = (unit: number[]) => {
+    return Keypair.fromSecretKey(
+        Uint8Array.from(unit)
+    );
 }
