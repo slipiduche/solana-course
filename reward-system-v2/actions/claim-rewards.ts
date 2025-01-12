@@ -57,6 +57,7 @@ export const ownerClaimRewards = async ({
         });
 
         const txBase64 = serializedTx.toString("base64");
+        // send to client to sign
         const recoveredTx = anchor.web3.Transaction.from(Buffer.from(txBase64, "base64"));
         recoveredTx.partialSign(userKeypair);
 
@@ -136,6 +137,7 @@ export const othersClaimRewards = async ({
         });
 
         const txBase64 = serializedTx.toString("base64");
+        // send to client to sign
         const recoveredTx = anchor.web3.Transaction.from(Buffer.from(txBase64, "base64"));
         recoveredTx.partialSign(userKeypair);
 
@@ -144,10 +146,13 @@ export const othersClaimRewards = async ({
             verifySignatures: true,
         });
 
-        const txId = await anchor.web3.sendAndConfirmRawTransaction(
-            connection, 
-            serializedTxFinal, 
-            { commitment: 'confirmed' }
+        const txId = await connection.sendEncodedTransaction(
+            serializedTxFinal.toString('base64'),
+            {
+                skipPreflight: false,
+                preflightCommitment: 'confirmed',
+                maxRetries: 5
+            }
         );
 
         console.log("\n=== Transaction Details ===");

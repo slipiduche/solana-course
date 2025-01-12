@@ -1,7 +1,7 @@
 import { getAdminKeypair, getUserKeypair, getWalletFromUnit8Array } from "../helpers/keypair";
 import { getRewardSystemProgram } from "../helpers/program";
 import { BN } from "bn.js";
-import { TOKENS, DECIMALS, HOST_PRIVATE_KEY, MANUFACTUR_PRIVATE_KEY } from "../constants";
+import { TOKENS, DECIMALS, MALICIOUS_USER1_PRIVATEKEY, MANUFACTUR_PRIVATE_KEY } from "../constants";
 import { convertToTokenAmount } from "../../reward-system/utils/token";
 import { getUserNFTTokenAccount } from "../helpers/get-token-account";
 import { ownerClaimRewards, othersClaimRewards } from "../actions/claim-rewards";
@@ -28,13 +28,13 @@ const executeOwnerClaimRewards = async () => {
     });
 }
 
-const executeHostClaimRewards = async () => {
+const executeOthersClaimRewards = async () => {
     const program = await getRewardSystemProgram();
     const adminKeypair = getAdminKeypair();
-    const userKeypair = getWalletFromUnit8Array(MANUFACTUR_PRIVATE_KEY); // test with the first malicious user
+    const userKeypair = getWalletFromUnit8Array(MALICIOUS_USER1_PRIVATEKEY); // test with the first malicious user
     const mint = TOKENS.WAYRU.MINT;
     const nftMint = TOKENS.WAYRU.NFT_MINT_ADDRESS;
-    const rewardAmount = new BN(convertToTokenAmount(5.5, DECIMALS));
+    const rewardAmount = new BN(convertToTokenAmount(15.5, DECIMALS));
     const nonce = new BN(Date.now());
 
     await othersClaimRewards({
@@ -48,4 +48,4 @@ const executeHostClaimRewards = async () => {
     });
 }
 
-executeHostClaimRewards();
+executeOwnerClaimRewards();

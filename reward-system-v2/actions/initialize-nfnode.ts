@@ -33,6 +33,7 @@ export const initializeNfnode = async ({
         console.log("NFNode Entry PDA:", nfnodeEntryPDA.toString());
         const nonce = new BN(Date.now());
 
+        // Crear la transacción sin enviarla
         const tx = await program.methods
             .initializeNfnode(nonce)
             .accounts({
@@ -44,10 +45,21 @@ export const initializeNfnode = async ({
                 tokenProgram2022: TOKEN_2022_PROGRAM_ID,
                 userNftTokenAccount: userNFTTokenAccount,
             })
-            .signers([adminKeypair, userNftOwner])
-            .rpc({ commitment: "confirmed" });
+            .transaction(); // Usar .transaction() en lugar de .rpc()
 
-        console.log("Transaction sent:", tx);
+        // Firma del admin
+        tx.partialSign(adminKeypair);
+        console.log("Admin has signed the transaction");
+
+        // Firma del usuario
+        tx.partialSign(userNftOwner);
+        console.log("User has signed the transaction");
+
+        // Enviar la transacción
+        const signature = await program.provider.connection.sendRawTransaction(tx.serialize());
+        await program.provider.connection.confirmTransaction(signature, "confirmed");
+
+        console.log("Transaction sent:", signature);
         
         // Esperar 5 segundos después de la confirmación
         await new Promise((resolve) => setTimeout(resolve, 5000));
@@ -75,10 +87,10 @@ export const initializeNfnode = async ({
         }
 
         console.log("NFNode initialized and verified successfully!");
-        console.log("Transaction signature:", tx);
-        console.log("View transaction: https://explorer.solana.com/tx/" + tx + "?cluster=devnet");
+        console.log("Transaction signature:", signature);
+        console.log("View transaction: https://explorer.solana.com/tx/" + signature + "?cluster=devnet");
         
-        return tx;
+        return signature;
     } catch (error) {
         console.error("Error initializing NFNode:", error);
         throw error;
