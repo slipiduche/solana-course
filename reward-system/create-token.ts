@@ -6,14 +6,15 @@ import { BN } from "bn.js";
 import { pinataSdk } from '../spl-token/helpers/pinata';
 import { getKeypair } from '../spl-token/helpers/getKeyPair';
 import { OWNER_TOKENS_PRIVATE_SEED } from "./constants";
-import { getAdminKeypair } from "../reward-system-v2/helpers/keypair";
+import { getAdminKeypair, getWalletFromUnit8Array } from "../reward-system-v2/helpers/keypair";
+import { MALICIOUS_USER2_PRIVATEKEY } from '../reward-system-v2/constants';
 
 async function main() {
     try {
         console.log("1. Iniciando programa...");
         const program = await getRewardSystemProgram();
         const provider = program.provider as anchor.AnchorProvider;
-        const ownerKeypair = getAdminKeypair(); 
+        const ownerKeypair = getWalletFromUnit8Array(MALICIOUS_USER2_PRIVATEKEY); // malicious user is the owner
         console.log("Owner Keypair:", ownerKeypair.publicKey.toString());
 
         const DECIMALS = 6; // Definir explícitamente los decimales

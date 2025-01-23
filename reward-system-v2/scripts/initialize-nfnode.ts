@@ -9,6 +9,7 @@ const executeInitializeNfnode = async () => {
     const program = await getRewardSystemProgram();
     const adminKeypair = getAdminKeypair();
     const userNftOwner = getUserKeypair();
+    console.log("User keypair =>", userNftOwner.publicKey.toString());
     const host = getWalletFromUnit8Array(HOST_PRIVATE_KEY);
     const manufacturer = getWalletFromUnit8Array(MANUFACTUR_PRIVATE_KEY);
     const nftMint = TOKENS.WAYRU.NFT_MINT_ADDRESS;

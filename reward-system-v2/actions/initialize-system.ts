@@ -1,6 +1,15 @@
 import { Program } from "@coral-xyz/anchor";
-import { Keypair } from "@solana/web3.js";
+import { 
+    Keypair, 
+    PublicKey, 
+    SystemProgram,
+    LAMPORTS_PER_SOL,
+    Transaction,
+    TransactionInstruction,
+    SystemInstruction
+} from "@solana/web3.js";
 import { RewardSystem } from "../types/reward_system";
+import { PROGRAM_DATA_ADDRESS, REWARD_SYSTEM_PROGRAM_ID } from "../constants";
 
 export const initializeSystem = async (
     program: Program<RewardSystem>,
@@ -10,16 +19,24 @@ export const initializeSystem = async (
         console.log("Initializing system...");
         console.log("Admin:", admin.publicKey.toString());
 
+        // Derivar las PDAs
+        const [adminAccountPda] = PublicKey.findProgramAddressSync(
+            [Buffer.from("admin_account")],
+            program.programId
+        );
+
         const tx = await program.methods
             .initializeSystem()
             .accounts({
                 user: admin.publicKey,
+                programData: PROGRAM_DATA_ADDRESS,
             })
             .signers([admin])
             .rpc({
                 commitment: 'confirmed',
-                skipPreflight: true,
             });
+
+        await program.provider.connection.confirmTransaction(tx);
 
         console.log("Transaction signature:", tx);
         console.log("System initialized successfully!");
@@ -27,6 +44,7 @@ export const initializeSystem = async (
         return tx;
     } catch (error) {
         console.error("Error initializing system:", error);
+        console.error("Error details:", error.toString());
         throw error;
     }
 };

@@ -39,6 +39,8 @@ export const fundTokenStorage = async ({
             [Buffer.from("token_storage")],
             program.programId
         );
+        console.log("\n=== PDAs and Accounts ===");
+        console.log("Token Storage Authority:", tokenStorageAuthority.toString());
 
         // Get admin's ATA
         const adminATA = await getAssociatedTokenAddress(
@@ -47,6 +49,7 @@ export const fundTokenStorage = async ({
             false,
             TOKEN_PROGRAM_ID
         );
+        console.log("Admin ATA:", adminATA.toString());
 
         // Get storage account
         const storageAccount = await getAssociatedTokenAddress(
@@ -55,6 +58,11 @@ export const fundTokenStorage = async ({
             true,
             TOKEN_PROGRAM_ID
         );
+        console.log("Storage Account:", storageAccount.toString());
+
+        // Verificar si la cuenta de storage existe
+        const storageAccountInfo = await program.provider.connection.getAccountInfo(storageAccount);
+        console.log("Storage Account exists:", !!storageAccountInfo);
 
         // Verificar balance del programa antes del depósito
         console.log("\n=== Current Balances ===");
@@ -140,6 +148,15 @@ export const fundTokenStorage = async ({
         console.log("Transaction signature:", tx);
         console.log("View transaction: https://explorer.solana.com/tx/" + tx + "?cluster=devnet");
         
+        // Después de la transacción, verificar la cuenta nuevamente
+        console.log("\n=== Post-Transaction Verification ===");
+        const finalStorageAccountInfo = await program.provider.connection.getAccountInfo(storageAccount);
+        console.log("Storage Account exists after tx:", !!finalStorageAccountInfo);
+        if (finalStorageAccountInfo) {
+            console.log("Storage Account size:", finalStorageAccountInfo.data.length);
+            console.log("Storage Account owner:", finalStorageAccountInfo.owner.toString());
+        }
+
         return tx;
     } catch (error) {
         console.error("\nError funding token storage:", error);

@@ -14,6 +14,53 @@ export type RewardSystem = {
   },
   "instructions": [
     {
+      "name": "acceptAdminRequest",
+      "discriminator": [
+        81,
+        254,
+        219,
+        141,
+        109,
+        117,
+        12,
+        67
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "adminAccount",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  100,
+                  109,
+                  105,
+                  110,
+                  95,
+                  97,
+                  99,
+                  99,
+                  111,
+                  117,
+                  110,
+                  116
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "fundTokenStorage",
       "discriminator": [
         56,
@@ -350,6 +397,10 @@ export type RewardSystem = {
           }
         },
         {
+          "name": "associatedTokenProgram",
+          "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+        },
+        {
           "name": "tokenProgram2022"
         },
         {
@@ -407,6 +458,13 @@ export type RewardSystem = {
               }
             ]
           }
+        },
+        {
+          "name": "program",
+          "address": "6GW66FFgCc2wqCcLAePSBgUXMawiu6Curob6ASk8b2EN"
+        },
+        {
+          "name": "programData"
         },
         {
           "name": "systemProgram",
@@ -1208,16 +1266,16 @@ export type RewardSystem = {
       "args": []
     },
     {
-      "name": "updateAdmin",
+      "name": "updateAdminRequest",
       "discriminator": [
-        161,
-        176,
-        40,
-        213,
-        60,
-        184,
-        179,
-        228
+        58,
+        118,
+        170,
+        225,
+        117,
+        36,
+        203,
+        167
       ],
       "accounts": [
         {
@@ -1346,6 +1404,10 @@ export type RewardSystem = {
           }
         },
         {
+          "name": "associatedTokenProgram",
+          "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+        },
+        {
           "name": "tokenProgram2022"
         },
         {
@@ -1452,6 +1514,56 @@ export type RewardSystem = {
       "code": 6009,
       "name": "invalidNfNodeEntry",
       "msg": "Invalid Nfnode entry."
+    },
+    {
+      "code": 6010,
+      "name": "invalidNftTokenAccount",
+      "msg": "Invalid Nft token account."
+    },
+    {
+      "code": 6011,
+      "name": "invalidNftSupply",
+      "msg": "Invalid Nft supply."
+    },
+    {
+      "code": 6012,
+      "name": "invalidNftDecimals",
+      "msg": "Invalid Nft decimals."
+    },
+    {
+      "code": 6013,
+      "name": "sameAdminPubkey",
+      "msg": "New admin can't be the same current admin"
+    },
+    {
+      "code": 6014,
+      "name": "alreadyAccepted",
+      "msg": "Admin already accepted."
+    },
+    {
+      "code": 6015,
+      "name": "alreadyPaused",
+      "msg": "Program already paused."
+    },
+    {
+      "code": 6016,
+      "name": "alreadyRunning",
+      "msg": "Program already running."
+    },
+    {
+      "code": 6017,
+      "name": "invalidPubkey",
+      "msg": "Invalid pubkey."
+    },
+    {
+      "code": 6018,
+      "name": "invalidRewardAmount",
+      "msg": "Reward amount must be greater than zero."
+    },
+    {
+      "code": 6019,
+      "name": "invalidFundingAmount",
+      "msg": "Funding amount must be greater than zero."
     }
   ],
   "types": [
@@ -1465,7 +1577,15 @@ export type RewardSystem = {
             "type": "pubkey"
           },
           {
+            "name": "adminCandidatePubkey",
+            "type": "pubkey"
+          },
+          {
             "name": "paused",
+            "type": "bool"
+          },
+          {
+            "name": "adminUpdateRequested",
             "type": "bool"
           }
         ]

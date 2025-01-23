@@ -46,6 +46,8 @@ export const initializeNfnode = async ({
                 userNftTokenAccount: userNFTTokenAccount,
             })
             .transaction(); // Usar .transaction() en lugar de .rpc()
+        tx.recentBlockhash = (await program.provider.connection.getLatestBlockhash()).blockhash;
+        tx.feePayer = adminKeypair.publicKey;  // set the fee payer
 
         // Firma del admin
         tx.partialSign(adminKeypair);

@@ -1,8 +1,11 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { RewardSystem } from "../types/reward_system";
-import { PublicKey, Keypair, Connection, clusterApiUrl } from "@solana/web3.js";
-import { TOKEN_2022_PROGRAM_ID } from "@solana/spl-token";
+import { PublicKey, Keypair, Connection, clusterApiUrl,  } from "@solana/web3.js";
+import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from "@solana/spl-token";
+import { getAssociatedTokenAddress } from "@solana/spl-token";
+import { SystemProgram } from "@solana/web3.js";
+import { ASSOCIATED_TOKEN_PROGRAM_ID } from "@solana/spl-token";
 
 interface OwnerClaimRewardsProps {
     program: Program<RewardSystem>;
@@ -26,28 +29,82 @@ export const ownerClaimRewards = async ({
     nonce
 }: OwnerClaimRewardsProps) => {
     try {
-        console.log("\n=== Owner Claim Rewards ===");
-        console.log("Admin:", adminKeypair.publicKey.toString());
+        console.log("\n=== Claim Rewards ===");
         console.log("User:", userKeypair.publicKey.toString());
+        console.log("Admin:", adminKeypair.publicKey.toString());
+        console.log("Mint:", mint.toString());
         console.log("NFT Mint:", nftMint.toString());
-        console.log("Amount to claim:", rewardAmount.toString());
-        const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
+        console.log("User NFT Token Account:", userNFTTokenAccount.toString());
 
+        // Get token storage authority
+        const [tokenStorageAuthority] = PublicKey.findProgramAddressSync(
+            [Buffer.from("token_storage")],
+            program.programId
+        );
+        console.log("\n=== PDAs and Accounts ===");
+        console.log("Token Storage Authority:", tokenStorageAuthority.toString());
+
+        // Get storage account
+        const storageAccount = await getAssociatedTokenAddress(
+            mint,
+            tokenStorageAuthority,
+            true,
+            TOKEN_PROGRAM_ID
+        );
+        console.log("Storage Account:", storageAccount.toString());
+
+        // Get user's token account
+        const userTokenAccount = await getAssociatedTokenAddress(
+            mint,
+            userKeypair.publicKey,
+            false,
+            TOKEN_PROGRAM_ID
+        );
+
+        // Derivar otras PDAs necesarias
+        const [adminAccount] = PublicKey.findProgramAddressSync(
+            [Buffer.from("admin_account")],
+            program.programId
+        );
+
+        const [rewardEntry] = PublicKey.findProgramAddressSync(
+            [Buffer.from("reward_entry"), userKeypair.publicKey.toBuffer(), nftMint.toBuffer()],
+            program.programId
+        );
+
+        const [nfnodeEntry] = PublicKey.findProgramAddressSync(
+            [Buffer.from("nfnode_entry"), nftMint.toBuffer()],
+            program.programId
+        );
+
+
+        // accounts 
+        const accounts = {
+            userAdmin: adminKeypair.publicKey,
+            user: userKeypair.publicKey,
+            nftMintAddress: nftMint,
+            rewardEntry,
+            nfnodeEntry,
+            tokenMint: mint,
+            tokenStorageAuthority,
+            tokenStorageAccount: storageAccount,
+            userTokenAccount,
+            userNftTokenAccount: userNFTTokenAccount,
+            adminAccount,
+            tokenProgram2022: TOKEN_2022_PROGRAM_ID,  // Añadido de nuevo
+            tokenProgram: TOKEN_PROGRAM_ID,
+            associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
+            systemProgram: SystemProgram.programId,
+        } as const
+ 
         const ix = await program.methods
             .ownerClaimRewards(rewardAmount, nonce)
-            .accounts({
-                userAdmin: adminKeypair.publicKey,
-                user: userKeypair.publicKey,
-                tokenMint: mint,
-                nftMintAddress: nftMint,
-                tokenProgram2022: TOKEN_2022_PROGRAM_ID,
-                userNftTokenAccount: userNFTTokenAccount,
-            })
+            .accounts(accounts)
             .instruction();
 
         let tx = new anchor.web3.Transaction();
         tx.add(ix);
-        tx.recentBlockhash = (await connection.getLatestBlockhash()).blockhash;
+        tx.recentBlockhash = (await program.provider.connection.getLatestBlockhash()).blockhash;
         tx.feePayer = userKeypair.publicKey;
         tx.partialSign(adminKeypair);
 
@@ -67,7 +124,7 @@ export const ownerClaimRewards = async ({
             verifySignatures: true,
         });
 
-        const txId = await connection.sendEncodedTransaction(
+        const txId = await program.provider.connection.sendEncodedTransaction(
             serializedTxFinal.toString('base64'),
             {
                 skipPreflight: false,
@@ -84,6 +141,7 @@ export const ownerClaimRewards = async ({
         return txId;
     } catch (error) {
         console.error("\nError claiming rewards:", error);
+        console.error("Error details:", error.message);
         throw error;
     }
 };
@@ -109,25 +167,76 @@ export const othersClaimRewards = async ({
 }: OthersClaimRewardsProps) => {
     try {
         console.log("\n=== Others Claim Rewards ===");
-        console.log("Admin:", adminKeypair.publicKey.toString());
         console.log("User:", userKeypair.publicKey.toString());
+        console.log("Admin:", adminKeypair.publicKey.toString());
+        console.log("Mint:", mint.toString());
         console.log("NFT Mint:", nftMint.toString());
-        console.log("Amount to claim:", rewardAmount.toString());
-        const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
-        
+
+        // Get token storage authority
+        const [tokenStorageAuthority] = PublicKey.findProgramAddressSync(
+            [Buffer.from("token_storage")],
+            program.programId
+        );
+        console.log("\n=== PDAs and Accounts ===");
+        console.log("Token Storage Authority:", tokenStorageAuthority.toString());
+
+        // Get storage account
+        const storageAccount = await getAssociatedTokenAddress(
+            mint,
+            tokenStorageAuthority,
+            true,
+            TOKEN_PROGRAM_ID
+        );
+        console.log("Storage Account:", storageAccount.toString());
+
+        // Get user's token account
+        const userTokenAccount = await getAssociatedTokenAddress(
+            mint,
+            userKeypair.publicKey,
+            false,
+            TOKEN_PROGRAM_ID
+        );
+        console.log("User Token Account:", userTokenAccount.toString());
+
+        // Derivar otras PDAs necesarias
+        const [adminAccount] = PublicKey.findProgramAddressSync(
+            [Buffer.from("admin_account")],
+            program.programId
+        );
+
+        const [rewardEntry] = PublicKey.findProgramAddressSync(
+            [Buffer.from("reward_entry"), userKeypair.publicKey.toBuffer(), nftMint.toBuffer()],
+            program.programId
+        );
+
+        const [nfnodeEntry] = PublicKey.findProgramAddressSync(
+            [Buffer.from("nfnode_entry"), nftMint.toBuffer()],
+            program.programId
+        );
+
         const ix = await program.methods
             .othersClaimRewards(rewardAmount, nonce)
             .accounts({
                 userAdmin: adminKeypair.publicKey,
                 user: userKeypair.publicKey,
-                tokenMint: mint,
                 nftMintAddress: nftMint,
+                rewardEntry,
+                nfnodeEntry,
+                tokenMint: mint,
+                tokenStorageAuthority,
+                tokenStorageAccount: storageAccount,
+                userTokenAccount,
+                adminAccount,
+                tokenProgram2022: TOKEN_2022_PROGRAM_ID,
+                tokenProgram: TOKEN_PROGRAM_ID,
+                associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
+                systemProgram: SystemProgram.programId,
             })
             .instruction();
 
         let tx = new anchor.web3.Transaction();
         tx.add(ix);
-        tx.recentBlockhash = (await connection.getLatestBlockhash()).blockhash;
+        tx.recentBlockhash = (await program.provider.connection.getLatestBlockhash()).blockhash;
         tx.feePayer = userKeypair.publicKey;
         tx.partialSign(adminKeypair);
 
@@ -146,7 +255,7 @@ export const othersClaimRewards = async ({
             verifySignatures: true,
         });
 
-        const txId = await connection.sendEncodedTransaction(
+        const txId = await program.provider.connection.sendEncodedTransaction(
             serializedTxFinal.toString('base64'),
             {
                 skipPreflight: false,
@@ -162,7 +271,8 @@ export const othersClaimRewards = async ({
         
         return txId;
     } catch (error) {
-        console.error("\nError claiming rewards:", error);
+        console.error("\nError in others claim rewards:", error);
+        console.error("Error details:", error.message);
         throw error;
     }
 };
