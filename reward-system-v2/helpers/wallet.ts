@@ -17,7 +17,7 @@ export const createNewWallet = () => {
     const wallet = Keypair.fromSeed(derivedSeed);
     
     console.log("Mnemonic (seed phrase):", mnemonic);
-    console.log("New wallet address:", wallet.publicKey.toString());
+    console.log("New wallet address for testig in solana course:", wallet.publicKey.toString());
     
     return { wallet, mnemonic };
     

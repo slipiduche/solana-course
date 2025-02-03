@@ -19,6 +19,8 @@ const executeInitializeNfnode = async () => {
         program.programId
     );
     const userNFTTokenAccount = await getUserNFTTokenAccount(nftMint, userNftOwner.publicKey);
+    // get seed of the token's owner
+    console.log("User NFT Token Account =>", userNFTTokenAccount.toString());
 
     // initialize nfnode
     await initializeNfnode({
@@ -29,7 +31,8 @@ const executeInitializeNfnode = async () => {
         userNFTTokenAccount,
         nfnodeEntryPDA,
         host,
-        manufacturer
+        manufacturer,
+        nfnodeType: { wayruHotspot: {} }
     });
 
     console.log("NFNode initialized successfully!");

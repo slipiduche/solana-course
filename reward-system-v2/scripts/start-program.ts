@@ -11,9 +11,7 @@ const startProgram = async () => {
     const program = await getRewardSystemProgram();
     console.log("Program started");
     // get user keypair
-    const userKeypair = getWalletFromUnit8Array(USER_PRIVATE_SEED);
     const maliciousUserKeypair = getWalletFromUnit8Array(MALICIOUS_USER2_PRIVATEKEY);
-    console.log("User keypair =>", userKeypair.publicKey.toString());
     console.log("Malicious user keypair =>", maliciousUserKeypair.publicKey.toString());
     // get admin keypairs and check balances
     const adminKeypair = getAdminKeypair();
@@ -27,8 +25,8 @@ const startProgram = async () => {
     }
 
     // initialize system
-    await initializeSystem(program, adminKeypair);
-    // const newWallet = createNewWallet();
+    // await initializeSystem(program, adminKeypair);
+     const newWallet = createNewWallet();
     console.log("System initialized");
 }
 

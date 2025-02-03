@@ -1,8 +1,11 @@
 import { Program } from "@coral-xyz/anchor";
 import { PublicKey, Keypair } from "@solana/web3.js";
-import { TOKEN_2022_PROGRAM_ID } from "@solana/spl-token";
+import { ASSOCIATED_TOKEN_PROGRAM_ID, TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { RewardSystem } from "../types/reward_system";
 import { BN } from "bn.js";
+import { TOKENS } from "../constants";
+import { getAssociatedTokenAddress } from "@solana/spl-token";
+import { SystemProgram } from "@solana/web3.js";
 
 interface InitializeNfnodeProps {
     program: Program<RewardSystem>;
@@ -13,6 +16,7 @@ interface InitializeNfnodeProps {
     nfnodeEntryPDA: PublicKey;
     host: Keypair;
     manufacturer: Keypair;
+    nfnodeType: { don: {} } | { byod: {} } | { wayruHotspot: {} }
 }
 
 export const initializeNfnode = async ({
@@ -23,53 +27,102 @@ export const initializeNfnode = async ({
     userNFTTokenAccount,
     nfnodeEntryPDA,
     host,
-    manufacturer
+    manufacturer,
+    nfnodeType
 }: InitializeNfnodeProps) => {
     try {
+        // Derivar admin account PDA
+        const [adminAccountPDA] = PublicKey.findProgramAddressSync(
+            [Buffer.from("admin_account")],
+            program.programId
+        );
+
+        // Verificar balance del usuario según el tipo de nodo
+        switch (true) {
+            case 'wayruHotspot' in nfnodeType:
+            case 'byod' in nfnodeType:
+                const userTokenAccount = await getAssociatedTokenAddress(
+                    TOKENS.WAYRU.REWARD_TOKEN_MINT,
+                    userNftOwner.publicKey
+                );
+
+                try {
+                    const balance = await program.provider.connection
+                        .getTokenAccountBalance(userTokenAccount);
+                    console.log("User token balance:", balance.value.uiAmount);
+                    
+                    if ((balance.value.uiAmount || 0) < 5000) {
+                        const nodeType = 'wayruHotspot' in nfnodeType ? 'Wayru Hotspot' : 'BYOD';
+                        throw new Error(`Insufficient WAYRU tokens. Need 5000 WAYRU tokens for ${nodeType} nodes.`);
+                    }
+                } catch (error) {
+                    if (error.message.includes("Insufficient")) throw error;
+                    throw new Error("Failed to verify user token balance. Make sure the account exists and has sufficient WAYRU tokens.");
+                }
+                break;
+            case 'don' in nfnodeType:
+                console.log("DON node type selected - no token deposit required");
+                break;
+            default:
+                throw new Error("Invalid NFNode type. Must be 'don', 'byod', or 'wayruHotspot'");
+        }
+
         console.log("Initializing NFNode...");
         console.log("Admin:", adminKeypair.publicKey.toString());
         console.log("User:", userNftOwner.publicKey.toString());
         console.log("NFT Mint:", nftMint.toString());
         console.log("NFNode Entry PDA:", nfnodeEntryPDA.toString());
-        const nonce = new BN(Date.now());
 
-        // Crear la transacción sin enviarla
-        const tx = await program.methods
-            .initializeNfnode(nonce)
-            .accounts({
-                userAdmin: adminKeypair.publicKey,
-                user: userNftOwner.publicKey,
-                nftMintAddress: nftMint,
-                host: host.publicKey,
-                manufacturer: manufacturer.publicKey,
-                tokenProgram2022: TOKEN_2022_PROGRAM_ID,
-                userNftTokenAccount: userNFTTokenAccount,
-            })
-            .transaction(); // Usar .transaction() en lugar de .rpc()
-        tx.recentBlockhash = (await program.provider.connection.getLatestBlockhash()).blockhash;
-        tx.feePayer = adminKeypair.publicKey;  // set the fee payer
+        // Derivar token storage authority PDA
+        const [tokenStorageAuthority] = PublicKey.findProgramAddressSync(
+            [Buffer.from("token_storage"), nftMint.toBuffer()],
+            program.programId
+        );
 
-        // Firma del admin
-        tx.partialSign(adminKeypair);
-        console.log("Admin has signed the transaction");
+        // Obtener la cuenta de token del usuario
+        const userTokenAccount = await getAssociatedTokenAddress(
+            TOKENS.WAYRU.REWARD_TOKEN_MINT,
+            userNftOwner.publicKey
+        );
 
-        // Firma del usuario
-        tx.partialSign(userNftOwner);
-        console.log("User has signed the transaction");
+        // Obtener la cuenta de token storage
+        const tokenStorageAccount = await getAssociatedTokenAddress(
+            TOKENS.WAYRU.REWARD_TOKEN_MINT,
+            tokenStorageAuthority,
+            true // allowOwnerOffCurve = true para PDAs
+        );
 
-        // Enviar la transacción
-        const signature = await program.provider.connection.sendRawTransaction(tx.serialize());
-        await program.provider.connection.confirmTransaction(signature, "confirmed");
+        const accounts = {
+            userAdmin: adminKeypair.publicKey,
+            user: userNftOwner.publicKey,
+            nftMintAddress: nftMint,
+            userNftTokenAccount: userNFTTokenAccount,
+            host: host.publicKey,
+            manufacturer: manufacturer.publicKey,
+            tokenMint: TOKENS.WAYRU.REWARD_TOKEN_MINT,
+            nfnodeEntry: nfnodeEntryPDA,
+            adminAccount: adminAccountPDA,
+            tokenStorageAuthority,
+            tokenStorageAccount,
+            userTokenAccount,
+            tokenProgram2022: TOKEN_2022_PROGRAM_ID,
+            tokenProgram: TOKEN_PROGRAM_ID,
+            associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
+            systemProgram: SystemProgram.programId
+        } as const;
 
-        console.log("Transaction sent:", signature);
+        const signature = await program.methods
+            .initializeNfnode(new BN(Date.now()), nfnodeType)
+            .accounts(accounts)
+            .signers([adminKeypair, userNftOwner])
+            .rpc({ commitment: "confirmed" });
+
+        console.log("Transaction signature:", signature);
         
-        // Esperar 5 segundos después de la confirmación
-        await new Promise((resolve) => setTimeout(resolve, 5000));
-        
-        // Verificar que el nodo se haya inicializado correctamente
+        // Esperar y verificar que el nodo se inicializó correctamente
+        console.log("Waiting for confirmation...");
         let nfnodeData = false;
         let times = 0;
-        
         while (!nfnodeData && times < 10) {
             try {
                 const nfnodeState = await program.account.nfNodeEntry.fetch(
@@ -78,23 +131,23 @@ export const initializeNfnode = async ({
                 );
                 nfnodeData = nfnodeState.host.toBase58().length > 0;
             } catch (error) {
-                console.log(`Attempt ${times + 1}/10: Waiting for account data...`);
-                await new Promise((resolve) => setTimeout(resolve, 10000));
+                await new Promise(resolve => setTimeout(resolve, 10000));
                 times++;
             }
         }
 
         if (!nfnodeData) {
-            throw new Error("Failed to verify NFNode initialization after multiple attempts");
+            throw new Error("Failed to verify NFNode initialization");
         }
 
-        console.log("NFNode initialized and verified successfully!");
-        console.log("Transaction signature:", signature);
-        console.log("View transaction: https://explorer.solana.com/tx/" + signature + "?cluster=devnet");
-        
+        console.log("NFNode initialized successfully");
         return signature;
+
     } catch (error) {
         console.error("Error initializing NFNode:", error);
+        if (error.logs) {
+            console.error("Transaction logs:", error.logs);
+        }
         throw error;
     }
 }; 

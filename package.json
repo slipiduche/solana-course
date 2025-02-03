@@ -49,7 +49,8 @@
     "reward-system-v2-claim-rewards": "npx esrun reward-system-v2/scripts/claim-rewards.ts",
     "reward-system-v2-execute-program": "npx esrun reward-system-v2/scripts/program.ts",
     "reward-system-v2-update-initialized-nfnode": "npx esrun reward-system-v2/scripts/update-initialized-nfnode.ts",
-    "reward-system-v2": "npx esrun reward-system-v2/index.ts"
+    "reward-system-v2": "npx esrun reward-system-v2/index.ts",
+    "reward-system-v2-send-tokens": "npx esrun reward-system-v2/scripts/send-tokens.ts"
   },
   "author": "",
   "license": "ISC"
