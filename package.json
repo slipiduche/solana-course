@@ -14,6 +14,8 @@
     "@solana/web3.js": "1.87.6",
     "bip39": "^3.1.0",
     "bn.js": "^5.2.1",
+    "bs58": "^6.0.0",
+    "ed25519-hd-key": "^1.3.0",
     "esrun": "^3.2.26",
     "micro-ed25519-hdkey": "^0.1.2",
     "rpc-websockets": "7.5.1",
@@ -46,7 +48,8 @@
     "reward-system-v2-fund-token-storage": "npx esrun reward-system-v2/scripts/fund-token-storage.ts",
     "reward-system-v2-claim-rewards": "npx esrun reward-system-v2/scripts/claim-rewards.ts",
     "reward-system-v2-execute-program": "npx esrun reward-system-v2/scripts/program.ts",
-    "reward-system-v2-update-initialized-nfnode": "npx esrun reward-system-v2/scripts/update-initialized-nfnode.ts"
+    "reward-system-v2-update-initialized-nfnode": "npx esrun reward-system-v2/scripts/update-initialized-nfnode.ts",
+    "reward-system-v2": "npx esrun reward-system-v2/index.ts"
   },
   "author": "",
   "license": "ISC"

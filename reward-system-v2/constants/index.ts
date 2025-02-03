@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 
 
-export const REWARD_SYSTEM_PROGRAM_ID = process.env.REWARD_SYSTEM_PROGRAM_ID || '242r2rA4LJNTdsiMc3DchjgHoeJc3FxaUr71GwsEskJM';
+export const REWARD_SYSTEM_PROGRAM_ID = process.env.REWARD_SYSTEM_PROGRAM_ID || '49YD9iaXY39zY8tycUg1vJvk6b4cDoVJNrbsmMkk3ihF';
 
 export const ADMIN_PRIVATE_KEY = [116, 231, 89, 203, 47, 173, 66, 118, 221, 149, 82, 192, 140, 54, 199, 231, 104, 189, 38, 107, 84, 16, 45, 212, 101, 137, 69, 35, 68, 37, 81, 181, 47, 209, 215, 202, 131, 226, 39, 218, 195, 89, 197, 74, 13, 125, 77, 20, 80, 19, 147, 72, 189, 30, 133, 79, 154, 108, 137, 0, 20, 84, 77, 72]
 export const HOST_PRIVATE_KEY = [2, 158, 14, 251, 126, 198, 100, 48, 32, 199, 71, 90, 22, 100, 101, 42, 73, 216, 183, 141, 58, 158, 13, 239, 141, 0, 174, 76, 139, 250, 65, 171, 189, 63, 141, 40, 56, 56, 191, 155, 230, 159, 25, 252, 153, 174, 88, 127, 26, 110, 61, 165, 180, 152, 138, 231, 70, 50, 157, 246, 11, 35, 231, 21]
@@ -29,6 +29,7 @@ export const TOKENS = {
         NFT_MINT_ADDRESS: new PublicKey('7oMUkwy58gxzQxsBoSrRDSYQK2rr9mM5tafgQSprFVx'),
         NFT_MINT_ADDRESS_2: new PublicKey('H1MMwTyY9kGz74TGrkugh6whZtSdvfmYtR1G4snSLaFs'),
         MINT_2: new PublicKey("4QwHzu44JzCZgFsJzvBCSNvJ3rMTxMC171yoJms618mD"),
+        REWARD_TOKEN_MINT: new PublicKey("5AZRsHiVCQPU8uDh9aKkgmgXz52VmqnYwzhYB6eFum5"),
         MINT_TOKEN_ADDRESS_2: new PublicKey("HBMixppFXpXpvuorGvYymyTmunekVPqjYKNm32qxfGa8"),
         OWNER_TOKEN_ACCOUNT_2: new PublicKey("HBMixppFXpXpvuorGvYymyTmunekVPqjYKNm32qxfGa8")
     }

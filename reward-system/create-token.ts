@@ -18,13 +18,13 @@ async function main() {
         console.log("Owner Keypair:", ownerKeypair.publicKey.toString());
 
         const DECIMALS = 6; // Definir explícitamente los decimales
-        const INITIAL_SUPPLY = 9_000_000_000_000; // 9 millones de tokens con 6 decimales
+        const INITIAL_SUPPLY = 10_000_000_000_000; // 10 mil tokens con 6 decimales
 
         // Metadata del token
         const tokenMetadata = {
-            name: "WAYRU Rewards Token",
+            name: "WAYRU",
             symbol: "WAYRU",
-            description: "Official reward token for the Wayru Network",
+            description: "Official token for the Wayru Network",
             image: "https://white-capable-coyote-202.mypinata.cloud/files/bafkreigiauh26m3bxnmrwjrk25esg322dvprz2l4xappalo6mh5xk2ybly",
             external_url: "https://wayru.io",
             properties: {
@@ -44,15 +44,6 @@ async function main() {
             }
         };
 
-        // Subir metadata a IPFS
-        console.log("2. Subiendo metadata a IPFS...");
-        const pinataResponse = await pinataSdk.pinJSONToIPFS(tokenMetadata, {
-            pinataOptions: { cidVersion: 1 },
-        });
-        
-        const metadataUrl = `https://ipfs.algonode.xyz/ipfs/${pinataResponse.IpfsHash}`;
-        console.log("3. Metadata URL:", metadataUrl);
-
         // Crear nuevo token con metadata
         console.log("4. Creando nuevo token con metadata...");
         const mint = await createTokenWithMetadata({
@@ -60,7 +51,7 @@ async function main() {
             adminKeypair: ownerKeypair,
             name: tokenMetadata.name,
             symbol: tokenMetadata.symbol,
-            uri: metadataUrl,
+            uri: 'https://ipfs.algonode.xyz/ipfs/bafkreia75xgum6jyr32figbxegvbb7uwdjyrjvmkmnalohun4zbe3nzqbe',
             decimals: DECIMALS
         });
 

@@ -1,7 +1,7 @@
 import { getAdminKeypair, getUserKeypair, getWalletFromUnit8Array } from "../helpers/keypair";
 import { getRewardSystemProgram } from "../helpers/program";
 import { BN } from "bn.js";
-import { TOKENS, DECIMALS, MALICIOUS_USER1_PRIVATEKEY, MANUFACTUR_PRIVATE_KEY, HOST_PRIVATE_KEY } from "../constants";
+import { TOKENS, DECIMALS, MANUFACTUR_PRIVATE_KEY, HOST_PRIVATE_KEY } from "../constants";
 import { convertToTokenAmount } from "../../reward-system/utils/token";
 import { getUserNFTTokenAccount } from "../helpers/get-token-account";
 import { ownerClaimRewards, othersClaimRewards } from "../actions/claim-rewards";

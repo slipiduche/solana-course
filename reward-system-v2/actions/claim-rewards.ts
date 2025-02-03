@@ -214,24 +214,26 @@ export const othersClaimRewards = async ({
             program.programId
         );
 
+        const accounts = {
+            userAdmin: adminKeypair.publicKey,
+            user: userKeypair.publicKey,
+            nftMintAddress: nftMint,
+            rewardEntry,
+            nfnodeEntry,
+            tokenMint: mint,
+            tokenStorageAuthority,
+            tokenStorageAccount: storageAccount,
+            userTokenAccount,
+            adminAccount,
+            tokenProgram2022: TOKEN_2022_PROGRAM_ID,
+            tokenProgram: TOKEN_PROGRAM_ID,
+            associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
+            systemProgram: SystemProgram.programId,
+        } as const
+
         const ix = await program.methods
             .othersClaimRewards(rewardAmount, nonce)
-            .accounts({
-                userAdmin: adminKeypair.publicKey,
-                user: userKeypair.publicKey,
-                nftMintAddress: nftMint,
-                rewardEntry,
-                nfnodeEntry,
-                tokenMint: mint,
-                tokenStorageAuthority,
-                tokenStorageAccount: storageAccount,
-                userTokenAccount,
-                adminAccount,
-                tokenProgram2022: TOKEN_2022_PROGRAM_ID,
-                tokenProgram: TOKEN_PROGRAM_ID,
-                associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
-                systemProgram: SystemProgram.programId,
-            })
+            .accounts(accounts)
             .instruction();
 
         let tx = new anchor.web3.Transaction();

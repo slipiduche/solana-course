@@ -1,19 +1,20 @@
 
 import { convertToTokenAmount } from "../../reward-system/utils/token";
 import { fundTokenStorage } from "../actions/fund-token-storage";
-import { TOKENS, DECIMALS, MALICIOUS_USER2_PRIVATEKEY } from "../constants";
+import { TOKENS, DECIMALS, MALICIOUS_USER2_PRIVATEKEY, USER_PRIVATE_SEED } from "../constants";
 import { BN } from "bn.js";
 import { getRewardSystemProgram } from "../helpers/program";
 import { getAdminKeypair, getWalletFromUnit8Array } from "../helpers/keypair";
 import { getAssociatedTokenAddress } from "@solana/spl-token";
 import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { PublicKey } from "@solana/web3.js";
+import { getUserTokenBalance } from "../helpers/get-balance";
 
 
 const executeFundTokenStorage = async () => {
     const adminKeypair =  getWalletFromUnit8Array(MALICIOUS_USER2_PRIVATEKEY);; // malicious user is the owner
-    const mint = TOKENS.WAYRU.MINT_2;
-    const amount = new BN(convertToTokenAmount(1000, DECIMALS));
+    const mint = TOKENS.WAYRU.REWARD_TOKEN_MINT;
+    const amount = new BN(convertToTokenAmount(1500, DECIMALS));
 
     const program = await getRewardSystemProgram();
     await fundTokenStorage({ program, adminKeypair, mint, amount });
@@ -21,7 +22,7 @@ const executeFundTokenStorage = async () => {
 
 const consultBalance = async () => {
     const program = await getRewardSystemProgram();
-    const mint = TOKENS.WAYRU.MINT;
+    const mint = TOKENS.WAYRU.REWARD_TOKEN_MINT;
 
        // Get token storage PDA
        const [tokenStorageAuthority] = PublicKey.findProgramAddressSync(
@@ -42,6 +43,13 @@ const consultBalance = async () => {
         console.log("Program has no previous balance or account not initialized");
     }
 
+}
+
+const cosultWalletBalance = async () => {
+    const program = await getRewardSystemProgram();
+    const mint = TOKENS.WAYRU.MINT_2;
+    const balance = await getUserTokenBalance(program.provider.connection, new PublicKey("Ee41f7ot1LbfDhEJC3G9u45D2B91KiEp7x4tGDkeZuJB"), mint);
+    console.log("User balance:", balance.uiAmount);
 }
 
 executeFundTokenStorage();

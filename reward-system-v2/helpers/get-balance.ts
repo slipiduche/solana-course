@@ -13,3 +13,71 @@ export const getAccountBalance = async (
         return 0;
     }
 }; 
+
+import { 
+    getAssociatedTokenAddress, 
+    TOKEN_PROGRAM_ID,
+    getAccount
+} from "@solana/spl-token";
+
+interface   TokenBalanceInfo {
+    uiAmount: number | null;
+    decimals: number;
+    exists: boolean;
+    address: string;
+}
+
+export const getUserTokenBalance = async (
+    connection: Connection,
+    userWallet: PublicKey,
+    mint: PublicKey
+): Promise<TokenBalanceInfo> => {
+    try {
+        // Get user's Associated Token Account
+        const userATA = await getAssociatedTokenAddress(
+            mint,
+            userWallet,
+            false,
+            TOKEN_PROGRAM_ID
+        );
+
+        // Verify if the account exists
+        let exists = false;
+        try {
+            await getAccount(
+                connection,
+                userATA,
+                'confirmed',
+                TOKEN_PROGRAM_ID
+            );
+            exists = true;
+        } catch (e) {
+            exists = false;
+        }
+
+        // Get balance if account exists
+        let uiAmount: number | null = null;
+        let decimals = 0;
+        
+        if (exists) {
+            const balance = await connection.getTokenAccountBalance(userATA);
+            uiAmount = balance.value.uiAmount;
+            decimals = balance.value.decimals;
+        }
+
+        return {
+            uiAmount,
+            decimals,
+            exists,
+            address: userATA.toString()
+        };
+    } catch (error) {
+        console.error("Error getting token balance:", error);
+        return {
+            uiAmount: null,
+            decimals: 0,
+            exists: false,
+            address: ''
+        };
+    }
+};

@@ -3,13 +3,10 @@ import {
     Keypair, 
     PublicKey, 
     SystemProgram,
-    LAMPORTS_PER_SOL,
-    Transaction,
-    TransactionInstruction,
-    SystemInstruction
 } from "@solana/web3.js";
 import { RewardSystem } from "../types/reward_system";
-import { PROGRAM_DATA_ADDRESS, REWARD_SYSTEM_PROGRAM_ID } from "../constants";
+import { TOKENS } from "../constants";
+import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 
 export const initializeSystem = async (
     program: Program<RewardSystem>,
@@ -25,12 +22,19 @@ export const initializeSystem = async (
             program.programId
         );
 
+        const accounst = {
+            user: admin.publicKey,
+            adminAccount: adminAccountPda,
+            tokenMint: TOKENS.WAYRU.REWARD_TOKEN_MINT,
+            tokenProgram: TOKEN_PROGRAM_ID,
+            program: new PublicKey("49YD9iaXY39zY8tycUg1vJvk6b4cDoVJNrbsmMkk3ihF"),
+            programData: new PublicKey("EkHtKiH6C3aLFmvjZzXTnoCFnAWhkkeaMxzzoXxZRfcN"),
+            systemProgram: SystemProgram.programId
+        } as const
+
         const tx = await program.methods
             .initializeSystem()
-            .accounts({
-                user: admin.publicKey,
-                programData: PROGRAM_DATA_ADDRESS,
-            })
+            .accounts(accounst)
             .signers([admin])
             .rpc({
                 commitment: 'confirmed',

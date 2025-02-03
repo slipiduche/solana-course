@@ -3,6 +3,7 @@ import { RewardSystem } from "../types/reward_system";
 import { PublicKey, Keypair } from "@solana/web3.js";
 import { TOKEN_2022_PROGRAM_ID } from "@solana/spl-token";
 import { BN } from "bn.js";
+import { Transaction } from "@solana/web3.js";
 
 interface UpdateNfnodeProps {
     program: Program<RewardSystem>;
@@ -38,8 +39,8 @@ export const updateNfnode = async ({
         console.log("Current Host:", currentState.host.toString());
         console.log("Current Host Share:", currentState.hostShare.toNumber());
 
-        // Actualizar NFNode
-        const tx  = await program.methods
+        // 1. Crear y firmar la transacción por el admin
+        const transaction = await program.methods
             .updateNfnode(new BN(50))
             .accounts({
                 userAdmin: adminKeypair.publicKey,
@@ -49,8 +50,24 @@ export const updateNfnode = async ({
                 userNftTokenAccount: userNFTTokenAccount,
                 tokenProgram2022: TOKEN_2022_PROGRAM_ID,
             })
-            .signers([adminKeypair, userKeypair])
-            .rpc();
+            .transaction(); // Usar .transaction() en lugar de .rpc()
+
+        // Firmar con el admin
+        transaction.sign(adminKeypair);
+
+        // Serializar la transacción
+        const serializedTransaction = transaction.serialize({
+            requireAllSignatures: false // Permitir serialización sin todas las firmas
+        });
+
+        // 2. Deserializar y firmar por el usuario
+        const deserializedTransaction = Transaction.from(serializedTransaction);
+        deserializedTransaction.partialSign(userKeypair);
+
+        // Enviar la transacción
+        const tx = await program.provider.connection.sendRawTransaction(
+            deserializedTransaction.serialize()
+        );
 
         console.log("Transaction Hash:", tx);
 
