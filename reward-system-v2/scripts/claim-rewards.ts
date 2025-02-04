@@ -10,10 +10,10 @@ const executeOwnerClaimRewards = async () => {
     const program = await getRewardSystemProgram();
     const adminKeypair = getAdminKeypair();
     const userKeypair = getUserKeypair();
-    const mint = TOKENS.WAYRU.MINT_2;
+    const mint = TOKENS.WAYRU.REWARD_TOKEN_MINT;
     const nftMint = TOKENS.WAYRU.NFT_MINT_ADDRESS;
     const userNFTTokenAccount = await getUserNFTTokenAccount(nftMint, userKeypair.publicKey);
-    const rewardAmount = new BN(convertToTokenAmount(10, DECIMALS));
+    const rewardAmount = new BN(convertToTokenAmount(888, DECIMALS));
     const nonce = new BN(Date.now());
 
     await ownerClaimRewards({
@@ -32,9 +32,9 @@ const executeOthersClaimRewards = async () => {
     const program = await getRewardSystemProgram();
     const adminKeypair = getAdminKeypair();
     const userKeypair = getWalletFromUnit8Array(MANUFACTUR_PRIVATE_KEY); // test with the first malicious user
-    const mint = TOKENS.WAYRU.MINT_2;
+    const mint = TOKENS.WAYRU.REWARD_TOKEN_MINT;
     const nftMint = TOKENS.WAYRU.NFT_MINT_ADDRESS;
-    const rewardAmount = new BN(convertToTokenAmount(15.5, DECIMALS));
+    const rewardAmount = new BN(convertToTokenAmount(455, DECIMALS));
     const nonce = new BN(Date.now());
 
     await othersClaimRewards({
