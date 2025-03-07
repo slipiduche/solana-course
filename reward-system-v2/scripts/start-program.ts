@@ -25,8 +25,8 @@ const startProgram = async () => {
     }
 
     // initialize system
-    await initializeSystem(program, adminKeypair);
-    // const newWallet = createNewWallet();
+    //await initializeSystem(program, adminKeypair);
+    const newWallet = createNewWallet();
     console.log("System initialized");
 }
 

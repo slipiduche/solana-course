@@ -59,7 +59,8 @@
     "tests": "npx esrun tests/index.ts",
     "airdrops-program-initialize-system": "npx esrun airdrops-program/scripts/initialize-system.ts",
     "airdrops-program-pause-unpause-system": "npx esrun airdrops-program/scripts/pause-unpause-system.ts",
-    "airdrops-program-fund-token-storage": "npx esrun airdrops-program/scripts/fund-token-storage.ts"
+    "airdrops-program-fund-token-storage": "npx esrun airdrops-program/scripts/fund-token-storage.ts",
+    "airdrops-program-claim-token": "npx esrun airdrops-program/scripts/claim-token.ts"
   },
   "author": "",
   "license": "ISC"

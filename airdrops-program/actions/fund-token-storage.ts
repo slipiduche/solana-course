@@ -63,8 +63,7 @@ export const fundTokenStorage = async (props: Props) => {
                 createAtaTx.serialize(),
                 { skipPreflight: false, preflightCommitment: 'confirmed' }
             );
-            await connection.confirmTransaction(signature, 'confirmed');
-            console.log("ATA account created");
+            console.log("ATA account created", signature);
         }
 
         // Check token balance

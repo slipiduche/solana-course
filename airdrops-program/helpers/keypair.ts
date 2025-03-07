@@ -1,5 +1,5 @@
 import { Keypair } from "@solana/web3.js";
-import { ADMIN_PRIVATE_KEY, } from "../constants";
+import { ADMIN_PRIVATE_KEY, USER_PRIVATE_KEY, } from "../constants";
 import * as bip39 from 'bip39'
 import { HDKey } from 'micro-ed25519-hdkey'
 import { MALICIOUS_USER1_PRIVATEKEY } from "../../reward-system-v2/constants";
@@ -42,4 +42,10 @@ export const getKeypair = (
 
 export const getTokenOwnerKeypair = () => {
     return getWalletFromUnit8Array(MALICIOUS_USER1_PRIVATEKEY);
+}
+
+export const getUserKeypair = () => {
+    return getKeypair(
+        USER_PRIVATE_KEY
+    );
 }
