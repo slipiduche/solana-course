@@ -34,6 +34,17 @@ export const fundTokenStorage = async ({
         console.log("Mint:", mint.toString());
         console.log("Amount to deposit:", amount.toString());
 
+        // Verificar balance de SOL del admin
+        const adminSolBalance = await program.provider.connection.getBalance(adminKeypair.publicKey);
+        console.log("\n=== Admin SOL Balance ===");
+        console.log("Admin SOL Balance:", adminSolBalance / 1e9, "SOL");
+        
+        // Verificar que el admin tenga suficiente SOL para la transacción
+        const minimumSolRequired = 0.003; // 0.003 SOL para cubrir la creación de cuenta y fees
+        if (adminSolBalance / 1e9 < minimumSolRequired) {
+            throw new Error(`Insufficient SOL balance. Admin needs at least ${minimumSolRequired} SOL. Current balance: ${adminSolBalance / 1e9} SOL. Please airdrop more SOL to the admin account.`);
+        }
+
         // Get token storage PDA
         const [tokenStorageAuthority] = PublicKey.findProgramAddressSync(
             [Buffer.from("token_storage")],
@@ -96,6 +107,20 @@ export const fundTokenStorage = async ({
 
         // Verificar y crear las cuentas ATA si no existen
         const preInstructions: TransactionInstruction[] = [];
+
+        // Si la cuenta de almacenamiento no existe, crear la instrucción para crearla
+        if (!storageAccountInfo) {
+            console.log("Creating Storage ATA...");
+            preInstructions.push(
+                createAssociatedTokenAccountInstruction(
+                    adminKeypair.publicKey,  // payer
+                    storageAccount,          // ata
+                    tokenStorageAuthority,   // owner
+                    mint,                    // mint
+                    TOKEN_PROGRAM_ID
+                )
+            );
+        }
 
         // Verificar adminATA
         try {

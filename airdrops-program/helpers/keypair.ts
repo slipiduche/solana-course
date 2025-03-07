@@ -1,7 +1,8 @@
 import { Keypair } from "@solana/web3.js";
-import { ADMIN_PRIVATE_KEY, USER_PRIVATE_SEED } from "../constants";
+import { ADMIN_PRIVATE_KEY, } from "../constants";
 import * as bip39 from 'bip39'
 import { HDKey } from 'micro-ed25519-hdkey'
+import { MALICIOUS_USER1_PRIVATEKEY } from "../../reward-system-v2/constants";
 
 export const getAdminKeypair = () => {
     if (!ADMIN_PRIVATE_KEY) {
@@ -16,11 +17,6 @@ export const getAdminKeypair = () => {
         console.error(`Error creating admin keypair:`, e);
         throw e;
     }
-}
-
-export const getUserKeypair = () => {
-    const userKeypair = getKeypair(USER_PRIVATE_SEED);
-    return userKeypair;
 }
 
 export const getWalletFromUnit8Array = (unit: number[]) => {
@@ -42,4 +38,8 @@ export const getKeypair = (
         secretKey: keypair.secretKey,
         _keypair: keypair,
     } as unknown as Keypair
+}
+
+export const getTokenOwnerKeypair = () => {
+    return getWalletFromUnit8Array(MALICIOUS_USER1_PRIVATEKEY);
 }

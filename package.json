@@ -51,7 +51,15 @@
     "reward-system-v2-update-initialized-nfnode": "npx esrun reward-system-v2/scripts/update-initialized-nfnode.ts",
     "reward-system-v2": "npx esrun reward-system-v2/index.ts",
     "reward-system-v2-send-tokens": "npx esrun reward-system-v2/scripts/send-tokens.ts",
-    "reward-system-v2-withdraw-tokens": "npx esrun reward-system-v2/scripts/withdraw-tokens.ts"
+    "reward-system-v2-withdraw-tokens": "npx esrun reward-system-v2/scripts/withdraw-tokens.ts",
+    "reward-system-v2-add-mint-authority": "npx esrun reward-system-v2/scripts/add-mint-authority.ts",
+    "reward-system-v2-test": "npx esrun reward-system-v2/scripts/test.ts",
+    "reward-system-v2-get-duplicated-nft": "npx esrun reward-system-v2/scripts/get-duplicated-nft.ts",
+    "reward-system-v2-split-json": "npx esrun reward-system-v2/scripts/split-json.ts",
+    "tests": "npx esrun tests/index.ts",
+    "airdrops-program-initialize-system": "npx esrun airdrops-program/scripts/initialize-system.ts",
+    "airdrops-program-pause-unpause-system": "npx esrun airdrops-program/scripts/pause-unpause-system.ts",
+    "airdrops-program-fund-token-storage": "npx esrun airdrops-program/scripts/fund-token-storage.ts"
   },
   "author": "",
   "license": "ISC"

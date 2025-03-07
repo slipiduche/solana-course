@@ -15,7 +15,7 @@ const startProgram = async () => {
     console.log("Malicious user keypair =>", maliciousUserKeypair.publicKey.toString());
     // get admin keypairs and check balances
     const adminKeypair = getAdminKeypair();
-    
+
     const adminBalance = await getAccountBalance(program.provider.connection, adminKeypair.publicKey);
 
     console.log("Admin keypair =>", adminKeypair.publicKey.toString(), `(${adminBalance} SOL)`);
@@ -25,8 +25,8 @@ const startProgram = async () => {
     }
 
     // initialize system
-    // await initializeSystem(program, adminKeypair);
-     const newWallet = createNewWallet();
+    await initializeSystem(program, adminKeypair);
+    // const newWallet = createNewWallet();
     console.log("System initialized");
 }
 

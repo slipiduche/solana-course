@@ -2,11 +2,38 @@ import * as anchor from "@coral-xyz/anchor";
 import { getAdminKeypair } from "./keypar";
 import { createTokenWithMetadata } from "./token";
 import { getRewardSystemProgram } from "./program";
+import { pinataSdk } from "../../spl-token/helpers/pinata";
 
 async function createNewTokenWithMetadata() {
     try {
         console.log("=== Iniciando creación de nuevo token con metadata ===");
-        
+        // prepare the metadata
+        const name = "TWAYRU";
+        const symbol = "TWAYRU";
+        const description = "wayru token";
+        const image = "https://ipfs.algonode.xyz/ipfs/bafkreifwvjebc5rul43627nrjf27hp3nz43imwin2ke2wi7xiswt63mwte";
+        const attributes = [
+            {
+                trait_type: "type",
+                value: "reward token"
+            }
+        ]
+
+        // metadata object
+        const tokenMetadata = { 
+            name,
+            symbol,
+            description,
+            image,
+            attributes
+        }
+        // send metadata to ipfs
+
+        // Upload metadata to IPFS
+        const pinataResponse = await pinataSdk.pinJSONToIPFS(tokenMetadata, {
+            pinataOptions: { cidVersion: 1 },
+        });
+
         const program = await getRewardSystemProgram();
         const provider = program.provider as anchor.AnchorProvider;
         const adminKeypair = getAdminKeypair();
@@ -15,9 +42,10 @@ async function createNewTokenWithMetadata() {
         const mint = await createTokenWithMetadata({
             provider,
             adminKeypair,
-            name: "WAYRU Rewards Token",
-            symbol: "WAYRU",
-            uri: "https://arweave.net/[tu_uri_aqui]" // Necesitaremos una URI válida para los metadatos
+            name,
+            symbol,
+            uri: `https://ipfs.algonode.xyz/ipfs/${pinataResponse.IpfsHash}`,
+            decimals: 6
         });
 
         console.log("\n✅ Token creado exitosamente!");

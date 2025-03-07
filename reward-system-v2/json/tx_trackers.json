@@ -1,0 +1,4886 @@
+[
+  {
+    "tx_context": {
+      "txHash": "3fuaE8rTDGLjbNYrVrgyKKJJDxPNixXVTXBCFRSh9QN1fDfuFswCfW8VKuzUVhF7ijfnHArXUM72ti7qHzWfAd4T",
+      "userId": 450538,
+      "latitude": 43.641519226899405,
+      "nfNodeId": 1792,
+      "solPrice": "168.6079",
+      "longitude": -79.90338191452092,
+      "discountCode": "",
+      "userSocketId": "uG0TTgsvMs3gAgwpAADL",
+      "walletAddress": "5q8aYXWDNpRmLsznyU9JgebzNfp2VjDFh88ECZ3JvfDL"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "4TqcWBY8G34A2LHfWeDkGVnLHdGZPHZ5h5DLWtNmQFwKkghQZHUVAnkUsrMYqtmA95ip6KvQ7EBhotkgbVe2nvV1",
+      "userId": 450635,
+      "latitude": 45.61824595878334,
+      "nfNodeId": 1793,
+      "solPrice": "170.9959",
+      "longitude": -122.57362899999998,
+      "discountCode": "",
+      "userSocketId": "mCAQSENzvoVQRNZ5AAQJ",
+      "walletAddress": "857FYUf2323DHpccxQ1eZeNdUBQTGuyXc5PXr8zxR4C6"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2tQgh3t3xeVeVqrAParPowdezXRcsQVYF4zpQ2evqyF8tiAVJCn4mbYbR4bbsCVRrkQy6xd8gJkihsNH4JWigNaR",
+      "userId": 450286,
+      "latitude": 30.561893400000027,
+      "nfNodeId": 1795,
+      "solPrice": "172.0596",
+      "longitude": -94.8887621,
+      "discountCode": "",
+      "userSocketId": "wzimvXnfjN3K3A-vAAXE",
+      "walletAddress": "C7c7vdfndNncXyL7PhsPVRAiADq9Z9cYvWCKfk3YzQhv"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "fxQjy2a5iEQwoBGa2coUzHxrNxBjbPdnaac65nGdUFZPcmeXN81GFwFwCETRQ91cLYE1kVYGCCpNBjBXkox1cmw",
+      "userId": 538,
+      "latitude": 48.23551829786298,
+      "nfNodeId": 22,
+      "solPrice": "171.9131",
+      "longitude": 12.532559523026805,
+      "discountCode": "",
+      "userSocketId": "p6rPG6DGvxSRf-pPAAZY",
+      "walletAddress": "H5zoHtFaALGwjiGvpGVWi3LY9Qie2MxoM3itbkNAdxAC"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2oU8VNV46dYHEGC63ajyap42UaZHGSGyYGDHG6G7KtKEh47cgmYKqJhKtshhVTGPNZGHp5nUgAtRujZNVYexXgM9",
+      "userId": 448920,
+      "latitude": 52.01726770000001,
+      "nfNodeId": 1797,
+      "solPrice": "172.9560",
+      "longitude": 5.657393899999976,
+      "discountCode": "",
+      "userSocketId": "yJTlCY1fsd_k2RJWAB5f",
+      "walletAddress": "5ieKgEKNqA8mXquzZtr3DNjtdYFzi5xc1bD9LPodiz2a"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "65XBtsp7swzghRuGDV2N9gwGKemiBhMXdE9FVy5NZSk8avBC5UtfdxAckrWR9qnDnwgVeDE45zyEJhZzUN4y71m3",
+      "userId": 450622,
+      "latitude": 53.744938103247215,
+      "nfNodeId": 1800,
+      "solPrice": "173.8925",
+      "longitude": -2.6668339575383877,
+      "discountCode": "",
+      "userSocketId": "iLPmfqR66rOjcDv8ACt2",
+      "walletAddress": "FqtGfGAEXC4bmtx1gZiyziakbjtRPu6wkijNRj7nmi8L"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "3G1qKSnXByKaRJ5tAgHzxsAcL51k7jZ6QtJ9LLxQNeNb2xMQU8jiYd78ewXzNB4pkbUoQbdCjZookDRpVk6w8M4r",
+      "userId": 121462,
+      "latitude": 35.04434327964058,
+      "nfNodeId": 1801,
+      "solPrice": "174.2135",
+      "longitude": -78.94342351865923,
+      "discountCode": "",
+      "userSocketId": "k8xFAKBeTUx5v1p-AC2b",
+      "walletAddress": "5QGb9UNtTvwqgaPouujQmCCg2jMtLFpUFfoqqV6mxgpJ"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "3W2DqcdjfmcF67SqSwsUDyRkctZfz7BCV5rXRfS9tFaRu1XAf8rAWCAkJa8mnjVw6dGdQsT1BWjSnvnkrGP5vQi2",
+      "userId": 450620,
+      "latitude": -28.086178105103084,
+      "nfNodeId": 1794,
+      "solPrice": "174.2135",
+      "longitude": 153.4152845129752,
+      "discountCode": "",
+      "userSocketId": "6A-2CzGlwKHsDWfJAC2d",
+      "walletAddress": "5UD5ne1L2M7o9fnyjtRqSboYRGNfnd972Qz1NFJC67Yb"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5xFWarigenToNe4uvNHSNv6Wiw4vcGDQn14CYRTW5iepJW1CVsNckCWMJ2UZyHPAsYuBNvoFu7nXcMASXTmFp1NH",
+      "userId": 449977,
+      "latitude": 33.98288275064999,
+      "nfNodeId": 1799,
+      "solPrice": "174.7523",
+      "longitude": -118.34662760539987,
+      "discountCode": "",
+      "userSocketId": "em90gZ0YOgMixRu8AAEG",
+      "walletAddress": "8b5XPL2pa2F66MQNw2y1pabtbko111TDpEfX8xk8bjGu"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5agvKQzvdEQjJHB19Jss6jfzVrznRm68EqHRN27SJpbTmhghWcwBTKbPfUacquMMEVCXie4tfwqZ2e1s3HoGQaK3",
+      "userId": 450661,
+      "latitude": 51.7099926,
+      "nfNodeId": 1802,
+      "solPrice": "174.7791",
+      "longitude": -3.6929328,
+      "discountCode": "",
+      "userSocketId": "dkV0MCDCteqMg_-HAAGN",
+      "walletAddress": "3pAf3yPehfoRWu4ZKSmbL7pCvpfzAxk29wVdvy8w3qQg"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5xAFK3AMp7CkzGLJuxeQakPy4EuGLrkxV92btPgfNBUutaDE37Hcarq89Vi2oiAJfv7jYJxrLWjvxwakfABQKz2G",
+      "userId": 450644,
+      "latitude": 46.9941947,
+      "nfNodeId": 1796,
+      "solPrice": "174.8700",
+      "longitude": 6.9274722,
+      "discountCode": "",
+      "userSocketId": "tpwW1J-o_psLVGqKAALd",
+      "walletAddress": "3nLqrNjYv9RnfNf2b8iy4nXSKQfuuQimBCg3TaQJsSHq"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2keGN9eLxfHhycWGKMDgKuggw5bnDzJGwX3t4TQ24VNg1F5UJd1qG22r3FfPBGkgBb7Um6XJCCE7gUNXAonbUTDj",
+      "userId": 450651,
+      "latitude": 39.17905638371859,
+      "nfNodeId": 1803,
+      "solPrice": "174.6100",
+      "longitude": -77.32934345109611,
+      "discountCode": "",
+      "userSocketId": "WN0hgNzWOJgUTJQRAAeb",
+      "walletAddress": "9UrAFDhSnYU5HzQKLnAPMnd7FvRwyheGku92XdMkDdXB"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "obayxuMhwUjiPtyggLqzSARLS9sCCvZbWkaK2WuPtJTJopamhB6FyYLSZcCuGfSLLx8uTfuJhhDPW1BnR2aqd6Z",
+      "userId": 450159,
+      "latitude": 51.4103545549968,
+      "nfNodeId": 1804,
+      "solPrice": "174.2952",
+      "longitude": 5.002865439325932,
+      "discountCode": "",
+      "userSocketId": "_63WbuJlDv7GGI7RAAhf",
+      "walletAddress": "5KtmFMnipHJU4vBVegxct937BVppMrm52nJgZkKAZxoX"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ogtKLWdRSfD6yJHhfhaj6ufCB5jfxkHz11K447Gu11f1g3TCusfqSuqRhFnsjFfP1g46YcGsjnh3b6XNSpZXJj",
+      "userId": 417,
+      "nfNodeId": 1165,
+      "userSocketId": "rKrmWDPpIBf1P0CKAAD6",
+      "walletAddress": "DgUz4rvgkE8bUfdVjea9u5hCZnHyAdEN4JjHvWg1ysVt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "64NGrBp6WDrij9TCCp1sksLffSU4rEvp5ca5zWwy9UC4CcJxHgey111L4BRg9fePYQoWT9R8v92cAvc65Yutoks4",
+      "userId": 417,
+      "nfNodeId": 1164,
+      "userSocketId": "ISpdpuv_M1hBYc-FAAEG",
+      "walletAddress": "DgUz4rvgkE8bUfdVjea9u5hCZnHyAdEN4JjHvWg1ysVt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3YUR6fi6KUadDwnK7gcGtYLTwSYCh6vUxRjyBEdrWAnobG4BJVHmLqdgDUeGsYV8DkLBqDLwRNovFszKfUbrpzWA",
+      "userId": 417,
+      "nfNodeId": 1163,
+      "userSocketId": "gTUmIZgWfDv0I1YGAAEM",
+      "walletAddress": "DgUz4rvgkE8bUfdVjea9u5hCZnHyAdEN4JjHvWg1ysVt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3nYgagZjKyv9WqVjERj44hxoG6WPHHsHVQyN2U6T9C4Z9Q47mzKPuYw3Mmpm63XWNqGRohB4Y7XE42mAiVvKinRW",
+      "userId": 447057,
+      "nfNodeId": 1036,
+      "userSocketId": "ncrP4UHxKLizELaXAAEo",
+      "walletAddress": "6467WtYtntbnbsnPNR78qH5FvLuCzvrWhfAtwKwZhrxs"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4xsBKWQZkprFMuuq2m9y2un2QvQoeEPj16jdeN3huMNHzDyqmirsaYpFMkMUYQtqHDSXXSToa6DTVfJvNNRJPDJx",
+      "userId": 450629,
+      "latitude": 35.943237,
+      "nfNodeId": 1791,
+      "solPrice": "174.2238",
+      "longitude": -95.885128,
+      "discountCode": "",
+      "userSocketId": "8r5Z3G4MGOrt7DC5AAFA",
+      "walletAddress": "D8dDyugXHMC17dcV2bVGkVic634ob7TzWqyYaN1QyXJn"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "3dpcRdN148v8hf272UvtJLUoCrd13ytrYaRjdPdkSHzVr5z8Rd1qH5GvmRJnWQyvhZBtvYSXkjHFMihzaZy7avp",
+      "userId": 448097,
+      "nfNodeId": 1406,
+      "userSocketId": "MvLstuUwlLvIlh82AACK",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "57tWBCF9TvXCuDUYK8YydAPARrVYgfev6nJwcSW1JWU4NNRNZhfhJVeXeTcn9dfbC3Uga9C9TFsnHtjBrtEeknwM",
+      "userId": 448097,
+      "nfNodeId": 1405,
+      "userSocketId": "Y069EEQSvFd62E7LAAEf",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "LsfRmR9adyrcabt6Ti39gAEjHYCzq9imUoeZwPsKoWgwad8ep5cyfPjvEg2baQfncmHi5KxbujztRPjBEpe98XA",
+      "userId": 447195,
+      "nfNodeId": 1063,
+      "userSocketId": "s_uZ9J5ctdiyiazbAAGw",
+      "walletAddress": "FQsBsF8jrK72zp7bAskUcYhDeN7rcLjYuP1m5XnuZuCC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2a2FkAN3ej5tnn6DFJpBBW5dHhFYgsjnz3smRuTxs6nRM41UVfDLvx22pfF77bDunGHaLqomZa3rmTTCLZj8D8P4",
+      "userId": 448097,
+      "nfNodeId": 1404,
+      "userSocketId": "PBy1d4foVuHmqEH0AAHu",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3CWgqYPZwewhetPs8Y9EP76b8y4ECynrgPs9KdKptJ73PJZgJT3iZTFrWhAqZtJj5uF36Dv3Dhyw6FugP7q9AT5H",
+      "userId": 448097,
+      "nfNodeId": 1323,
+      "userSocketId": "lMz_YzzqTi5u5q9EAAH1",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4khssTsDhR9zFwPTZ8YtRALrf9TQz2Hg2a4nJWFxcJodQ3q9z5ehH6imCZojZ1g1NJMA22cpNRzcDw27rtqnRZy",
+      "userId": 448097,
+      "nfNodeId": 1320,
+      "userSocketId": "sReAovgi_rqSG5syAAIg",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2LpNJWnzcUZnJCQ7PjyCLJrQ5E9agfaUynioddFCwk9qSCErjmNKP4sY7mXdSBy9QBTMEzyqF3kXzMLuqZQjVxzA",
+      "userId": 448097,
+      "nfNodeId": 1274,
+      "userSocketId": "aSF9mixFnEvz8bZOAAIz",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "x1yqFeELsM2ivNNTK1gRmjccDeqqP1E2sZDM7rMPDJvD4aDJatyunET2c8ysJQag8niCcLdSYV5YTzxxHRjkcnB",
+      "userId": 448097,
+      "nfNodeId": 1261,
+      "userSocketId": "nJiFZddLIV-nQGGEAAJB",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3nPXN3hqHsQ1coUTHJ5Rb6vX3hcuyJcKx6gHop83Khuxsnn8VNHMHZE5awD5REPjjduZvgk33fiiFettxwNjrXiU",
+      "userId": 38257,
+      "nfNodeId": 886,
+      "userSocketId": "p8TFnGN6T0B9L6PWAAI_",
+      "walletAddress": "B9yE3WoVvs5EhQUhK1shdm1AaTZFfXoxJiZXsvJq11pS"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "Cqh5nwwhz6Q3LPaGKDNVrpVyFA5u1CLbUT6k7g23LMyyxzrqwTjU6Qw5CvQ7MDm7BGH8iSdxYcM8L7pi9v7LADU",
+      "userId": 448097,
+      "nfNodeId": 1318,
+      "userSocketId": "Owz4pf4xcZUoWNqiAAJT",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4pfDckSSNAQeeh8gAhRmi71TqFrMgRZY8NrwhkXQJNpBH6zoMGBthY6bDkmi8RqCK9A3v8B8s8XTtKtz4fbDdiMP",
+      "userId": 448097,
+      "nfNodeId": 1322,
+      "userSocketId": "T6nzZ4h9fI9sri8ZAAJb",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4nnACWgB5qbBBxnSjfj4t7u9ZfrBd8kqQ7iTKumnTEGxnryNJndMdvNndbuMHzpmbxLSbkPWNq4nU3C2TP9RSSaZ",
+      "userId": 448097,
+      "nfNodeId": 1321,
+      "userSocketId": "FbRdXFpC7UuaIl80AAJh",
+      "walletAddress": "pNbpJkbtmi1ddaA8JPrioawTS2qsHpA7k3bmY1LEAX4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3pSkKFY7pUYAbrkaJNCVge1WWY6oT9UFjAcCdkarbeBtsE3PQnoBtaBbzi1Ap5gBJindvR58RY92aArK8nQYkATH",
+      "userId": 41470,
+      "nfNodeId": 532,
+      "userSocketId": "vuSc_iEuFoq28i0hAAKr",
+      "walletAddress": "H3rtMFzj1t7wbR8A7KEVvB4nWK7B7e8KZBhdSNfz1Udt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4x4gSohgzCgpZf7HsahfAVWV984LsRBc9tzirbCG4MTseWScEZUvx4UPRC4QfdKFMGksfSTX6M3KxQA3MkRyhQP",
+      "userId": 367963,
+      "nfNodeId": 1047,
+      "userSocketId": "YwfO0vs2A_y0oPHLAALX",
+      "walletAddress": "FUvfQRBv1gdjMRq8is73D1pWLYEJMzYeX81y24t7Lkk4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4ToU8vZJbqpqMxN7HuQXk1CvzWY8wQfGv3ab1mf6HJnfntqiTyRrAUCdZ9VMHRk2ZQSYX39ge9ta3xNJnYC3UCcN",
+      "userId": 367963,
+      "nfNodeId": 1010,
+      "userSocketId": "a3p26y_ZiHS5nYmyAALa",
+      "walletAddress": "FUvfQRBv1gdjMRq8is73D1pWLYEJMzYeX81y24t7Lkk4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2Les3TVoUaewomP7weNcux3CKSQVFyQL1RW2h2gSB4ibuvTGWB5NdkDKY1iCY1kfmLthxn3snoYoczyKZfZjCQcD",
+      "userId": 367963,
+      "nfNodeId": 1009,
+      "userSocketId": "1RnB74SdKiwVZmkfAALg",
+      "walletAddress": "FUvfQRBv1gdjMRq8is73D1pWLYEJMzYeX81y24t7Lkk4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "XmV1tMs6VakmYjJke51j8L3nsLzv74gyWeC55aNd46Mv5TxucqnurEkYVGm78rv67tiiXKQzhc7TKVCLdMNd7Ui",
+      "userId": 367963,
+      "nfNodeId": 1008,
+      "userSocketId": "Lvh2kEy0VM2x0FA_AALp",
+      "walletAddress": "FUvfQRBv1gdjMRq8is73D1pWLYEJMzYeX81y24t7Lkk4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2UsC7yHPex5ZEcEoPjSxnCnSzLWPUge8o81wh6w9k1toDDdgGW4StMBvDw7gsTyPEVJRA4YLNqKHvmE5hc5BxJmt",
+      "userId": 367963,
+      "nfNodeId": 1007,
+      "userSocketId": "U9Z5Dy8hQhbVijX5AALy",
+      "walletAddress": "FUvfQRBv1gdjMRq8is73D1pWLYEJMzYeX81y24t7Lkk4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "dYvUeDMPw7S4MUTiGRK8m97Tfd1ogGCL7fVRz7J6EApAvFBnsDbJTEorgKg6qh1cQCT2AZokjwLXxFgDpoFttGZ",
+      "userId": 367963,
+      "nfNodeId": 1006,
+      "userSocketId": "ax5U8JKJyP8hTA4lAAL4",
+      "walletAddress": "FUvfQRBv1gdjMRq8is73D1pWLYEJMzYeX81y24t7Lkk4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4LwTMAeaZvQz93Ec7EBqcnWT4BP35z7aJZJj2NmvhyEQ6xGrkHPNyuFEBi8K2aQfku4LKNd4oCnxWqcFUhjw9tGF",
+      "userId": 121666,
+      "nfNodeId": 1284,
+      "userSocketId": "C2OJ5dHndimVI1bEAAPP",
+      "walletAddress": "8GD9mLPQSVjbXXyNn2KLPQYqvVAHWkxetircuPzqamX5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5YF2mtNEcRmyMURUorykHYNnNu7oG7qqE1xny79xEnLYqKWvn6dVeMJMGhCjJyCB5FB7seFUX7jFg7njWfCaiqJL",
+      "userId": 449118,
+      "nfNodeId": 1423,
+      "userSocketId": "kK_HyOiZhosoCnzGAAQc",
+      "walletAddress": "6ops7edrqPsGKoEx4fpB99A1DoJzHLWHmhqsfKx8gEmW"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3osixh5qzCRxdgHChT6o9JsQJgJe2rYwxQfibAhJvbviS8b7UVpB7YwKkUW9pjjKogUvQGaFP7gAHxmzHd1gRrXe",
+      "userId": 22941,
+      "latitude": 42.0009785,
+      "nfNodeId": 1798,
+      "solPrice": "174.3100",
+      "longitude": -88.0012971,
+      "discountCode": "",
+      "userSocketId": "cpmqa85Z9Yy-AxW9AAUE",
+      "walletAddress": "BnyiNtTmtKvNz6ciFiFaSqmVK4VgwAup5cfnsV3g5SfL"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "638U1wejkCWwZ4vc1KsMntHuCQkeu2se2DnrBFNsRNU27e9RvKXM798PiCiDN6zCrnH8hUD4r7YmuCL8K9bzjYwQ",
+      "userId": 119608,
+      "nfNodeId": 762,
+      "userSocketId": "jHmF49mwtd0PvaesAAb1",
+      "walletAddress": "4Zdra7jTuAk11P7U3c6CbBxLbxMhajYfLHaBkSxZBKEf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "1v7K7CDHBmWB966HzpZzGBWMBhbBEdDMThGeeXpFR67XsKnKBpTmoN8MtApzbR9xy9NAaXKioEFcfnQ8BgWbnrW",
+      "userId": 445864,
+      "nfNodeId": 950,
+      "userSocketId": "Di2mBA7smddCfxsDAAeN",
+      "walletAddress": "UHVenqNuUTHfFixyAn1MjHVNMEMrr2FwgioCoh7xzDc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4FUFLNXQpHLfZdrRV9aX6qx6sqHxn5GpV6zaczJjMPbQkxKaXfp1wvuC5cc3Zf7LLRnpRqWiZbPUw8bUU3b22XZU",
+      "userId": 446745,
+      "nfNodeId": 1037,
+      "userSocketId": "YIw7UWryoFPB0IRZAAfC",
+      "walletAddress": "8m6xHRdZscDpCPCd6xpkJ4JdAvN336H8bXdFTf9UJtZ2"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Dq17agjoNDuk7EXaWmF5XZVUsPfXJKaX2P1J4LvWw1Kx7F6xN5iAfWmM928GwEjx1fxknVCdsAkPmY3h9f1vcTp",
+      "userId": 110431,
+      "nfNodeId": 510,
+      "userSocketId": "c7E1wCNYhCb-BPQEAAll",
+      "walletAddress": "2t66rh8rQjYSq3ybT68KBsYXkddaP4oChqJSe4EiSEib"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ufYAfDVptPXqcpAaBNcCPDmMJLbd84mzWXqzxi5Ujh1WtphbMG6vHQrrhHQA2RsnhUixvhJrGSYKKPvrR7uwyra",
+      "userId": 448030,
+      "nfNodeId": 1363,
+      "userSocketId": "JU7--oUGQxL1IPQ3AAmO",
+      "walletAddress": "Be7gYcWXzvqs8Fpei6qcTBnsCcbULKa4ZhYABj7UQsHh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4fqo9UAeSX5PyTiA1tMayDZzuEJM3Rts98T8bgrcHMtjVrjYqpeLuVwydEexkTseZ7gpMTFA7HFDxwxZSNMHiPdR",
+      "userId": 448030,
+      "nfNodeId": 1329,
+      "userSocketId": "RFTAwZHizFgGFTBXAAmi",
+      "walletAddress": "Be7gYcWXzvqs8Fpei6qcTBnsCcbULKa4ZhYABj7UQsHh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "JnsS4spAXQFQFzVPkjQkLD6QH8kqFHXYFvzU15c8rUh2qEj9jtRjvQ1vhZNmff8XW16hywiEdKCvh2K2Jkz98MP",
+      "userId": 446745,
+      "nfNodeId": 851,
+      "userSocketId": "FfuwtAgAeRR0WAlvAAmm",
+      "walletAddress": "8m6xHRdZscDpCPCd6xpkJ4JdAvN336H8bXdFTf9UJtZ2"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "446WoiYeqKVDz7UcwUFGT1TnQVZeYw7G71XRWUJ7fVYR65XoN8JKqhmghFoY4di8yqPyJz11GzxVwHPK7EJdTyXq",
+      "userId": 446745,
+      "nfNodeId": 848,
+      "userSocketId": "tD79zQRnT4Smoyi7AAm0",
+      "walletAddress": "8m6xHRdZscDpCPCd6xpkJ4JdAvN336H8bXdFTf9UJtZ2"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3hxoyPYYD1AnWCbiiqXkD5jf9Rcogn3fpedX3EhEeGz84hYznNqnGBG6Gpb3TA24PgJoGEhGzGeWrHzHnBxZF1Lr",
+      "userId": 494,
+      "nfNodeId": 804,
+      "userSocketId": "BIZnBHIw8JD0uRccAAn9",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5xcoopeEPD6pS1KTzgv2FFN7B5GGfFnTgYSkLHh7ZuAF1uR3muAiZRTXwzXJFVmLY9wQd4t8p8jX18vNs847C5tz",
+      "userId": 494,
+      "nfNodeId": 3,
+      "userSocketId": "uqTlmHZ4f9PRp5w9AAob",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4HSfaFcynH9Y4rDUv9BN8itx91yprm9YFHW3aZRV2tjQGakndah5vzK7AyeWYup1cx2tgr2hopBsaSiJFCH3avC7",
+      "userId": 494,
+      "nfNodeId": 480,
+      "userSocketId": "sLQntF-aSx2cPSE0AApm",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "YArFxuNt6exLi9DRGmZ7GTTeTVtag7Q2fEhrTp3QchxAhLX26vBQwGsizW4qLCPWMan66GS5sX4yHWFHJiySHGS",
+      "userId": 494,
+      "nfNodeId": 512,
+      "userSocketId": "VcfvUjvlC539wJyVAApr",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4pdUk2tTBnPWw6qdJSGAfG91umCMjPX3E7SY5bZTtYsBfBwhz1VtsQ6BrLpBAZAbbXnsh2i9C5CC5Z1gRnxWV8nB",
+      "userId": 494,
+      "nfNodeId": 759,
+      "userSocketId": "F5ZrIo0WOTYETyYBAAp2",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "56jQUaofbFsgXigsxKTu4h2ENm5uBsbJLY8fBv1d8sjDqjNRCiJLXSB4GbHqUkWoNZBZ3sPndQgjCi145vV8zgo8",
+      "userId": 494,
+      "nfNodeId": 1211,
+      "userSocketId": "y8h2SiyUXuz5MDJ_AAqK",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4c3sMxMvxgVXcLKmA1zUREYYcdzWXn9Cz864JJhExVeM1uNTm8q2FvjN5y3cpwmQaepRC7A8yUFQAosAiFeMJas6",
+      "userId": 494,
+      "nfNodeId": 378,
+      "userSocketId": "AHthmdD4rJeV4yHgAAqi",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3gdhVJt3AzP1r35dxBjDH5ocXifyXpvT43jcRdGnD8YY9Wao1d9J1AV44XWefDfCpG8wDrnN5LeSVR9SGP4JdJA7",
+      "userId": 449658,
+      "latitude": 47.76687786565795,
+      "nfNodeId": 1805,
+      "solPrice": "175.2702",
+      "longitude": -117.36477332894937,
+      "discountCode": "",
+      "userSocketId": "cZFPGlvZt9D7rcqWAAud",
+      "walletAddress": "HYokMhbdAMJR2REvngDwRYLvqsJdp7SFvXsnHQndkGNf"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "4kDMSAxPjNDbEcQF4eRYJZe4998NTM3JdfRZbe8Cx9M4eQphEB4hRq2HRkYb89JUwpvg1e3TKYrKELY8fUFrbwt1",
+      "userId": 446775,
+      "nfNodeId": 846,
+      "userSocketId": "2lzYSrb607wMfA_3AAsU",
+      "walletAddress": "8sT6Yxfnzc3ZRB13Z8E5THsF4jeQRZ8qghzanWGgYPSv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4rtKwTABrNSASrwj1ANwVfEYzcF14QUjSMc51BcXGHKXCinYKF6kZwzpfqw6m55bKpXMHNz7vSrcuG3VJX2WDJV4",
+      "userId": 446887,
+      "nfNodeId": 870,
+      "userSocketId": "pvFy1YW_yhff0giIAAvh",
+      "walletAddress": "BBrvG2pWdc5H9TjPPQMbSBc6xkAVBkRxJ8fVYbZgh9F4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2pyjBp9VwDHzuyhNAUxQU7dzxB8Zdns6T2323PHXhx7mYg6vsJWwDbU8WuEd9D5j1BVjzifcL7wr6MthD2wCyndX",
+      "userId": 23009,
+      "nfNodeId": 461,
+      "userSocketId": "r5fgM6aLJgVwBlroAAw9",
+      "walletAddress": "7eyBWyB7ZLMxvRWfqEH73Mw5LpnMt4To5N5Q1WSqmApn"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "E4jD5cmZU9WCDFSqj4mxALkKBPQVjdt87D1J3Lq9PkajewKeQdGica61YWpiPtVrbKZUvCEin6fYnDAVnzExQ3P",
+      "userId": 121552,
+      "nfNodeId": 1062,
+      "userSocketId": "07mX1TDNcCA29zq2AAy4",
+      "walletAddress": "5h7grTqkXBEwzp51FarxKMurKUdETGfntDirij55PsEQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "37pw4Sccivvr5pGmo7BmR8jH6a6TQ6rMu3eeiDUbtCys7vn42C5NEYGAJAZ5QLqtgmMa4YKFH9ZCNG7wqUDZgow2",
+      "userId": 121799,
+      "nfNodeId": 1091,
+      "userSocketId": "2LOKnKTBElDS3ok3AA1L",
+      "walletAddress": "7ycmqnUSrJwnmmNwrm3VAnWHGATheTGNgxfcoUdGaGMS"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3THtu6bvNDWG764z4wExLmNCAY7X4Zpco6f2pFsqBLwvcnxsb3vEdibusCmQtoumSjJ5SHoD2GwX21YP1kZpTre9",
+      "userId": 642,
+      "nfNodeId": 6,
+      "userSocketId": "O42S86wH3HWrs_jrAA1v",
+      "walletAddress": "9XLBZZ3W9xYdK3w9pT8eaS4LPazqqqHhC6qvooXf9JVP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4uwrwxCN19UwSwjdKFPwEHpawm12ZidjdMtPY2mGVm7ogNs5hogHU3jWi8fxCYRYJ34tcqmWi4LhJiaokd2LKNgc",
+      "userId": 393486,
+      "nfNodeId": 1043,
+      "userSocketId": "wZTVC_zb5CGQkNWzAA2H",
+      "walletAddress": "AeQWiCaHfkfRFBsz15SjqxkqX2dyy1Qn6Ujvz9aChohw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "xYXpyzNMrQSJ47qPZqFU7yuTTYDgMraBWtgaKAnCWDeUzWF6t4EY9hTYrDB5C88jE6F1Zs6mpuxSVbR9oMYqyfb",
+      "userId": 151960,
+      "nfNodeId": 821,
+      "userSocketId": "L1rwpSimjrZkVVejAA4A",
+      "walletAddress": "F2cuvLRDvDZETPVdofEfkgros77Y9wundwWidUozXuJf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5c7bfiTbc4JoGak2pUxDJTjDDcT3Lio81vR6wqqqW8RVBxjD4sAP41zje1z3dgcnDRwGzJ395ns1tvLJSLSHDqst",
+      "userId": 449432,
+      "latitude": 33.9836171,
+      "nfNodeId": 1773,
+      "solPrice": "174.5472",
+      "longitude": -83.8998375,
+      "discountCode": "",
+      "userSocketId": "8aTX5Wy8F6-HHNEFAA34",
+      "walletAddress": "HCXeDLwhak1gyHBihoyX68sizKkHQpyZtfoDZk7C615F"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "49F6pffXX8FzeKb6jNXjvbDHWih2vi417ZBDWkCC9QBiw24PcBhYp8CTd9kcmkqRoL2GbZ1xNNcadDRt9N7CAbrE",
+      "userId": 448900,
+      "nfNodeId": 1401,
+      "userSocketId": "_YnxKKKJGeXCaR2OAA78",
+      "walletAddress": "6cDChmEhDEeJcN4xfDTH85XGe5URdMUyrgd1AZR6ksrT"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4Wg79ce6nymAH1JuKmytLWsMmELhVj3Z8s71MD4v1jpS9XhuRSRSrG9BY4o9ucAQTsAbq85EsLbSSuhskNK4YeDL",
+      "userId": 494,
+      "nfNodeId": 479,
+      "userSocketId": "sNa1Shrvi5q3eYk9AA9m",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5oVGn5osHiwZjwjnqQgQb4P3ndjjy7DDHCkdNMywCfzHGF4K2NHoYEZXAUJUjNVfbFDyFU2ugkv93sHQJFoFWNT8",
+      "userId": 447128,
+      "nfNodeId": 988,
+      "userSocketId": "pckrjIbHpwcC5lRiAA9k",
+      "walletAddress": "XgHEHxXU4sQ2JdkVLD9DBqLnxm3hZv6k8TuVg4M81J9"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4mxq1a5nj32fHMVFu38dYeuxLqquBhTJaFm6bvWrkqNRwnXU4AMUsDa296c8VYqkcnwXSEWttBFd3JRFzvazBPLe",
+      "userId": 494,
+      "nfNodeId": 1443,
+      "userSocketId": "-nNVQZOJX7wiTV0DAA-A",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2bkXRhg5q8Ry6RWEVTMJ8bbDZqKXTffJP31reVcVqSJUF3Bnt7rxSJAvcxMAf48P5XH9XKJTtGm17GuPknZttXkk",
+      "userId": 494,
+      "nfNodeId": 1446,
+      "userSocketId": "5NgSG6_Lemw9hoQtAA-M",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "1Ebjzrb2yADVFgDVkPJPghdYbTL4Si9ZK5AQB8k3cCZueofmV18qAtzhbHB3DvMU7RNi8Xf4JKLXdL4NqwVeUsY",
+      "userId": 447009,
+      "nfNodeId": 1301,
+      "userSocketId": "xndPI8YPpRQe6T0DABAq",
+      "walletAddress": "7qjjBamLYYNnfNqRScVrWefREWsXc6zXbo2oEEtfEbNM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "WSCCY9FULAGvPK4M7oDTjN6B8EhsZn73gu2wjM3eKdeBbpTq7NQJPdeTNgXG5Hkp2oMpUR9z2y3jFneUG6akzDX",
+      "userId": 447400,
+      "nfNodeId": 1224,
+      "userSocketId": "H_cPMPiT315NPIaOABCV",
+      "walletAddress": "HDKSQmgBht82Jh8418ztAcVrjtzgb4mQrpd8KBDgePJP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3bprqP4wyeDPRyrL8F77H31Cr6Jio3C7fnbAYVhQSURW5yGPCSh6YQtbYg51hPPP2HcwBRpwhHUERnfsc4oZPAFg",
+      "userId": 436940,
+      "nfNodeId": 796,
+      "userSocketId": "F-QuGZ7HRSfrEvWYABCx",
+      "walletAddress": "EwWJmgv1nS8pPAj3at5btiWa4MpQ92jeiAunmiviVauq"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "6x8mo852rPaL9qzJZStKRUjKRSpfs8zFTBcrwuRG5GssAZG4bpYjSG1yS4pDdhEhP3dajHNQVeL1SNDRP7RELCP",
+      "userId": 47530,
+      "nfNodeId": 528,
+      "userSocketId": "ZBoXnGiR9mJIsB2VABFA",
+      "walletAddress": "2gNCeK3nRZFGk4d72JMt3zTJc63EL6nvbBcZdC33EHun"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2JxRekmnb7dTvyMftULvuatp1SxJ9KFZgvLsWEerKgzupJamad5SkrDENtwXTjLHWtqemZhYDrkQ9iEZzoKaHHgY",
+      "userId": 447107,
+      "nfNodeId": 1144,
+      "userSocketId": "emcCUG6hJlA_hABSABKF",
+      "walletAddress": "Cx2nRnYKCjiKp9Sr1ZrbkTbXPpz6sK3NdbvaHjXrgJ4j"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4XH2sAmDWMVo7Gq6Jq4yeNxS3iivYvC34p6EyNPWrnDhwc49263jnS7Cb3uRcrQDkjE79s21m7quuSUn2hcRzyFx",
+      "userId": 183027,
+      "nfNodeId": 910,
+      "userSocketId": "zrHZj9z1z3fw390ZABKR",
+      "walletAddress": "DYVYQeU2UqdAiUKzSXTwYPWMpchD6t8ui4iAvC7iNeLP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "rm7RoKYYMcvjeSxhx8tjReRZVqXzbHdtgLnbuCTD4U5u9DHTuk2j5Qk9KeE48AKYdgMeWQvUBcEPh9DzkkRJHGa",
+      "userId": 447317,
+      "nfNodeId": 1328,
+      "userSocketId": "mdijLMhbfiElxcxcABKz",
+      "walletAddress": "SmNDnQKcftgJVef15SzpKtZnnXPQaGtKzc9oVDvKF95"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4z8dSNn1Dst1TiJEGefaYFiz97M1MKUvUSkPVXRygXKvy8cF7t2h35FYAhHGT3fx7rc6iACvP2W2TigugRMRqooW",
+      "userId": 446840,
+      "nfNodeId": 915,
+      "userSocketId": "u1I8pQExZmKJAeX-ABM9",
+      "walletAddress": "5wGj4jCvAVn8zh4ae6GRdpZPALP52ZxytbACdKdxQR7a"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2nHjSpPNjPhNAViaV5Cq7z7gmpde6hSMzbzUWAH2Wo4t3MS5WGqSEwLkfL7SZPdcFaR7JjvjyF6e3gu4gExh25y8",
+      "userId": 22548,
+      "nfNodeId": 983,
+      "userSocketId": "eZrjo6av3l-oxkYIABNl",
+      "walletAddress": "98CqT6iSexp4oTPggZYx8Z3J62nA64Ly97w1Hp7VjEcg"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "XayncASeRLhfbfqGntWrUg7UUYpwQzkshKQfVpUU7t1ymU8FLFjNuNzQpLfXTo3UMNc4HiJPgzWCenXY3WKQxwq",
+      "userId": 447822,
+      "latitude": 33.495220475259835,
+      "nfNodeId": 1806,
+      "solPrice": "174.2300",
+      "longitude": -86.79977670416251,
+      "discountCode": "",
+      "userSocketId": "-Eu9ikOHgCalkbvQABOP",
+      "walletAddress": "4ETxeeL5dH1tCoCuVUMYSHorLj12HW4hpnCSsM5oE3ib"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "65hmCghhafxwDyswLd4SkrXHdt82qhocRG1sm326dfQ5cVz8toBbCUGQN2wQnjFAPNa5jkho1pN5bjZZpMxpoeSd",
+      "userId": 22523,
+      "nfNodeId": 1399,
+      "userSocketId": "b3HKUYLz9M9OdZSIABOp",
+      "walletAddress": "7QhE5NwwbBLnaSbUgjhprLcc1a5Kz8k2X6U4jPvWofRC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3Qv69GgZDTKgjrRbJSsXwnk4aL2abbLbc1BrAZfMMfFCNa6ViZJwjcHTmRpFcPHGFCDycmsL4h95YTRwGHv1AXDK",
+      "userId": 22523,
+      "nfNodeId": 1359,
+      "userSocketId": "EEyKgwBMVFcozOqHABOx",
+      "walletAddress": "7QhE5NwwbBLnaSbUgjhprLcc1a5Kz8k2X6U4jPvWofRC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4BvMhRg4p3Z2PsNKv5wn3CxgKP4GvodrkM17jFfvgsDhgbL9xs66hy3Pi4nvWD5m3NjnyhPSK7iVcuBV5UAS1xnk",
+      "userId": 266103,
+      "nfNodeId": 775,
+      "userSocketId": "jvNk-BoQ_pSW72xBABRH",
+      "walletAddress": "5L4x6n1mY2NqZe4CHJSEJad4gK9Ri9rRNdhmrineP3hn"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2qcSwdq3dreRwaFc4wrjduW8zhgCH5vmqZv7WcMN48tbEYjmazktFgQVFbGQZdQJ8AHgy6au7gzeKeVKV8txSCVs",
+      "userId": 449237,
+      "nfNodeId": 1435,
+      "userSocketId": "SYsmRbHeFPpoRsuzABSY",
+      "walletAddress": "BZiNovTj6MHhqzB5TvbbNvHbwef6d2BvGEnQzy6h83Ds"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5yMsjX9BjzZatQscEd6J6X1oZLjRKEjZ9k5UJ8nNLfwzLKUfNeM9FLb7BwExapSmCgnDnKLd2X6itbxQc7rAGg5Z",
+      "userId": 299973,
+      "nfNodeId": 876,
+      "userSocketId": "FJMK7zrhWW1OKlidABTs",
+      "walletAddress": "8Am98f6BbaEHYcbkckAkCKaigwuDNPsAxieRqVuKFwDg"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "kERZcWESbH1HWUuWjsDiKhcerC5HW45Gm6VYAPpSvATijaFz1xhbyaEf94TGGHwS4ZdRbw24ZN8a5aX9DsZj9YG",
+      "userId": 299973,
+      "nfNodeId": 877,
+      "userSocketId": "wMUjcAp-Patpk0BaABTy",
+      "walletAddress": "8Am98f6BbaEHYcbkckAkCKaigwuDNPsAxieRqVuKFwDg"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2k9LsjPaWvQL8vNHJnGdQne3qpEjSamsuHVa7U88uFdNbUHJw5k1MbxbW4mFpzwoRKk5Nc1havviuAcL2PnA59aX",
+      "userId": 299973,
+      "nfNodeId": 878,
+      "userSocketId": "wMUjcAp-Patpk0BaABTy",
+      "walletAddress": "8Am98f6BbaEHYcbkckAkCKaigwuDNPsAxieRqVuKFwDg"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3S7Zmfkr9W15zTp16xbbaDFAPEUrNjTTNEN8Vk4epBdwW7oFjXZ9tNRTojNQKAKLhmqWyQRz9buDEm8kVtUicRm4",
+      "userId": 134790,
+      "nfNodeId": 781,
+      "userSocketId": "kQ6pduz_H2w2SZzpABVQ",
+      "walletAddress": "AsQV96i3jp3KSast9h6LMaGhdoPNrSLLDjv7VJfbkZRi"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3CXvNQ4kuMG339SPiuEqTTXMffnPb5fTqe6NadUBkwT89v8yEKcAQQEAKRMchFWTf9LTMPYZNvazoznQymHcAVBu",
+      "userId": 447317,
+      "nfNodeId": 1117,
+      "userSocketId": "zMglJ8Zif3jepe-3ABZc",
+      "walletAddress": "SmNDnQKcftgJVef15SzpKtZnnXPQaGtKzc9oVDvKF95"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "61en8jaD96WYZ6QJWgT8uGKo2aqnDaqF3q7UzK2z2awkSkTTp3dScgEtYzYev5YfH8cLwMzyMStm9X3qRTwLL4Kc",
+      "userId": 118689,
+      "nfNodeId": 855,
+      "userSocketId": "Dbvmi-vDt94UD25_ABcQ",
+      "walletAddress": "2HNaxF6n3nfLLYVG5R4wauDcCXBSr6ru1zBPCTsUDYJM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5xKRFVMuivT8kkEqrKWmYQtuPsq2b13reJWm39Q1tJwmzSswfFxVPvHnXqXDQxAcxneothkT9QNNEUdoKA2K9CYu",
+      "userId": 436935,
+      "nfNodeId": 997,
+      "userSocketId": "k5mUpTmkR8IxU0FiABjt",
+      "walletAddress": "H52qywaaHv6yRGSBu5YGRTRqJY3rzQLhzoqCu9cv6mNx"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4xtnnfEQVUxXKGmR17pPhi5mem9RTnUDY8632gkzGQbVQejZ6tQhuWU14pGWRv1dLWy4rF4zy367neCjtZgjx33q",
+      "userId": 447010,
+      "nfNodeId": 917,
+      "userSocketId": "wbFFl0L4CRIfvDEoABmp",
+      "walletAddress": "2DuYfi96HPHJNibPjBjMLbuT8c6XMnhKogzRua7rMWCV"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "47TBweV87gvuKouxPAsx8dE5wRhGmKMGuxivHnk8mFCQDxRbCi9M4U37WgZuUiKvYo6cpy51UdnfBTxRqE7v1w1c",
+      "userId": 104283,
+      "nfNodeId": 521,
+      "userSocketId": "oJ1N3d4vcxjt3KtbABnD",
+      "walletAddress": "68DVpSrttECECw6pbx8atSWMyRHuxJxJV5aA4ovLJuGm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "fzyc58SgPwu2Pe2fTiskEbD6hiTQ5rZXBsWtoYiimAJxd17yAHYC5GTBRtXEvbU3MJMW1LMd61mvbgdAd6zajN6",
+      "userId": 38993,
+      "nfNodeId": 843,
+      "userSocketId": "mtD7VEJJ9ErVLoWbABp3",
+      "walletAddress": "CTjcD6RmaB15ha5ZFACWR6PkvjZnbdBirjswZYaXznFg"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Y3yN9K7eXyJZhu2YrFb1HJ964pskMW5D87L9AR96zp2czcywNG1uFXaVNh7iT1YHAjnMyRvUbSK1t5fXCW9QCeV",
+      "userId": 447112,
+      "nfNodeId": 985,
+      "userSocketId": "-xyk9Nu4m-IjWuBaABqK",
+      "walletAddress": "8dWLWzGvgu1euPTyjoNfas9R7x1ZK4svcf99WW4RtBiD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3iDipHxe7r3gx3VB1rxjTnyVtSxx99rCRyAwmsZefj5AyqR34fd86ahjDaaoZvDbFFgRsnKc2MwzBqzenagjgkYR",
+      "userId": 447112,
+      "nfNodeId": 981,
+      "userSocketId": "e9nVSj8BGBUpyjb-ABqM",
+      "walletAddress": "8dWLWzGvgu1euPTyjoNfas9R7x1ZK4svcf99WW4RtBiD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Xt2FS4FLunh4pLcQ8cBs4eXP9WyCs2gKJ5615j5TLMr7QRFE9VhNhHZbX4vtbPLfXiknVPfoA1TvB5omwiZmQyP",
+      "userId": 447112,
+      "nfNodeId": 971,
+      "userSocketId": "83ZAyfX5E6Sbjg1UABqQ",
+      "walletAddress": "8dWLWzGvgu1euPTyjoNfas9R7x1ZK4svcf99WW4RtBiD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4Jv4MEgsDuqB1SJ8cLWaAdET2DM85HMUUhpXep1ufs8sLMDRPBGrXnv8USbU551nmdfSjhxw4CXPj6vLnRwejR7p",
+      "userId": 22911,
+      "nfNodeId": 602,
+      "userSocketId": "UXCuGQqpejA7KQIGABsG",
+      "walletAddress": "74SBgZC6AncUeUibhufTttQHjZ2ty2FNCQyQ5fmWZvxE"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "usZd5KTK8R6jzDs48r19Y1ffuqD8M4k6EPPDDxzR6xUQiDPcxX3DgHp4cXDG3UCZmBMwVyk4EcdMUbYgJL2Cuda",
+      "userId": 446842,
+      "nfNodeId": 1287,
+      "userSocketId": "frLZVgxE1G3hlsVXABsW",
+      "walletAddress": "7xXibNZxwFbatuep3CREgayMBS8CUmAMtoZdb3NDQfus"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2Prfig6euTYHf5gjaEiZzCunHgjgeV5paqdinnBmavaoXN4SfZj8sqzBrun9D4Ap96Zs3yrwM2CGZ5o4jLcaD2LA",
+      "userId": 446842,
+      "nfNodeId": 859,
+      "userSocketId": "4m7sXK22pqKFTnUoABss",
+      "walletAddress": "7xXibNZxwFbatuep3CREgayMBS8CUmAMtoZdb3NDQfus"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2VrjxLEaQhrUV6UiJL6TDoPozrUEirXFJjzcvaP12e3ztWsb5ui6L8NjxbVBa1zAZZHdoL91pru4oMMtd2KRHHZ7",
+      "userId": 38993,
+      "nfNodeId": 555,
+      "userSocketId": "QGy3yuMaO1sRmic8ABtE",
+      "walletAddress": "CTjcD6RmaB15ha5ZFACWR6PkvjZnbdBirjswZYaXznFg"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "49PCnzjDt6HePk5gPECGSFBUQLu3w9UquYixH7xDSxrGEXyPmym8LSh8dEB9JErXotYrZiAP5ahjxqgSGkPw4V6V",
+      "userId": 447119,
+      "nfNodeId": 984,
+      "userSocketId": "V6GKggcRHQgYcvv6AByI",
+      "walletAddress": "9rdumj6wzPb7AAHVHBuGqgx9DQj17WFFj6ALWnzJcbYL"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5NtvPc9bymv9jEumgErR6SuebWqAxufERZ3yeLviNEzUaV9n34zrFw4SJ5u6qsPvQ3xMDE8JsyrKbEGJyorcJ15e",
+      "userId": 22171,
+      "nfNodeId": 506,
+      "userSocketId": "og2HiLdbvm4Mdrr4AB0_",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "67gMYEVPfVSKddJg9U77aasRir4yqD7Zqa9nMnBzf36WaHu5zuUPAQRowxerY74Yu5Yee5eJM96qLcwCxCiJhKL7",
+      "userId": 22171,
+      "nfNodeId": 501,
+      "userSocketId": "Q6td3JWzDK-W6xz_AB1N",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3peLrBpZXRDnZfK1optFNsiVDP6X7FPPjLCNeQzq3tx3LJp1nEDCPC4SQTpqa2ken3N3X2YMoVmXCK9rpkDy5ZWM",
+      "userId": 22171,
+      "nfNodeId": 500,
+      "userSocketId": "DEQSK7Ch_URaaHgbAB1X",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3PAoto5apLc2W2h1AqC6rxSRwaqn2kmyZn9d9vzFKQmHqSofaUD4uWx8fFraFVDnFwBcjAx5s5LXWpjLLAaRx7b3",
+      "userId": 22171,
+      "nfNodeId": 474,
+      "userSocketId": "CmkCx7X5I8iUksdQAB1h",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3ovJ9dw3hfWqnpTcLQKMuB6yEs34pWMCHgWDNarn4NGHxonDx4KeHQmh6TaP6MqR7h53SwJenPMGWtjdE2BMyvWA",
+      "userId": 22171,
+      "nfNodeId": 493,
+      "userSocketId": "J19Z8Eacdx5SAFkqAB2N",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "6RoU7FDeGquVZWeptwcfQaiwd9Rd2hoMgKmi5LDycdqyHfY2ZPw5zjZJg88tXDVQnGDZNKTe1zw7Bnvgvyg7QMZ",
+      "userId": 22171,
+      "nfNodeId": 492,
+      "userSocketId": "9Dz2pq95C0R1NtcSAB2j",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4ZbZMRwXjKjg1p94b3We6QiEZjyaxHyYoc3LHUZBfatythjQ3PFgo58rXzanrMi6aAZBU83m7b9hW5JQHnbxz7BR",
+      "userId": 22171,
+      "nfNodeId": 490,
+      "userSocketId": "BzOntxYV-j6QMQkuAB2r",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "P2Lifsjb6HRaULMvteJeSgbbP6GL9vTPxj5kiTgKPoNFkRdwkUmmtNkn3wWbAYRbG2a1qFw8qn8NkDjqeZ3aceo",
+      "userId": 450627,
+      "latitude": 36.1906159,
+      "nfNodeId": 1807,
+      "solPrice": "174.0843",
+      "longitude": -115.0742601,
+      "discountCode": "",
+      "userSocketId": "ueBlyPGsRcKP7aqOAACP",
+      "walletAddress": "BFEmehq9hWts1ZFu3642LH9bXnYQkVc3LQmHs8mJarJ2"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2Gj2xKJdpLG14a6LfEozjGZ1m3bMRbujsdCBWPQFWC8CrQi7QkFDto9VPDFMZny7rdB7rfWAfn7gafMj9FLN85H9",
+      "userId": 121938,
+      "nfNodeId": 1226,
+      "userSocketId": "rgPA_kyBiKD3OsWXAAGP",
+      "walletAddress": "A9s9mnWUE8t6YyiAL9zYTYzT18LVD2k5X994mSx3eoAt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "aFr2HwpZbyz9RrtJsUtZZvC7qzcfbqfhDjX2nN26wxUM3wWgwaH1CuRp575BwR9e5mozFfMBrVGuUEJquWGgqhB",
+      "userId": 161182,
+      "nfNodeId": 1072,
+      "userSocketId": "Xl_aN-CmyWfGOUPVAAGv",
+      "walletAddress": "Cq4nCEcwYdovU7uUcGRk5pswqdEUSZXx992GUVdkjRoi"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3pXsDSvacH71rSJF5zcDZZj9jickbmCtL1VCM5BXGj8b5KyWWGzgeyoeNvyVQt3CVdjSeFpGfNRmQZykR4JTaoQz",
+      "userId": 161182,
+      "nfNodeId": 1138,
+      "userSocketId": "HkgB7v07ZGiCScTdAAG4",
+      "walletAddress": "Cq4nCEcwYdovU7uUcGRk5pswqdEUSZXx992GUVdkjRoi"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5QkgP17GZpsQQwKptjoCASdxiQomcNtnwo7JBDAXFZ6fdD8M21p2uGkcsQ2WoZVFPHFmREFc5ZmAeeqFCn1UoVww",
+      "userId": 145319,
+      "nfNodeId": 911,
+      "userSocketId": "Gnq81Monx5D5SGCxAAHK",
+      "walletAddress": "HNwi1W6WNKMRMUKbC6QARZzxuMXkSxiAjC83MdYRmURH"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "35K3Mp1M3QugEe6mLcGCjb88rYwmNAm8keqmZZ8hAa73zg9gnvwwKao5wdad8wHhGuvyN6b5pbdrPF75VzdTeUK4",
+      "userId": 272635,
+      "nfNodeId": 857,
+      "userSocketId": "pd1MoSW7vGZzX8dCAAHi",
+      "walletAddress": "3jcFaa5i9tNA5bgmgAZcaSTp6AX6fyDKnNSSH3aWqKED"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4kQd8q6zrbi98sQqKsoZP54mHxYbBGkSdqvW97Jst38oWDqoFWRjag9w8UPStmnP2zxChxUyEEihV9w5A7jHh9Bh",
+      "userId": 447185,
+      "nfNodeId": 1048,
+      "userSocketId": "9PC8GZE8ebVV2KKNAAH0",
+      "walletAddress": "2UTHPVLCzzGDS3Gpjui1qwMB3EEnyE8RWR2wKPznmsm2"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5WrzCCXy3mAQKKvgrpRfzMs7XkdfdPPetwRMy1LnYVkskvCYuVhJoqYaHTqLH6AtDB6NUubkVZi3CQ1zUTkp7AEM",
+      "userId": 127350,
+      "nfNodeId": 845,
+      "userSocketId": "fhSejpSQF4cUqSsAAAH-",
+      "walletAddress": "EpQAhEGunXzGmTLshzRXpwGpofuRxoh6pGHhKQycKUwH"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "vL6WoHbuzJtWMVE6b3FHJAzTezSWHUXQr9zqLk5f5gwHozpAKq6qSwacP8qRnwvxwUeqDDvnC5LrEWJXiXJzBMf",
+      "userId": 449271,
+      "nfNodeId": 1455,
+      "userSocketId": "AyTHpXiXxd33jf42AAJG",
+      "walletAddress": "GVRAbatuF91F8pPxSUrzUxcTiVdvC162MbAEehtqWMRm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3iLdyqDc7dpYdzwkjJzodes5J658LJEjHPvhpU9D6KYDGUCLN3MquVeh5NvrXwfkqHLLEsLNBNjcDnGEjSxdgkJf",
+      "userId": 450680,
+      "latitude": 35.54907986831761,
+      "nfNodeId": 1808,
+      "solPrice": "174.8295",
+      "longitude": -98.57315753991709,
+      "discountCode": "",
+      "userSocketId": "iU_BlMi-oGOrqSrRAAKk",
+      "walletAddress": "J68NdywnvP28KzCqAxra6uoMuvo6dSmYGWVyp1qgdC6d"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2LXetqmW7cBVhYByA7aQSdZKDVaB4jWUqX7FCyPCt66RQycAzM2vAPBmupyZAcH2RwEtcUGTNjkXkAhmcTbfpXyZ",
+      "userId": 448773,
+      "nfNodeId": 1425,
+      "userSocketId": "gUzY98BwPUvQG2ydAALU",
+      "walletAddress": "58WogaRMPrjzm9CRnqhzHRxjZ7eqVsyJXCLKXFAfPd82"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "49bmgJwxRGDbYbkEco5XDujbisqkec46bj5s1DcCJiN7wwJfRcatSff3pReKCQ4EPPvHMwjzmAtZKqtZ39mPzfgD",
+      "userId": 347621,
+      "nfNodeId": 1447,
+      "userSocketId": "7cfmc2Gmt2zwqGvOAALe",
+      "walletAddress": "E2sWNMhXNvV8EZNypk7bVQ81a5xXuvemwTLA17SJTP5U"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "48svaU7wadadiwRbo6gJoUvcCVJjFQR91rtjKSYvjGJ6xKLNma9mwHtPjqBZNZxBkRT7FLLkwFU1cu81yG8jyXdo",
+      "userId": 171335,
+      "nfNodeId": 874,
+      "userSocketId": "kvlMWuTEDemEEpFKAAOe",
+      "walletAddress": "4KpSPfQnhwzmHZ92HAmLATXp21TPzQRU2cnrPDLxvvmY"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2jLSuk3sGorCBZSebbrcNvMGYPXqVssz1u6CTDkrZUiDadj99FkEMCsx2cs2odjwqsk7D8mUvbV7xN5xGAm9kwTL",
+      "userId": 23063,
+      "nfNodeId": 511,
+      "userSocketId": "igxOZLvSzEaqfMb4AARw",
+      "walletAddress": "J67KHWyFxsmpQkfXwgDvKLBe2LmtYNgH2buy58s7ia9K"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4LDubDjMxVT3FVUASNViKz3kdktSwHk8YRAi9zp6EBww3XMt9kc3Yk8Bc7BqsV6iYAf7CiiUURRFqrwPhVNfCpFC",
+      "userId": 64855,
+      "nfNodeId": 1374,
+      "userSocketId": "MAByiUd53DruZ9igAAUI",
+      "walletAddress": "eYkiguqkduSepxtYM6NMhE44TWtwdiUWeo6mYAwAsBM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5SrhT4ay7deoWWzeWsDxAunyCgzgVEuRF26811skSgBTNH3z5RCAL3MCreCi7A1zSYmQt2kFzTmchaTwKqypfyri",
+      "userId": 447683,
+      "nfNodeId": 1262,
+      "userSocketId": "hsePAOeSXxRelbuMAAUY",
+      "walletAddress": "9GnhzFDEWCDN8bws7UTy7xyTLpT7SxLmfnGsqpZzqxPc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "525yg7gXQzSc83LikV6qsYQqfHpKQuaL73mpKoQ8Nfr3L73LR4CE5tT27sZqemGdyNeFZQJqD9YqvMvHsUmycAsq",
+      "userId": 447168,
+      "nfNodeId": 1448,
+      "userSocketId": "U4-vyK1B4E8p66O_AAXW",
+      "walletAddress": "5iMnJCuHUGgHSGdcD5jjAaKXkANUz8HdJkjQhtYbNo8r"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "d66MAySbq9PxKoquL9Lr39yEizxYjVMdGLFiVCY7TV5hyNvaMNJsm6Dy43xwULvUydusR8BcgQkVzoYLiiYavU3",
+      "userId": 447298,
+      "nfNodeId": 1103,
+      "userSocketId": "jhx1qSVSOOv4NwPeAAXq",
+      "walletAddress": "EtkkAi9tz3FGz1TrjWJBSpviAFCYHKYuSxW76rN2jx49"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4TPTjhzM6Zr3Me5HZat68bi88QsBBPhM3Y4cgbCxEQNRQJN7Htz9ZLjWJWKZWYQoNN4QKkmiRrqVYqyU7fBLmNZ2",
+      "userId": 347621,
+      "nfNodeId": 794,
+      "userSocketId": "eB9s10xqQGK_aJKLAAiY",
+      "walletAddress": "E2sWNMhXNvV8EZNypk7bVQ81a5xXuvemwTLA17SJTP5U"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "DNtHgZFdNpwofNDqbSA3eAhGr4jiw3oWp5QdUuUkxq3b7cZdM5YnQgXwDbF9PFRPj6z3i4h97JRe8YYRoqFgfhZ",
+      "userId": 347621,
+      "nfNodeId": 907,
+      "userSocketId": "S4_LaGPsphMxeJlvAAip",
+      "walletAddress": "E2sWNMhXNvV8EZNypk7bVQ81a5xXuvemwTLA17SJTP5U"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "ewJxDwBaMDLKjMcQRU5FVR255wQoLCyg3M2k5xAPSeYrjxWgADDDgXCN1uYghMYRLRc1n3vcRPWYjDzFS9vC2jV",
+      "userId": 450662,
+      "latitude": 54.55284254660321,
+      "nfNodeId": 1809,
+      "solPrice": "176.3900",
+      "longitude": 18.528536465150673,
+      "discountCode": "",
+      "userSocketId": "VDnHTkyU7moBMKHlAAi_",
+      "walletAddress": "GJEfmNeExezK3Zk5eCmGCEtUrG5zx7ATkVgJc8Q7cunM"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "3wYGEoBMNXrDxnvYQgKsf5LijR8qZ9f2yCjaXA6AdXKZcF1wQF9wVhFubwcw3ZKhCwGgKcDAaC49QjVXAZgoiT6M",
+      "userId": 183861,
+      "nfNodeId": 1227,
+      "userSocketId": "b3eJrlQk06lJ7L0SAAjb",
+      "walletAddress": "HRgwN7WYaGLZ2UfWDKcZZQREM9m3YXDMhpkLQurBj8yz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "unKhUkfJCmFQpYAN1PfDB3D8DuVnnUndjp3E7ZTmPyWtW4cNXcw79gLZ1ZqbxDrSR5CCSpkcueGcDDNCqmy9Byi",
+      "userId": 46815,
+      "nfNodeId": 515,
+      "userSocketId": "8Nuqr3i6csPBML0QAAjZ",
+      "walletAddress": "43QiSWM7wxBXxcF2BAPGoqdMXAxjyfDPzXdzacSK8MPk"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3HVPy1p8ebbCAjjFmE2FqF1cVxi7annyNRMvJh1MBQkmy9JzuiGJhNXTv3K6GMYjpxLUMBEmyxTViaGrUgvdVtDV",
+      "userId": 265745,
+      "nfNodeId": 1411,
+      "userSocketId": "ElQpN5EgnEhAytL0AAnl",
+      "walletAddress": "5PV7UuASSr5vKMVoN5shWxVenQ1sxU7QUCY7NVFBC3ou"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4sF8XgkrbUujEKMsQu7tYkeUggAbPojV1efbAQYAoJUx6YjtepSXfMHDzmrPkmR3jeLHYTdpEZ3Ard1wdzUTGaQQ",
+      "userId": 183861,
+      "nfNodeId": 1452,
+      "userSocketId": "tZ8Ta0ETEj3hTe_7AArZ",
+      "walletAddress": "HRgwN7WYaGLZ2UfWDKcZZQREM9m3YXDMhpkLQurBj8yz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3jmWdXggyJxYLsY3qMmJEWCXbYx16GQ3zPMNRMzFVcgsrpSg2TuW1E7UBcGYoQf9xuQ44TJdr1FairJRhzh2wJki",
+      "userId": 192316,
+      "nfNodeId": 922,
+      "userSocketId": "66TArjUMY82r1THFAAsV",
+      "walletAddress": "DvCteF8VzZUNN4hbkR3y4PVF1n52u7bQyp8FUGBMtaA2"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "DqoeAXRM4ijPV4BguoHUVrH8BAB4asrtuodDKJ9dKyPGQkz3SkuVjAfDT12mPjjb8JTc52j8c7rg56jjMFbNCFn",
+      "userId": 449615,
+      "nfNodeId": 1465,
+      "userSocketId": "6xTwfZ32vMW54V8MAAtL",
+      "walletAddress": "CMyZ3d5Co8KYXYthTtfQBJvvaFN396Q14WEJ2GMC6rYh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5feittjDVQyoo1fshwNkda1SHtazDwsrdmgomr5vrhE9aHA3oW7zfC3PE6KeVFqPNrQMppnh4NfdWrW6Qnj3JFwF",
+      "userId": 446862,
+      "nfNodeId": 1115,
+      "userSocketId": "Don1bjV3AjVg6giBAACX",
+      "walletAddress": "ECviAtuzYWavW322bunQNMh8oNm1f7s5eLz5rjj7wtst"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3jzMLrLZQFPQZVRKJtJ1LF7Cb1anbnw9wRqqFf187zaLoZzYuQzadk2JEEHfJ9zisSXMxQ5vev7esQGn7USFWfq9",
+      "userId": 446862,
+      "nfNodeId": 864,
+      "userSocketId": "jHkF0Vzn8AGG9-4bAACv",
+      "walletAddress": "ECviAtuzYWavW322bunQNMh8oNm1f7s5eLz5rjj7wtst"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3vJYoLRNMTiYuVduMcZKfY8HkSQw71a6KnAsNnPkaidBpoJ6ke7tTnjk8S28UUoudjxDu4DYE2SSV17TwfcPaNYb",
+      "userId": 446723,
+      "nfNodeId": 1159,
+      "userSocketId": "w6QE0DJo5pbugrA2AAEm",
+      "walletAddress": "aUBjeD8BZb1XNxsUjDBsYk5zyYMyc2hE2GgxGEScAc6"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2YTYVSfetKs712zmZX6WRvQKAeKKnhnRAyFAFaqgwT9iZe2wcQG5dBZtSmQ12rGvsXhn9pUoZbLoeLwS2cwYnMnK",
+      "userId": 446790,
+      "nfNodeId": 1463,
+      "userSocketId": "L9Ipq2Th5ZODsovjAAGK",
+      "walletAddress": "HwswUDDPdzN83QA4bMCP8LkX2KQyGMmUcYqiCHdWiTse"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "57LA29e2zGTr3vkXhKbv7uzRu3Wj7fuG5q5QWicJZxrHGH7ZD33Qpu9zUUHvJUEM7UxsZtCT66PDA2JuDZWGXhas",
+      "userId": 448446,
+      "nfNodeId": 1330,
+      "userSocketId": "-UsKDbM-ZlcpvmLdAAHW",
+      "walletAddress": "2dNcKvMqAiebKuLDQg3KQtD2rVYvQwqv9YG3Ha6PcaQr"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5TxKj7aVLB1BDBxyjWUiu9yU2TV63S7brgjpk9pjpuayQKFFzYdRZLjeS6UZteWJKpUMs4PbXgxXw7Pz4Hfz1hab",
+      "userId": 446867,
+      "nfNodeId": 885,
+      "userSocketId": "vUorIUFrjfsiKqieAAIl",
+      "walletAddress": "GLW2sP8UWPcFcXmN9LbJwaVqZiwfsVS4MeB7hXuGBCnM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "438FnAnX3JiegszTYUNTx5ymmADC4hhHqHAGUdQ5qw8Xa3znK8wdEuKXge3FKxayub4eZMEb9MrTE7cYgvh25fhu",
+      "userId": 446781,
+      "nfNodeId": 1210,
+      "userSocketId": "4Q_eh0ktIdEvg-WzAAM6",
+      "walletAddress": "7iKwYMLMopN1MFagtEbsHxQrcE1vf4TasHc8mww8361C"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ajhQb3wPj94iQ1mFezM9oSjVLDfW35dra16dqiVrjvF7Tj7s7nFy1vGwwjinCuBo7FKwvtHMPZRqTXetKDdTNre",
+      "userId": 446917,
+      "nfNodeId": 884,
+      "userSocketId": "A3BGCOH4oyiIp96EAAQ_",
+      "walletAddress": "CeeE93qKRJfEsHnp2VNMsDzrep8vUrs1iLRg83SnmN8Y"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5eUc3rNX5QYyan9AHhf1Euq5u3fcEBZ29pPP6qCsKdUCqt5rDXDAwgkWm5Ebsr1dTXhbA3iUjQV3q8VTrPkqyfER",
+      "userId": 446817,
+      "nfNodeId": 852,
+      "userSocketId": "Y0OqY33cW2egfc7xAARc",
+      "walletAddress": "2jBiicLPh55y4osZuN8bBfQ1iUrmLg7Szg2RhrMutECC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5o5M1p6GhdsmesDSpoU9S1MUT7GgPQjQYwQKKoa4aw3hVCuzVqUZhQ7bPugoVvJuwLuQ2Feh4R6wqRq6AZZsSxSR",
+      "userId": 446915,
+      "nfNodeId": 883,
+      "userSocketId": "GXTfFSDmsbJw3YRVAARo",
+      "walletAddress": "2R8j4eKoSH2zY2U8XxN6XnctMkm1xBVWPF1fXtcHZpLu"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "22VwE1utbX49DjCvVViay3k5qLtQho6ZUiYAFt4gkGGeTJdxHC4a1WQRMT57krGHomVajnnEC9zejyPz5yfTQM6Y",
+      "userId": 447357,
+      "nfNodeId": 1137,
+      "userSocketId": "LW51i7-zvGmSQOypAATK",
+      "walletAddress": "AEAmQc8C5RAnrh9dCzMXmttVTFKdsjiWLdvUX5jJgvzh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "cnykgK2QyP9BJujPECyR4skoa6y7Dfi3YGesyABZ4ugw9ytKC9MJd2wE4caNAzFm7ibi7JTJPXLhsQE947rBzJC",
+      "userId": 447306,
+      "nfNodeId": 1181,
+      "userSocketId": "iVyoawnlpgsqluH5AAb7",
+      "walletAddress": "A49hEuiDLh6FsbDxb3vFMfhNa2Sjx8duHVSFo4QDhcjk"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3ZgcpvGopLtqwvtr45NuCtwPjhMnxnn7Ue7SzodHgt7CohtEL1mTmKHyYqqhKr1ifTmQu6su48qcVj2kr8ebNMws",
+      "userId": 449267,
+      "nfNodeId": 1442,
+      "userSocketId": "7HRTWW8Iifl1Y8kwAAcf",
+      "walletAddress": "7gpgbq5A9MLins6GXYcPVbkk1MEGPXheY99vxykcnBwb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "61aFaM4qFzUekJXT26FfmeEz8U2r1xF3edH9oSnVaQ1gE9iMKTMn35RNiEpJ3UB97qz176SFyUH2wf4x85GsiDXf",
+      "userId": 22554,
+      "nfNodeId": 1346,
+      "userSocketId": "hVuF0IKXcNAhK0KnAAdF",
+      "walletAddress": "A6vZxvGE2XPm9kiVRMP3wXcGTpGjDPt2G3gEXCUy73w8"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3wqxsiwpw6AJ3kEGR92RrQq9EyFGYPxcDSr7XcNuuPtyVUviYpM6eECfr5VreqCj3oYy9gs7PJVCDa43EnbwKTdA",
+      "userId": 22554,
+      "nfNodeId": 533,
+      "userSocketId": "AwQ9aY7xP437mTZ_AAdm",
+      "walletAddress": "A6vZxvGE2XPm9kiVRMP3wXcGTpGjDPt2G3gEXCUy73w8"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2R4iCt1BsunTt4EZLG6uxub5MrwxRcB2CCmf48ufUm8J1n1cWhVEH6KB5zEdKtaDNAiRZAr5bHKPLrf8hBvpmfnN",
+      "userId": 173631,
+      "nfNodeId": 935,
+      "userSocketId": "wUHvj7nBS1ObIsYyAAhu",
+      "walletAddress": "FwcU1gQE9C63y8f8UxHRZV1tRiPHu7Y7LaTzYKqZXofH"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5RGtpBBp4HkBdY8uLf6V2aqkQEdERzsSw71EzEVqLXTTQjbN7mdu8U5D1ajz54WCKCNc4ufTamFQTo1oEUMQeHHw",
+      "userId": 448927,
+      "nfNodeId": 1389,
+      "userSocketId": "R2UmY9J6yPiKZYpoAAif",
+      "walletAddress": "8XVgdCtgjH83cUAxvoBa73YQHUR9yYHR6HNoPJ4ug6Nd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "6eCcP3TXyN2tj8kHKFms1gHbDHBgdwFBe4mFibtz3uU7htG66dHgdzkwEVru63pY9sCvPF8d4WZ2W7aCk2LMBZr",
+      "userId": 23060,
+      "nfNodeId": 556,
+      "userSocketId": "Txw5Uy350muQhWLrAAi9",
+      "walletAddress": "GzJjdEsA7dSJftdQi8gJHUSpD3awxcPSyD4JhiZtffVR"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3MhnecVFUJgNgUqyGyCLnoVfcJ2ZKYYgcWd155j5AYsjhXfFjVR1WSgm5MMPFRo5GpdHf4toRdeGYwhvWuvrxrSm",
+      "userId": 446813,
+      "nfNodeId": 959,
+      "userSocketId": "E32sq9Mb2a-piljAAAtV",
+      "walletAddress": "GA8sBzpZitn27WvAhgDUPBWDMQomu9X9HtqiPfwqN3XD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "vS5f9j12Xo2EjoJeuPcqUguoj3X3ydGDDjo8Vdu8Hafqw6xHaY4ouaaTEChDg9751dquVzrL9UQTVh6HBEDpFs2",
+      "userId": 22171,
+      "nfNodeId": 477,
+      "userSocketId": "Uzr4FL6CflX1pYGsAAwV",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "xwf784bAQYxQ8By5tiQsFMmmdpcoZbT3XQmdzamEZqDgRu8dQ47SWasw23UvLqZsUtpCCr2BntE4XpKhnvk5Ty2",
+      "userId": 22171,
+      "nfNodeId": 498,
+      "userSocketId": "3HuVhUNqe3kW91nbAAwn",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2Yb5yaxwUVY9qaGA78TvjJ78SmdmhBCW5ZSF18Q4JMw9arfGggC3kMaXX92qnuHiqdgnQRzvfdPPJ8H8Y2VwRUuN",
+      "userId": 22171,
+      "nfNodeId": 487,
+      "userSocketId": "hKbVImj6Q3VfiR5cAAw5",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Kd8MLNNtR2SbbmBFADquNRnD4epgqAAmyKqZ73xtfWbcwJ22PWK4U4TL15dxEQqwdoKgpebN8jrNbt6T2CTEBDa",
+      "userId": 22171,
+      "nfNodeId": 489,
+      "userSocketId": "QLSi1Nff8aRtqfpxAAxH",
+      "walletAddress": "EKSRVoNVuzb5haLMSKgNvhEkMrycjqwfWmQXUokXks4w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "1psNJRjVznXg7zz3YnXvybTbhzoWFwVU9goUUCcY2XUsmi6RJgGoVcuR1FkHvJRiXQEEXHBhpZfS5D4gpJqeokn",
+      "userId": 447386,
+      "nfNodeId": 871,
+      "userSocketId": "dlJzPb9w34ghLFEMAADU",
+      "walletAddress": "8xXZTgnFDqJbdsmCdcS4VaUUrLBzcWrfq97Vxt9er8tD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5od5FCxTiULWLTpERp1gQu2hK1vxfzRx19ofDqnKoUig3s7Vo1GqgpgeyEW6L1g5VrcsRud9wFygiBoqFviWPQp6",
+      "userId": 448920,
+      "latitude": 52.01723427603273,
+      "nfNodeId": 1810,
+      "solPrice": "177.6536",
+      "longitude": 5.657483599999996,
+      "discountCode": "",
+      "userSocketId": "9bNGUc1LLJGC8UtEAAEu",
+      "walletAddress": "5ieKgEKNqA8mXquzZtr3DNjtdYFzi5xc1bD9LPodiz2a"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "4MA9hyxeh5nRYYYFgW6znnHbU7srcpCgQWkPRSKkJhkrd2jFu4GEs2aJJCaBEQHLgm4TPpWuwKkeVct4hE4pwhDh",
+      "userId": 121509,
+      "nfNodeId": 980,
+      "userSocketId": "MpybzdEjrRObY4iFAAIh",
+      "walletAddress": "4xXH271oDYWbd6wTiT8PDtNjhFDUPDZdPNjoQCiJH2FM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3y6gVLxxcJKRbeWB7oK1cjJDwGbH58u6oZEaKe26P8Z8ZJUys9NmtDJCizdaJJZP3CB2wjWFDLtJtF2zQZs58SVM",
+      "userId": 448011,
+      "nfNodeId": 1263,
+      "userSocketId": "q68IVdZgIjzjjS6AAAIa",
+      "walletAddress": "FpVqJfDh3tw2cS3M7JoqzVFtXYxfqzyHekXikNUkbvzM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2TybuLxyTQ5uBqYgogSZHQgV6p2gTPx2iDvmCKJK1kQzLKR1EuRzAMfxj9Y666pXEzRUboPkM1FsznjuVdFkWvex",
+      "userId": 23002,
+      "nfNodeId": 647,
+      "userSocketId": "OSyK33yQMhCrmOu6AAL1",
+      "walletAddress": "2sU5g1QoYXaz6sGEht3ffYVpJMfRqARrybDNMfzUzazh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3GZSTDAHLZ2nsYCKgBj5W9H61J4MUeLMm4G8t9ubZiTY56o7L6R6K52pQf5QEG98UKDg5xQ3GwrYW3macNgciZg1",
+      "userId": 448848,
+      "nfNodeId": 1420,
+      "userSocketId": "v0UxGWcNZrToMISXAANH",
+      "walletAddress": "D8Gx7ei6REcNoGUt7QZGomzsmQage8DpfqEwNrSJZFQf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5BDq1iZKFuwQCW5vDxDr4tv2h8MvuBUvP5LgsVgnWJBww9ZtgcAfsCNoEWAeES9X6m83iRw6rvv223FFG2eMn7TZ",
+      "userId": 159049,
+      "nfNodeId": 1241,
+      "userSocketId": "Ml9Qa1QHR-tb_JujAAQt",
+      "walletAddress": "3Q7JDgaP6X2RmLydRwTXARrt7hjqnzN9y6R9CEECkKHo"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3my4oBUYt8dbxA5A9q7ejmw7bxsyiRvHVpGkY1Q2GfHzRfRFdtcxKJ3a6PVAGjjsaBTpFtdD35QQ511mm64U5yyA",
+      "userId": 447228,
+      "nfNodeId": 1071,
+      "userSocketId": "ZXGJL1p8nSpC3yjyAAX4",
+      "walletAddress": "5XX91M2P5NPHKe9X1kDhBA2hPSNNSn8bcYHy44UzGaNA"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4B7Co59kv3TB3nmFELEnBJsfJ9QAo1nTH2cxhjGuww2oo4j4vXBDcKEcnmJ1dSjNuZycZjua2yoHmEZwqyq9HqZ5",
+      "userId": 494,
+      "nfNodeId": 426,
+      "userSocketId": "V4CAeev-8PlHenX5AAc9",
+      "walletAddress": "G6KbU6fpUQX7ukNsVpnscfkmpyoLwNrVBBojPVxiY8Xd"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4hVaKrfTJrtmHPJHLMnzjDvNqZTfx9scMjyyau3th5T82r89HwewMn7t7yWH5X65cD7uaXW6yCFt4ixHHVWphdRw",
+      "userId": 22462,
+      "nfNodeId": 705,
+      "userSocketId": "JIIr-h9NL-NdhA7rAABD",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3iiSNVkP1rTUfdy1ut41HkA2QjGUvy8YbrXhiH6vcccEvHiwhRmCcWWDgavGNkffY7GdFPPArkBamUaGb7yV8QGB",
+      "userId": 121993,
+      "nfNodeId": 835,
+      "userSocketId": "tF18MykDo8nAcZwZAAfB",
+      "walletAddress": "5cPRSTZgZXfufi12PbS196G5yBHSKhCnNqCpoxhsu2Sc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5yLuBMrenBtHvv1gQHTK2fmELBXo9CkYSQcrEGM3PE1BmmGchpuHNYyDoo21zsoYvssRQLUwBV96o4XVkEQCWm7g",
+      "userId": 121993,
+      "nfNodeId": 837,
+      "userSocketId": "Q_6hotKtQP1Na0OXAAfe",
+      "walletAddress": "5cPRSTZgZXfufi12PbS196G5yBHSKhCnNqCpoxhsu2Sc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4SG8JDCQzUur1SUAXckvr6Nu1LE3iMTksYu571HRSNkoq2fsvxkWDLghjDScMY48sMqPoC7j3TGmNj5w58Tw1MDU",
+      "userId": 121629,
+      "nfNodeId": 815,
+      "userSocketId": "9IPeLQHyAIjDwk32AAf8",
+      "walletAddress": "7rgV3jnedj7fZ25NM7ZX1N1uA6sKcBTavzG3NaGtcJby"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "Pz4d6Xs7pdGSZ93Pm2FJVpFCGyZg4RM5QUuN4i98koCQ7zw5MpVDEq3a8ueNZLkSd2NrAdE6WX1oY3xD8heK6se",
+      "userId": 22462,
+      "nfNodeId": 452,
+      "userSocketId": "G3x5jf1ZAf_4uIbaAAvq",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3g1nykvYNBGQedwT43G1hvnMQXhkxAwPkDNd1paP2tZJwdE6af5sxUiJkz9SB937q3sC6MdHZXP4GwPa3AXE9ycg",
+      "userId": 22462,
+      "nfNodeId": 571,
+      "userSocketId": "1MyTXf1dshuhar3oAAx3",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4gweYe3Cr9YwQSLqbKVbZadHs1ukvXSnKtkBREKnpxi6UbYxoQUqAjGWgGzutVFcpbtHV16qTCAWUGPfVa9QHmH4",
+      "userId": 22462,
+      "nfNodeId": 572,
+      "userSocketId": "2jrck8usVQ8t3dhNAA0Q",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4YJvVGfzPc2x5e3arixU6WWeLJFHs7NPNnks6T3h7LRDh8AwLP7hf4JCxtpYkxDFNYgvyrvT5JBg3hFPqyqfydXL",
+      "userId": 22462,
+      "nfNodeId": 573,
+      "userSocketId": "ZsHq8Yk7J7WhS1KfAA2I",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "26gBo5SjMR54UrNiGR2PZ8SrR7px57nx51Y7YsomrTThnLpXGKjZTpYxEXFkpm4cm5LZPoHdSwuwoQj7TSnW227k",
+      "userId": 22462,
+      "nfNodeId": 573,
+      "userSocketId": "ZsHq8Yk7J7WhS1KfAA2I",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2CuZUt8A4J27UpQ71wfHq6AUD8rcUxDkdy3A5zqHu4tuRFX6URckhRSAnr7iDyNgMZ1ieS2P7LMgEbLKcySTZsFJ",
+      "userId": 22462,
+      "nfNodeId": 574,
+      "userSocketId": "7xRbuTCk87UhwVa0AA38",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "24yzv3YhLFfvB8VyVMSpewESUycdoBxEAGX9eDcuKqBDLCEiwRQKwFvoGtiddZLvQ9gwuvSfAQPbFKrHPFZ1WaV1",
+      "userId": 22462,
+      "nfNodeId": 575,
+      "userSocketId": "psw1nyIaI18rRJ4JAA6I",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5svWduCaJswm7A3DqwfLVQKeEJ1h3tHvSwA2mSyDann4fg8nmEybrzsUWc2WUosSZBDUYX6ZYmRYyCR6pFrizfon",
+      "userId": 22462,
+      "nfNodeId": 576,
+      "userSocketId": "kMC4mKNvTQqPIo66AA6z",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "235tRwU7v1zryiXYwVvHYHVyT4GAsRjTx2w8Uwxg6GuQwWvJq6SpRef95zjMFM7tgUefyp9jZrEwpauDDEtNCGWm",
+      "userId": 121633,
+      "nfNodeId": 822,
+      "userSocketId": "OmCuS2ND6qAqGz2TAA7f",
+      "walletAddress": "24sY17UcTaTKDGJm6agux4gppanR9GYyYwsozpvcvXpN"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "32tU5UVjHvHQvje1mQYs5bt3Evug7zgkGoymEEzEYkkBHz9tzLNwvqR5Kxny6wiz9UEB7fSNUucML5nTHCfu8tJn",
+      "userId": 22462,
+      "nfNodeId": 579,
+      "userSocketId": "YbB0gYNAKGBo9rHaAA_W",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4LFznttvjh4oApNyUdSDr7LBiK8kD9AdcwNsXF1M21uTTrrVNs3LembHVxuoRfnhWeiYS3rDbiHyU9cbvBWx5hvs",
+      "userId": 449122,
+      "nfNodeId": 1428,
+      "userSocketId": "YvTGH97cSr167VZNABAo",
+      "walletAddress": "43AQDNgwohw1kpv4BrHpVAEuuzbjwcfdmmg9H5SeZdVW"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3CLZa94gDMPTQxDEfVSSBXY31Mv3Mxwk8thQwUsAy9AQLY6Mm6xDay3newHwa7j1T7eQU2PBQBnCaWQQ7DwCqKaF",
+      "userId": 22462,
+      "nfNodeId": 581,
+      "userSocketId": "yO4gSQBP605CPJVuABA0",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Pobkaw9a1BXj1YHVsgUEqGQSXHnmzJYqC3T71toKeTqLVVpUXz93f7dE7wV4yWTf8oue61rXmYcNnkH56vRDWF8",
+      "userId": 22462,
+      "nfNodeId": 583,
+      "userSocketId": "yEiOtifpZU1-MdfEABD7",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "k91FuBZnTB5x5pT53K9e1x1zVsG9cM1FxCgj99XqM8ubGgPAhV6NGcwthPF1Mype2qBhdxQ9G1aKCtJeYfnV9HM",
+      "userId": 22462,
+      "nfNodeId": 584,
+      "userSocketId": "gv7x4Opozxf8a7TwABGH",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "maYVAX8pLhijU42eNWuLri7sRsCd9TGcHhahPoSrmiYou8ZYxaBCgttAri6XM3HJMcUbiD63pzohoLfPfXC5vJg",
+      "userId": 22462,
+      "nfNodeId": 586,
+      "userSocketId": "EVUPRWwAgUmfTIorABH8",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "vXM8UCGe3XreyNtAdj1fmQ2MgEAacMCJXALgehPmini37g4mJoTE6XgQGoxQZpeSNWUZjLW6GayhoFS84FWV1NW",
+      "userId": 113030,
+      "nfNodeId": 559,
+      "userSocketId": "vq7XdqtnNVAT63x2ABIk",
+      "walletAddress": "4FcnxjHzCVCrK4tp87WGUKaRGVczG7GBUeGka2eVie61"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4USxWosfxR3YQUDcxPd6Gc379vUdYBDUJVHJGGSkJ5isMAG5xTvUdw1Qz4hT6YiscJcsDdQ8yqxro8SnwoCKVYfo",
+      "userId": 22462,
+      "nfNodeId": 589,
+      "userSocketId": "763y9_MlT3eAs7rQABJz",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3r2ncHuSjkgPWiJS4nxMcmZHMdRf71U2czJkop9MXecGhm2haSLJ5Kb8UYqEYoCVUUxNpGLpbgg96T4pLKskzW5m",
+      "userId": 109964,
+      "nfNodeId": 538,
+      "userSocketId": "V0cuBs3_38_Ye_iMABI4",
+      "walletAddress": "CBSE8jFgNZZAq1cNi8SJv5rnvcvvx2fZkQ1KVqCgcuf1"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4DzqhQeeYaGQdhUv5vCcfmayZ1MYyEm51xTUdU35HQDNPzf8CRrKtFDmVCpBpmNg3BxmeAFsiBAcqv4YDt4nWNYP",
+      "userId": 22462,
+      "nfNodeId": 588,
+      "userSocketId": "Irht-Q1B6AN6HNMpABLB",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2oFqyhLn4nr4z9Nwy1oiBiTPiGJvum44dieGLoEkibSh7WYevTvFabniQqG1fEZDNmXhJsZB6tV51bmE3LfLZy3C",
+      "userId": 22462,
+      "nfNodeId": 590,
+      "userSocketId": "IJcyHJ0LIgUUiyAZABMQ",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5fDWCiv8taMZZWa3LFZtKC3S5FoysRtGNWZrZ1ih2jXRxookr56Q4iWNMVvLPWNSEQnc2gNzmnJkjwrkFd9QfuUz",
+      "userId": 22462,
+      "nfNodeId": 592,
+      "userSocketId": "oRvzRR9lg6TTHudtABNm",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "nV6KhNT9hrAQs4bpQvopG8vFqaWcQLaBuzSmhHuB9g1tCsyVMmWyDLjZzxk5mqvAQJbA2SDQdvnc4DRdto8WfdJ",
+      "userId": 446993,
+      "nfNodeId": 1057,
+      "userSocketId": "Uwy87iH6ghE0B7ntABO2",
+      "walletAddress": "9JiQTCoVVnef1BCQdRPNdYPSYqHu43RPRN2AiCm4PPh6"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "54NMzQvYJ7erFr45d7uyZ6Z71pnH7vgLD3UVFPERirmBmwVmNGzcUVobbS1HiZ8FEQsjk85V65yEpxXx1B53dMBv",
+      "userId": 22462,
+      "nfNodeId": 593,
+      "userSocketId": "-kwdoZrH6mrzi5tNABO4",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "14HUSAR8DHTGdM5HpZwmnFPAzUTWbDKA3nonUC95T3eGooYVBZ7QHhxV11wM92WQuSExBmAmt8p31gxM18xuSt5",
+      "userId": 22462,
+      "nfNodeId": 591,
+      "userSocketId": "K6q6Ix0MVD4oS6v7ABQZ",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "g4JQA7KYYsAgxRvrdnRBemCqjRKHnrshNxivnRbQ97KTb6jQahJB8xK8hLL8BMrJCFM1vVDLwwmL7Fo8cQwwHds",
+      "userId": 22462,
+      "nfNodeId": 594,
+      "userSocketId": "t2TypdDl1fcrDKi9ABSa",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3YDLMsh55CSYXKM8FTqh2PHBt9XbEeG5ewwhWRaqFNV8HfSrLn6V2ND86ic5iDsLh6xTQKh6CitVTbgU3p8sHSkE",
+      "userId": 183861,
+      "nfNodeId": 862,
+      "userSocketId": "I2K7zdjUd6rl0lTPABSc",
+      "walletAddress": "HRgwN7WYaGLZ2UfWDKcZZQREM9m3YXDMhpkLQurBj8yz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4G2HQpCGtM9VCzpihbYuXLEEo7Bfe2hLHNEXrrKGFzHkWGFsQ4jcFXwBmC1pK1aDyW2Tjqevg8Hu8cMndru3njdH",
+      "userId": 446758,
+      "nfNodeId": 829,
+      "userSocketId": "I6k29cjXLG8ST90CABTr",
+      "walletAddress": "6Lw9NPxZ7fZHJV5reorFSQrLYzLKJUnHkoguVgGt87eK"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Q9P4Rf6XJJJC76DyuNjWyHswXUw7s2r3XxfLoabsWPLDCezH743Yee9mE3PaVz18yNqqNMmQFV4pNT8yNdWsnZE",
+      "userId": 448990,
+      "nfNodeId": 1451,
+      "userSocketId": "orCPcNPIbCyu8RpsAAHK",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5pUqdZAoKHYsosVXUn2WzR2kmZ9dgF4cJ26AWowkLiG4iAHWkr2Rgk3nS2aNJ7GVPLFCzdKMtXecFj2RatWiBcCS",
+      "userId": 119809,
+      "nfNodeId": 1085,
+      "userSocketId": "tnYfZpd37J-KR4pDAAKO",
+      "walletAddress": "B2VGoc9VMAHRBK1x6t8mHG9KpFsSFcSotBcBvUHSAid"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4zmtHiPe8VKZj56Z95tKqwjJFugti5ZFsjnGJe9mfjqM3KurK1Lkpi2VxLgeoc4mzMV7kZ3q57BLfhpaRtNUJCFT",
+      "userId": 119809,
+      "nfNodeId": 1086,
+      "userSocketId": "bUBXoMTf1J7BLIS0AAKW",
+      "walletAddress": "B2VGoc9VMAHRBK1x6t8mHG9KpFsSFcSotBcBvUHSAid"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "WQMLHEhZ3Zwo8cJW6ZpMubKVo29qX2YvX8tsnbNRH2Lm3eBpnz1dGQUbHG28EDC5tRfT64f1DkpG9HWfHoDMJ5T",
+      "userId": 119809,
+      "nfNodeId": 1087,
+      "userSocketId": "pUPzpaz_pcd-Hc-QAAKi",
+      "walletAddress": "B2VGoc9VMAHRBK1x6t8mHG9KpFsSFcSotBcBvUHSAid"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4fkTyvusCzuzADBhgRk6PnCLEzDNXrWt4KanqamothqvtLGkhPy6mEjo7qqRBYb4HQ9cLWv2QtgkiygXthYRBe9K",
+      "userId": 119809,
+      "nfNodeId": 1436,
+      "userSocketId": "UeE6UQcV4aaf-ESXAAKm",
+      "walletAddress": "B2VGoc9VMAHRBK1x6t8mHG9KpFsSFcSotBcBvUHSAid"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3Rbv8V2NkqWpH5NKpohfPrp44W3hADmhhaJ517g1P5hiyvT511BpjBs1E7LgGpq7HhPeP4Qh6nhEEkCYNoBE4x4T",
+      "userId": 446858,
+      "nfNodeId": 1136,
+      "userSocketId": "z8r2xm04APWp7t4ZAANH",
+      "walletAddress": "CLPyLX7pxtomPG37mW1HQZKzHYUEZm8cgYc7AVYTupBf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "21Z9ea76p5N6GnpSWyEE4VH6kxhfC1L4pm9S6cxASz86WfSHbSJsAZZXxu4QLvdwPbEiqnzKGhfpR8V3exgH6Q2q",
+      "userId": 160779,
+      "nfNodeId": 1148,
+      "userSocketId": "5lmqR7J5WV4MRLxxAAPl",
+      "walletAddress": "HS9EwmKfrXZhy5tLCwNzLfqdRTKpp2t8koqj5PiTr8RM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5H8GZYZKH2wKFwLv9MqhRKzP6SrdbdkSaiWWFWzBsAu6CqEKXfhJNmm6eQZ8kVh1jaWdhiobruEt8CwWs8CJwRed",
+      "userId": 103491,
+      "latitude": -2.08825270466561,
+      "nfNodeId": 772,
+      "solPrice": "168.9486",
+      "longitude": -79.87116741510107,
+      "discountCode": "WAYRUMINT",
+      "userSocketId": "N2ko6LwVeXDzz5eKAARO",
+      "walletAddress": "G58dFohBsigmSNpn3DGnkhfpAoG2EFzVfNQwpqLDfngt"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "JvRFUxobT353WCPRgQsk2ztrntMjWpBHEWXUxnCo3EFfRix96AYStzsGEJSypNdqo68ewUHBD4s54nTNxyYVh9E",
+      "userId": 447812,
+      "nfNodeId": 1254,
+      "userSocketId": "JnIewIg53JRVsLwjAAcV",
+      "walletAddress": "HiJPi9yB4xfwxgthVcbscDpcy7HWeRWLaGFYxsofiaQD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3KJPMbZu2vHGRDmQ8Q82R383xWDduG7r2JbvbaRUCciaK7QM422YQfnmQfZytJoXsMgxVyHCXbzY1XvBuVF8RsTi",
+      "userId": 447762,
+      "nfNodeId": 1313,
+      "userSocketId": "47whHfVKQGIdwJJaAAdD",
+      "walletAddress": "5Gq1nZxTYAzvVPDxRgMWBcrQHgzUZmomu1D51oZ6qKua"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5x9er5PSSKQcBkZH84fXYPAnZ3tQcTSKmYMH51aYDLEFWe8nXBbZYMEf3CGW6cAWHe1tXRmEedjkA44iAfBSZVUj",
+      "userId": 447794,
+      "nfNodeId": 1252,
+      "userSocketId": "Tb7cQPaftKCFEhG-AAfe",
+      "walletAddress": "9RWcS6DiZPkL5qwFy9R3emRuhhhWUicwdYaPuxrXkGrV"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5H7fZqaPDCPfzy9iuSNcEGu51YU1BCcuDRjfNZ4qnvxZ5twLKemZHSCmg5igzsMJi1q73HcJW8PDYYsj5y6NSi5C",
+      "userId": 447794,
+      "nfNodeId": 1308,
+      "userSocketId": "m9F3RaUhRMS2pr4qAAgK",
+      "walletAddress": "9RWcS6DiZPkL5qwFy9R3emRuhhhWUicwdYaPuxrXkGrV"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "23z1NoD3dzgQPVTAA35vmY7xnM1cG7zAk3kcXqvsXzSGqFSsu6LsEhMJMUPxyFk5maUxNvDxkEbTL1k423JWx3SM",
+      "userId": 447207,
+      "nfNodeId": 1060,
+      "userSocketId": "lsmx-ygqSrkvJ66yAAje",
+      "walletAddress": "49HfdicLGRNGC1jxUML9P44BQJEm6b1rQMKLTC3f4N6G"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4vXNBFjmXu381YU6AjYYtDCyHTMUrknSWF2GL6hUZPuwVrr3CcUV1JoYX2MgqmLybtMzLCgcKTwMXsfF2VnbUdP5",
+      "userId": 447262,
+      "nfNodeId": 1112,
+      "userSocketId": "duaMTjPHdrP8OUUqAAk3",
+      "walletAddress": "6Yq1n1Zwk1xeV23f8yrraPSJutYntomdCJSxCYBSR3Xx"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3gy3zEjMRqgJNTrdAGGyjNdN3A5KfUWVUeAncg34MQTp3ETLjQyhYcfgGFo7hMGTS7paKDBPfhg6vVjYuYJCLzTN",
+      "userId": 447762,
+      "nfNodeId": 1208,
+      "userSocketId": "AT6gUt_cIa7XjybPAAkt",
+      "walletAddress": "5Gq1nZxTYAzvVPDxRgMWBcrQHgzUZmomu1D51oZ6qKua"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "r88p9khQkXE2tWabj7WnVdpESXgEgHbVpBEPJQ7qLyNAhBhUTxTVnkS4JFZdpWj3KrpUxVHK1kQWC5jzRbmiYMz",
+      "userId": 448264,
+      "nfNodeId": 1294,
+      "userSocketId": "khkkl_0V8j6DrbXKAAtJ",
+      "walletAddress": "4b2BRTzLvAxo7iVSiMAm6zYWiCyrEfK5y9WyA13rmfb8"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "bSxt94RJrVF84tp5NiYeAUZS1FuVjTDW1otJK9RX8z2h3UGZfEyQ4p8innaBTmJzBsnEt7AGoDq9u1o3XsekpH9",
+      "userId": 448990,
+      "nfNodeId": 1439,
+      "userSocketId": "TgBDvv2VNc4qTUVAAA0T",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5nSWRcxavaaEUUbhshYGDvgHYNeV4C74xDmSEUgrhdwBFe4XUENDyVCLpjFgacLsLbDuCjWR9SivyzrXBC3JPQB1",
+      "userId": 448990,
+      "nfNodeId": 1438,
+      "userSocketId": "PPLjpmfdPrPcStoRAA0V",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "28c3iXCJEFzVoAEV8JbpAXEhBkALDuTDfJAhXT1f4d1qy9A8BzjxPve5Ag1te57BKHP4xdkHEFu5BezbzQit7pBd",
+      "userId": 121812,
+      "nfNodeId": 816,
+      "userSocketId": "wsgdc_3qpXTMFvX8AA1y",
+      "walletAddress": "58ijckM7tAzwPYkJaDYDiMj4UkganeHaJkUxwmeNKsHP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4xB8us96VSb1rBP2Wo8YNi5N9MzjFYHeWj16SWrcGABnUieAumfhe6LJSFYaotXaT33ebwvCCwRwrCSh3QZVkgi8",
+      "userId": 22144,
+      "nfNodeId": 1445,
+      "userSocketId": "f-IVPHXMbRtEwPHtAA2q",
+      "walletAddress": "8xugAbpuYs68BRcZupKAEpg25Eqgt8EMmWEncsFiwoJ7"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3X8o1kaTKR5B1CDf9bon5U4PtczQicqAFyyvkKhscvtJ8VsD6MQk8DozaxmkDtwcoHN73Ar8recfr2iHQCAkJhUB",
+      "userId": 165643,
+      "nfNodeId": 1105,
+      "userSocketId": "hGq-Fkwe3vn5OtleAA3k",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3sHWmA6zPCuw6wgVyWfaP9B8EZ9U6bka8rcfTVzV7vFZZsk5qBfM3asPTbPqMqRs8aysvREWS6Dv9mWiHWFcr3ub",
+      "userId": 165643,
+      "nfNodeId": 1106,
+      "userSocketId": "Ld_MqBim7_NInPtxAA3y",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "ERktGPv9CgShcJ1FqNXb1p3GM1wbLsS8zqVjqYc6ZMF9K2hUv3uJ85SxZgN9FGcVhAKysFaDZcrQTHiffSTDZNa",
+      "userId": 165643,
+      "nfNodeId": 1108,
+      "userSocketId": "xTh-k-KfgZcwHY9FAA4B",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "hyaDLRfqiaWQCVrFkBThfKSoWqQU3wb9h7EpXLC4pkbzdP5kM9XTr3b2naRcTBBxsDcbtcSmGpYsEQH7XnMZfba",
+      "userId": 165643,
+      "nfNodeId": 1296,
+      "userSocketId": "NVhf4q4UZyFWvO0FAA4T",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2YaMJq7N2MMVJtdXY1fc2zXpm6gCft3vfsfTKJiPrypHMsbv3FFhP7BEB7Pq5Mtjuxy4TDRnrVoz91sTToQSSJL2",
+      "userId": 183861,
+      "nfNodeId": 1133,
+      "userSocketId": "DEo5B6jWb1ndcKvhAA4V",
+      "walletAddress": "HRgwN7WYaGLZ2UfWDKcZZQREM9m3YXDMhpkLQurBj8yz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "LmYHozWuxuFYmmL8fNrCPH5Pnf7smgo8dawTgLjdA5z2LFgFbQD9zPqZX7VamaLo9QdccHEZGVRXP1TzxTX5pQq",
+      "userId": 165643,
+      "nfNodeId": 1295,
+      "userSocketId": "6JeN4QsJEr4n7InkAA4b",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5WrCBuATJkAJXUC9nszHwY2kZu2i2jtmGPGLARzNoQELF4YNiWhzs6gSnemswseV1RJ6KMVUwkUMw1DT3qcqkM8E",
+      "userId": 165643,
+      "nfNodeId": 1269,
+      "userSocketId": "skiudV-AtUT4Yh33AA4j",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4GfuZyaRQxMtEFZDHeAVQiATqzTVB9eum6go6Uy4UT8yf6SwCT9kpUPhoazXuw1bELzpQ574pSqncKmnKubLiSjf",
+      "userId": 165643,
+      "nfNodeId": 1268,
+      "userSocketId": "VDo5t-GbgVHx-1JoAA4p",
+      "walletAddress": "7J1sMJmBgy816BNFnZPucqSBSH4CTmkvkANRHKNtFTGw"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4AtUyryZJRYgddQwvLfkGMs4ZYKW5LDeUQBNfjqwXeSDrCNyHmJJLMc8J9RBsvzykedRbyf6tmhZDE6YPysCTTVB",
+      "userId": 165678,
+      "nfNodeId": 1179,
+      "userSocketId": "75rk163NX72wbl1vAA6F",
+      "walletAddress": "5z6ddrqy3KTpT3K6nr1zQuU84FsY1gTmXtwwXyfe2iSb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4VyQUtZr9W1TFgDpgQKW7B6oiRPdt25EjXu7V5Z93fg9bfUJ9UX8zRSRTk1G8erCxNfoWmFWuL97k8JXU1ZZfseq",
+      "userId": 448990,
+      "nfNodeId": 1390,
+      "userSocketId": "s8yXEGQk_GlPAX6SABDb",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3yfef98n7nmccURJDeozAsjuCoGBZySCPZLrr6tqW34ZxwwHnGctrokVny9xt2aZPCTnb18zcp3TZ6ZDC22oKJ85",
+      "userId": 448990,
+      "nfNodeId": 1396,
+      "userSocketId": "BgIOXzYRMnS-sExTABDd",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2dmiwMCojgv8UdSDH3ZA9wvWLsfeNHWkaGR7pSAyQJgMWhqC8zYPXqe13eTk5XxdKwR7Zgj1nRkyvEiLth4kXp1",
+      "userId": 448990,
+      "nfNodeId": 1397,
+      "userSocketId": "nMmCulVEhIBbhUofABDf",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3f98iVruubkEDNJQFMbrJcaJ4XaHzjKDNPaAWVW96NKFnF3EK44rWs52p5E1erS8u68YfR5azgdLBcZBj7HtEKSV",
+      "userId": 448990,
+      "nfNodeId": 1424,
+      "userSocketId": "fJZ-VuVznG2O4nIxABDj",
+      "walletAddress": "FfZdjTRwsayBYEzctaKd7aPjjq4yKBMtWdEAtDCSFdv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4XRPiYLUjuUmbkunHseHaiSiXkmiEEuv7AUiXuPFdPpH2xANpJsFrEzXiwwT1YagtcqxHu4X6ebtHHsu3gNM9tx9",
+      "userId": 446812,
+      "nfNodeId": 840,
+      "userSocketId": "d6unxMMTde7mnyMCABG3",
+      "walletAddress": "8BZFttQNCeAPynf1Mv2dd9TAmCCtBfw8J7XjcTrgGpnh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4JErkXd4Fruum2eUuraavYjuFkmaLfsRWR9ddXki52EZ41pgGmm8cUPRnATCoszZxEVuv232Q9H8ifs1hFrUFFPM",
+      "userId": 447005,
+      "nfNodeId": 1089,
+      "userSocketId": "DH5lJg9jmDl1sZY-ABIq",
+      "walletAddress": "FXvtyG5an35ChbKYejgqLJMADJ84xMmE9xd4Agk7UQwB"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2q4VZoUG76NFLGGHmzRHWoJVf4wDGEMbzfWpzstMUYTmdJWsNsFe4yR4UuWeZPQsiKjQEFUiY82t5tLTVm64PcFi",
+      "userId": 446996,
+      "nfNodeId": 908,
+      "userSocketId": "dXp9uRB0Azmx0P4yABKX",
+      "walletAddress": "8ReH2PFwXuv6sruekKTYz5tjeitQwuRdf3UPQQzbq8QY"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "qS4C4f8sQDM8ZSovhJXavxbnyMQTcDcP3q37dP5TQZTgYgPyFveofSUKaYRbRHjanZPTmW6wUcLVgdQowqhkwWj",
+      "userId": 165678,
+      "nfNodeId": 1192,
+      "userSocketId": "qgRWtkfjw7RddWw6ABL1",
+      "walletAddress": "5z6ddrqy3KTpT3K6nr1zQuU84FsY1gTmXtwwXyfe2iSb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5kLYBhDh2Yd1YiLVvXYQKNV9Vb95uEV3Nqb4HS2FnTBcoGfxP9MCLbXKc1nsFczqNHXXZDF57AFnrPPrsvJaZasR",
+      "userId": 121934,
+      "nfNodeId": 868,
+      "userSocketId": "VvEVLfcNh6_BdLKOABPN",
+      "walletAddress": "X5ddgcmDgpu4qdvbBRWiUBnNnt3DX5bCBv2KoKD44pu"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4SF858BsrVcHxCmoH9PkVqNSU6YEJDEfYqSYvsFou4J1B8MdEdCgfjGhPB3JyQLmXUrG1sHMVj5sBGSMGynDgeQk",
+      "userId": 447068,
+      "nfNodeId": 946,
+      "userSocketId": "vgDr4rJ2gvwPC4wEABRA",
+      "walletAddress": "BeRneBJUhWHSPGbmwk8U6mYsqZYseYDF2rGQRNGqDCCe"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2qT8u7hx6XYQxhWtYt9BjWJeQ2kKSJY7BTxr7U2vdoWkje6ifR4zDEvzHdEesjvRf3Bp5rNzVPsbWUVwZCEeYihr",
+      "userId": 121934,
+      "nfNodeId": 948,
+      "userSocketId": "qd0TXVQj9wB-YciMABVs",
+      "walletAddress": "X5ddgcmDgpu4qdvbBRWiUBnNnt3DX5bCBv2KoKD44pu"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "46hbmB4H5GAJykksUMeyCxZsaPZp9Ls8A7p2NC1KueE3nH7Pmpd3PjuTLF3ZktTqRVZQh4zVADx337ic4MnbLKyQ",
+      "userId": 447141,
+      "nfNodeId": 1441,
+      "userSocketId": "paw_44uMYC-Ej6C2ABY-",
+      "walletAddress": "6n2uNhzzMTY9pkkuW2rK2gZ92rnG3Y2DXXKYm9sgdT7N"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5QAcM1nSC16jFHC11orxn7hZjobbbgjPdNCnNb2FH9W6BsGXppWZiDE4T34jp1fpJPuQZiNKaxeGxyNQu9Wzh25C",
+      "userId": 201497,
+      "nfNodeId": 1101,
+      "userSocketId": "_921RS4E116t7RSoABZK",
+      "walletAddress": "GYSoivMdBWrBMfgFPbF4y1jenq3er5Rwno5c9Kkx6S5g"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2yjgN2iqMUNcecAhrPCow6cW1nNwArzPGsJBBGKSpixJsvYV9Ju4iBSVZdioHBrxcQmAU1MrX2po9D89Wq4VvPaG",
+      "userId": 447141,
+      "nfNodeId": 1225,
+      "userSocketId": "ktN4lHrjLJoN_04JABbh",
+      "walletAddress": "6n2uNhzzMTY9pkkuW2rK2gZ92rnG3Y2DXXKYm9sgdT7N"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3vXj6UpAU7YZUDUWpzsJF1CTZ9JBZXuPTvC23hXKj7yK2JsmE6NepjP2LA2kQbofbffS3uyTaPzhovpxULCiboGn",
+      "userId": 46615,
+      "nfNodeId": 1066,
+      "userSocketId": "b0CyKyoakWePhJmkABb3",
+      "walletAddress": "AFPLUkGExESykQbcCwXPfNnBDFxyq9KPR9nT2DiCZutz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "wyVJ74FZzzKSCtcfs3YKjBKnsXHtUcUioctdZ1FxELc4VwpL7NmZVPxRPazHWr3NuHhoNyVGRb1RJ8KLQ8yaC1t",
+      "userId": 448622,
+      "nfNodeId": 1023,
+      "userSocketId": "3LuxbJ_BrmWQY6VXABdH",
+      "walletAddress": "7t43TVZUuFyaCcvQGgzXtVu15vVhMVxsvy5MHk4YsNyY"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "LE8tTMhj5FgmXYQRYxg5ctx4R9epA2ZeVtp1ixDRteGQXN14ri8dX26R8j2ZXZRhX5ejeeWG42PiLez179fo8kw",
+      "userId": 40329,
+      "nfNodeId": 1132,
+      "userSocketId": "-_qJzFJ68RdJgYQVABdl",
+      "walletAddress": "33bdt9Wg8WxmXhBg6iQQPUNwbbCsob2seGSw8EuZ6PKf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3mcXTpnFuFivPhjtpDHaoddFhu65kH5BJacQvQfmNh44ufMjfLBQQdkYJc3NKCpv3deeQ6L9ARLH3wAEJDmFsYEJ",
+      "userId": 40329,
+      "nfNodeId": 1131,
+      "userSocketId": "2l-YIvyBmfzSRsRTABdv",
+      "walletAddress": "33bdt9Wg8WxmXhBg6iQQPUNwbbCsob2seGSw8EuZ6PKf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2b5RjHaru3RrXQZb7ZBncazBVcxs4DuuXduDuyQiNbDbbPogjd69ZwkxSHP393T3qGEmRXZ1UqomAJiuEyF1bDWr",
+      "userId": 448622,
+      "nfNodeId": 1023,
+      "userSocketId": "S_18nFSJyBcn2nYnABe_",
+      "walletAddress": "7t43TVZUuFyaCcvQGgzXtVu15vVhMVxsvy5MHk4YsNyY"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5Xu9NJEtF1qFZyD9B4GJtVsgQoadWFHaiVtC4wHADiR7xUp4LYjtsyDtnds2S3tyL2qZ7nJ7k2U2ZmWQM2ypVYTx",
+      "userId": 6478,
+      "nfNodeId": 543,
+      "userSocketId": "_3aDGme7BA3CSqDwABgc",
+      "walletAddress": "DN5dNcJz7Mo5o5CwpBKmMyafZChjRrFyfwjT81kxn5JU"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4stGo1yViCtogdw9jnhbWz2cPRWNh1TraRjeSwvXBVakFosBGCoxekvinhJ7FfmSLnknQABaiaWcpuuTaSB7yzDi",
+      "userId": 442065,
+      "nfNodeId": 810,
+      "userSocketId": "05nDedX1bQ_Hnw0VABgt",
+      "walletAddress": "8Po6oPnL51VNKrywZNeFDWeBXEGsE3TzJj1uJdDR3edc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2LnUWtkCL1UT7z8NfhjW9aJ8tDsZ1aGVNFQGGjpGnNA4gf83rh2pZP4aFMFvdPqMaD2QsM83z1rLw56uZ41bPpPV",
+      "userId": 442065,
+      "nfNodeId": 1184,
+      "userSocketId": "iLqS4I15coDUmP6iABg4",
+      "walletAddress": "8Po6oPnL51VNKrywZNeFDWeBXEGsE3TzJj1uJdDR3edc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "d8feLGkSzTY28PGMVnid9JDc1bbAp6XJPVaZD14bWeBApn4AbEvk1he4nZ6DeoQBp1H2FafVydDBM6zdYfip1H7",
+      "userId": 450695,
+      "latitude": 25.969966599999992,
+      "nfNodeId": 1811,
+      "solPrice": "171.4800",
+      "longitude": -80.2354731,
+      "discountCode": "",
+      "userSocketId": "2rwdmkbJgEGY690GAAGA",
+      "walletAddress": "FrBqE6dD8krpQNwtS5RerAFGroYkhRHDtNQU8DptHirq"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2JC3yw1wiWNVotsKU72pdoscGWR6AmtP2GX37ERLftZj3PR5sf6JniXa7zkzvfQuJehx3PnHQKkjdu7q5rAX7XAG",
+      "userId": 446832,
+      "nfNodeId": 849,
+      "userSocketId": "bcIGOUxcyPvmNS04AAGM",
+      "walletAddress": "33MJJk1nZufDV4ugonqhA5qzprT2Qg1XfaxizBkvZUen"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2XiuhafWvr4tKbhBG7QYc3E1it26VPhphBEwqRgcv3T1HSDS5HF6bD4v1SVV7xjxEgqL4W8jZiLrxyGSwJN3q487",
+      "userId": 447147,
+      "nfNodeId": 1024,
+      "userSocketId": "GAlftBxH5MQ6tORDAAGo",
+      "walletAddress": "83w41hVFhZxd4ZdcVRvhZhfHHFRFXVJKEjiQCrfmPHZa"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "K3GoVhFTvvYWpmKrfXQV7rpfCUGpwbuu1bTFcxpKzuDKLhBUfxwedKdwoHsYPTFHChSyDDAUGf3B74XPq9sjn9w",
+      "userId": 186359,
+      "nfNodeId": 1093,
+      "userSocketId": "UkOI8d5sYz9G6b2KAAQm",
+      "walletAddress": "5w3fKJi8tngai2rndiB9vwUg4xwpHGnFmuFzW8ES7Kgz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2bQUZw3iZxCCeKcKnHjUmC4d3ctodtFcCyBp7XpcQGmwvkwCEMbUeD32TtHKkMtQEyXF2si3tL7x28bWogjtcE3X",
+      "userId": 447145,
+      "nfNodeId": 1093,
+      "userSocketId": "UoRmWW2DhZsCsBuZAAQ7",
+      "walletAddress": "5w3fKJi8tngai2rndiB9vwUg4xwpHGnFmuFzW8ES7Kgz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "giqHzNEvtYSj2kr7KsmYf5m6puRUJGTtfEvprYgL7UoARZ5aYKzF39JGsEXsSkZQCLtqP7RuJ7R4PbwkdhB1k4f",
+      "userId": 121927,
+      "nfNodeId": 1111,
+      "userSocketId": "3ZXRqOtKRt1D7OCvAAVS",
+      "walletAddress": "FHJR7w2LCKuBf8NgosY5kapDrQpPxcnpxkgWaUv4jiyb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "AWE2ZQky98wbFibLqXHyc9dwcqW23xz1J5mGUoUnQgjRXntZEtwfN2h6tSXmTsR5hsVdKYLDePUHr1hubhtj1pd",
+      "userId": 447930,
+      "nfNodeId": 1270,
+      "userSocketId": "X6dcnc2pYz7YSlniAAVa",
+      "walletAddress": "EHVE82b24tt6QUE9ZAt5Ta9zNe223hMzrE6X25SsWT86"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4NyXnwDpC4DNqZrtC47FtPGy84TdPWsnrmw272kFJTEvs2gWksCEhDVn3uuL3q8p4mAFEyRyEBAWfXd88RJH8aPn",
+      "userId": 447930,
+      "nfNodeId": 1229,
+      "userSocketId": "R5bjkf5jqQqEAa_3AAWP",
+      "walletAddress": "EHVE82b24tt6QUE9ZAt5Ta9zNe223hMzrE6X25SsWT86"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5C5kovAGGoXGtDrEMUVaymJndmpKiPNmStzcjH4iKE5SENe3vcX7ErhpuPH9M5j8PrPVKHM8Vh8m8xeJYgDjPZMm",
+      "userId": 447930,
+      "nfNodeId": 1246,
+      "userSocketId": "ThA0IP91eAXsmqQJAAWT",
+      "walletAddress": "EHVE82b24tt6QUE9ZAt5Ta9zNe223hMzrE6X25SsWT86"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4eSmBZcb4MFD9Jiim4WWZ1LZrb2jnb61PXcN4hR2juPhxeye4Eam5xcgaQFrSLyDbffKZ8LSidBWwDKmLFtxY9D2",
+      "userId": 447930,
+      "nfNodeId": 1246,
+      "userSocketId": "v5nPYuSK6fJUDW3nAAWl",
+      "walletAddress": "EHVE82b24tt6QUE9ZAt5Ta9zNe223hMzrE6X25SsWT86"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2DwpZ1cnGNxsvzpCmb8t4gn4BfcAPnLZzsW1TcLjqkeurAVSVA7czKVcdZsuy6XZu1LUXxkehjNhC9qXQoaHit97",
+      "userId": 447930,
+      "nfNodeId": 1246,
+      "userSocketId": "mJr5M_-_uQg6aKMFAAXr",
+      "walletAddress": "EHVE82b24tt6QUE9ZAt5Ta9zNe223hMzrE6X25SsWT86"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3cZFZZn4jGziBtj8KT5kpAtvT4uxTfCNQpFTTGTENRvj1bbTKPV57Ca4eo6ArhXoDrj7crGGdVLz6CQWaLYtocmY",
+      "userId": 121659,
+      "nfNodeId": 757,
+      "userSocketId": "TP0esS1Ho4qzxv5CAAah",
+      "walletAddress": "GU1RBgGvHbgWRQi6asNCoyAv1XoT5APCXiaM97L9VTuA"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2BoRu25fPe1nWYeCuVCcdjoLzCw2f2c2rymiahMWXjpYMwJLgzRnc7fCWLgt98ppRpUPEHqYgnDWGk1cPUF7Nj9g",
+      "userId": 121659,
+      "nfNodeId": 761,
+      "userSocketId": "znhukMA0mUeE6TmeAAa2",
+      "walletAddress": "GU1RBgGvHbgWRQi6asNCoyAv1XoT5APCXiaM97L9VTuA"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4fPVLNDCVjVDSuroXYYmmQGUGybcYt2P5vgDXon7oKKKgDguUvtDeyxqwHmcS4RerjnCKL8KCJHAto9PurcTGuRk",
+      "userId": 447023,
+      "nfNodeId": 1031,
+      "userSocketId": "hNi4jBIdvdIyzV2yAAbE",
+      "walletAddress": "GU1RBgGvHbgWRQi6asNCoyAv1XoT5APCXiaM97L9VTuA"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2JnvsqFd8tkSETihQmzneMSGyj3mRnUjEbVxCX5bD8KqCEnjwUb4gTDG4Gm3YPRm5kEn9kBmM576w8rU4prHk9nc",
+      "userId": 447149,
+      "nfNodeId": 1030,
+      "userSocketId": "0Bff8CuZ6RAopSVYAAc8",
+      "walletAddress": "Fh3yeU6J4B77zS8bv3tdzYHCfEG9T8iT1nHnRs59rR7P"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5sZSm9iMvXHVaX6ss5ubi4LJUR4FAr6sjaTrt4ZSg7mPPPNP4f59YuRYy7cTYreEDmPTreRfKtcekXykNbxNG8EL",
+      "userId": 446908,
+      "nfNodeId": 880,
+      "userSocketId": "peX78l4Oz-U-VEoqAAf3",
+      "walletAddress": "8Vy4d5hanDNp759gTtykz8j7MtmHvtRhkQPPGE4YBQRn"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "sFJqS635zNEsG1J3Yasgsa8K3MufTXWZJH4Wd6TpNoKqKSREmhYnruBVwY9a19acDofSz7DfuezzWi2iMC5Shbr",
+      "userId": 447425,
+      "nfNodeId": 1416,
+      "userSocketId": "uW-8SDvT9wosr_L8AAf_",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3gSgepGHjv3BCq4uHzLAjCwNyWUWPMVka3PrzprZ1xUdH3JhMtxfhrvb4jewRxU27tKZY5WEToBq4zxmevJk1cgq",
+      "userId": 447425,
+      "nfNodeId": 1415,
+      "userSocketId": "XX_Pg4gvz70MWVtBAAgm",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2XnunBQwLvEHTYsKuSyimiaRpb61Xaqn93yqCCSbKXbDmcep31ivytNkSweMn4nEoVd4u1R8d7PM2j15mUu1tcuM",
+      "userId": 447425,
+      "nfNodeId": 1403,
+      "userSocketId": "ljchYbJMA5WSHW-fAAhD",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2qeY2AoHVhoQQMHc6hso6H8shAaX6ucGCUHCZyugdCtzZeYqis74jWpqaJ1mHHNWBxGFgtvUHfp83rc9RVBgWVNV",
+      "userId": 447425,
+      "nfNodeId": 1394,
+      "userSocketId": "yP0W5WsoQVIqUinZAAiS",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2aDDhJsNE2tEvycU73x6v7UYejczrTXdn8xKQuq2Vit7JcCvE7F2mu22cVfTyGmVusUg6TNGYLNDrv787MFCJCdx",
+      "userId": 447425,
+      "nfNodeId": 1371,
+      "userSocketId": "jLnjYZG0cOA_2hd0AAjN",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "no2SWAe1KvcAJGj6ubYS3abvLzjTjWRqCAcN8ffZSwJXVQ5TbVxXn4R4NiewuDjbrJ5n8WzeviuF3B5QXhMgvKe",
+      "userId": 447425,
+      "nfNodeId": 1327,
+      "userSocketId": "8TkffSz9p5VnV8umAAjV",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3PLjNSQ2Y5XbLsFJWKddAfYXh2nQFkhcRpb1G7TtXzv5oUyc7rHkwmUP6iZ5uJezSeimkdgjp1LDzpcccBRmEkPq",
+      "userId": 436947,
+      "nfNodeId": 926,
+      "userSocketId": "FdZISSmEGyr0WA9lAAjd",
+      "walletAddress": "5HTwyA2CAAgnEriPpy9LgSxRGe36rWCbrxyBBmMnjJij"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4pHBjakFDo7ZjqQAJJE6dX4R2C5yD2UHs4ymSweALMPxCGWnGAsMCP51dGtpfUtqRhgCUngts2QozoDbSTaAxMo8",
+      "userId": 447425,
+      "nfNodeId": 1326,
+      "userSocketId": "8LFRTNYCssoP8VTVAAjz",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3xxz1CVYHAxBF1UHDSdBNX1Q4LBaoiKJcMwggPTjWAEe4K4CDp8uwJGh68g15pQ3HWGGpRfZYX5UYxxrwrahsLAg",
+      "userId": 447425,
+      "nfNodeId": 1326,
+      "userSocketId": "HsbwdrrEtn9riqzYAAj_",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2JSR15NhiK6cRLyVPCXR1uN3dWsVRCYusXtBZ71pfmAfsgfWktvextZX9zKqjrWZ4dky4kDUkRJ2cBnrhmWwULCm",
+      "userId": 162773,
+      "nfNodeId": 1183,
+      "userSocketId": "MHrYHWK2vecEhTNWAAlH",
+      "walletAddress": "7Mv4nsi7opUwZ3DRjWu3RzDvz5SvUUeTjqRLgTng7Kzf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4JHQsaDnyGiQ5acUcS71MyRJHkWypgVe5S23NKxbfSPf2mujLSANi8s9BKwu5aCviSCD2cKNiYsh3rSymfUFScE7",
+      "userId": 447425,
+      "nfNodeId": 1305,
+      "userSocketId": "FTnQ07mAP1rpN0gwAAlX",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5FWVJJktpMupNEJSVm83699YuDHdApEDPfuD2agc6GQAA8pLP7jLiKsigBGFQX1keKc9vuhgCGowJHhATgDgb34C",
+      "userId": 447425,
+      "nfNodeId": 1317,
+      "userSocketId": "gbOPgZliN5eV-BLvAAmx",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "25YUpcsJDdusscMFcZDa6UtMWGQU8vbrR835AtNAyjSzizyQFtWKkG37kAhxoh2tShFmsW8FciPxnXWpDWmmeCUW",
+      "userId": 436924,
+      "nfNodeId": 932,
+      "userSocketId": "2W6TXelcU4xpFM2mAAq6",
+      "walletAddress": "6FFb8ZywQ6sp6Z9as58DjUcvCRXJmAA6r51vz6vQEroa"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3LWQicUNCXkoVBDnJbo1uLWgZdo6fqHa9waQFnAWKu7jmEupYxa3erxZYfEqEjfS9FRnAUY2QUVopzAWNoLJPzMM",
+      "userId": 158709,
+      "nfNodeId": 882,
+      "userSocketId": "iXOEkAOWWvOLi-ZPAAt0",
+      "walletAddress": "EN3ZsuELEMyw9uBHzrKv8izar4dsNW2Zij43Qtuiga26"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "NuDGuxGTtkpb5xhDGFYeroS3VAn9SQ6xx21iRBPJAtmk4EPWLNQKK9xjeA8Pno7AeccYMvYPLLp79qpHr6tu926",
+      "userId": 158709,
+      "nfNodeId": 882,
+      "userSocketId": "h8yKPO2nZadokjPCAAuC",
+      "walletAddress": "EN3ZsuELEMyw9uBHzrKv8izar4dsNW2Zij43Qtuiga26"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "44qFRCs592xXcJY724fedARqVoMBF2akLnnuxFhJeQqkFtsZoLZKR252WLdJotRh12UWDsKB8opVqxPatCiZbhUX",
+      "userId": 158709,
+      "nfNodeId": 944,
+      "userSocketId": "miIBbwYEN1qfW8EaAAuK",
+      "walletAddress": "EN3ZsuELEMyw9uBHzrKv8izar4dsNW2Zij43Qtuiga26"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5hYSb3MDM31W5cCE1wbdRd6DJyesPWX3J7poeGd4SMPfYPdhvuceTzTYGSdEsTKfnmyoavUcrSKsr4K5CsFFvyw4",
+      "userId": 446956,
+      "nfNodeId": 1114,
+      "userSocketId": "uk1eev9HZRWpYgWkAAww",
+      "walletAddress": "CLpPKve2jaR98bU1S3pjgtciK1N9LnwPLVtoX2A8gfNh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4AxNbbc16N9eChoYcF1yYWSNPnb4rLtHmWZwwetyP7NxTZ53vrBXJXFcKULKeVbLHCLBSxH55YCny3Wqn5zk1yBS",
+      "userId": 446956,
+      "nfNodeId": 1090,
+      "userSocketId": "3ZvDecNcGDxURgOVAAw0",
+      "walletAddress": "CLpPKve2jaR98bU1S3pjgtciK1N9LnwPLVtoX2A8gfNh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3sH5Lb9t5RrCZrq8UzLhpak7iTeePVSfH4QsFiZjSLTrXBJq2ZCC1BTaTXZMkdoqDxrq3pLnHL2qJ6scVm5wfxoK",
+      "userId": 446956,
+      "nfNodeId": 891,
+      "userSocketId": "jaXu8LBqka3AdE3nAAxA",
+      "walletAddress": "CLpPKve2jaR98bU1S3pjgtciK1N9LnwPLVtoX2A8gfNh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "35AYtZ9GRuMiEFoJisub4F75fNGkLpM6hHq2bQfbjD6V8QqE599LKNxRMpuYHvo6vgbqDSLPgmW3j9kDFaiM7eHd",
+      "userId": 447425,
+      "nfNodeId": 1177,
+      "userSocketId": "_a3GnyyF6A3rAXVdAAxG",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4z5JmwD9Z3Q95Bm4PF8ofTB9ZoCKhr6SwbfePHtV8gtALUhqWdvx1UvaduFr8YzzNFNg8BnSWNW6aDBSYet2vx6q",
+      "userId": 447425,
+      "nfNodeId": 1152,
+      "userSocketId": "P2LfdNP-LUXDOnlPAAxU",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4LN3tnb4r54y6vH7KCoBrGNx86f742Tw597aSoYnCRBoGS5ALV4qcaiA6Ny5xLvyQ4VC9hW4oXAcPfUzCTKTTWv2",
+      "userId": 447677,
+      "nfNodeId": 1364,
+      "userSocketId": "UtKLQcj2sei8eNPkAA1F",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "VMDCWSyhQm9cnk1PGKKsWmiygDN4pnXCwADUfbjEJLSiGq7nUt9GwSw79FoaU7wj4oXzutmGQE1DJHWKpEU5B7S",
+      "userId": 447677,
+      "nfNodeId": 1360,
+      "userSocketId": "UtKLQcj2sei8eNPkAA1F",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5yX3fYrcrTDYTKeEA6CYJ1zUwKQeJpUnHFurSirXAQzp8vKaFEqxRvNFua1r9xh95fsCQmcavJoL5mo3WLfKztuF",
+      "userId": 447677,
+      "nfNodeId": 1352,
+      "userSocketId": "Bmr4wV5WvaJzUmaaAA1L",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3G8WeJ9T5ZXf7ka2U34imighmGMHFsBryjXsQ5uCLeSCuWbigaQgVudKwScBRr7PckG6E2hnJboR44Pq3JqLjJGy",
+      "userId": 447677,
+      "nfNodeId": 1352,
+      "userSocketId": "Bmr4wV5WvaJzUmaaAA1L",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "45hvaPQnAD2sL6CTEXvsut9dw8KXm6xidibh5z4AEcvHLApTjn3vaPaMEBGmpemT1o4YV9PeZjX9UUPya6kCHsFB",
+      "userId": 447677,
+      "nfNodeId": 1351,
+      "userSocketId": "witk_fgKruzt_sRLAA1T",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "MsMBiAGtDSGTFPo3HMRbdmj2v3WiaGWQWTsZHidhD5371JoerJEE6AuzDDRzd4EkfiuoFYykHL4LfY5xJG8TJJd",
+      "userId": 447677,
+      "nfNodeId": 1350,
+      "userSocketId": "HmWgbGbaT46XsfwsAA1c",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5VMb95D2JpG6JnxuhSinsJztZjNVgQP1VHKLkKwPqFUDug4m3hRUPBUqkAVE2dwK2veyE23Zg8a8UZcN924pU3oA",
+      "userId": 447677,
+      "nfNodeId": 1244,
+      "userSocketId": "-Fru9sevZRcbx3NhAA1i",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5BFd5JAjrX1aRYhmnkQ9Hfrc7SdonpurQ6WSCPrt2nXT5TcvkWpufNGWNN98z9zvYuqM4x6r4SkD19U5UD7aRq1q",
+      "userId": 447677,
+      "nfNodeId": 1336,
+      "userSocketId": "-Fru9sevZRcbx3NhAA1i",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3azQrSJFGHkJ1DTrtHExJR1e5K2tNhNHreP2FwpHSZ416zcc4wtJ66ThKtgXmiZD6TBADQoCwPjUPpvru5sELzzM",
+      "userId": 447677,
+      "nfNodeId": 1349,
+      "userSocketId": "k85S1dgH9g2Rc67jAA1s",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4PRAWSW1ZHryRqVEuV5iaSTHBhKiNru6oY25hbvvDsn9i9Hrjr2A3ivLVRNPcMeMWuKk4mEvKbReij2NHz2eVJcX",
+      "userId": 447677,
+      "nfNodeId": 1349,
+      "userSocketId": "iiQSRyxJILxcjbxsAA12",
+      "walletAddress": "57sKVjoEqaDqP4bgKnZy1jrcs6jNCqYRLdA7ZH1c7fm4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "67XMLJgu5K8tTGGmstRZ5j4zkVo7mswJ1ePFi1wNSRBYdvoYn22y5BrMVyM3Z1o65VbQ3nC5YVrHLH9rA8B5oRWY",
+      "userId": 135182,
+      "nfNodeId": 1079,
+      "userSocketId": "XAvlUSth9v0wAqEoAA2i",
+      "walletAddress": "9zQg1RG5jz6RfgmNXoUHDsHNVXnUu13EpLMyjECwWBfE"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2g8J4WsiKhQJG7AFB6sjB2Qv6F2kf9gXx4vWQZHp3ViVzeXP7tigdbPRyWopss3GAjwbJGgRBTcTyYpeCJRfEueg",
+      "userId": 446819,
+      "nfNodeId": 853,
+      "userSocketId": "ss3SCJqfl8TY6L7MAA7y",
+      "walletAddress": "95hFvDpazMsutTQW76bTTizj6WXNT7SoiGPhhpascvP4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "34Nd1VJdvFXxoREVQBfdB9h584Ka9519PSvnetF5iLwRjyk2URZMvbutrveXpiycQJsBB8fr692tFfZBFsDywjF8",
+      "userId": 447466,
+      "nfNodeId": 1153,
+      "userSocketId": "Io0R43eI5J2SjHW0AA96",
+      "walletAddress": "FVXkuSuaJkaGTEVNFeKaewgQkUd6povtbo354aKYfmSo"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2W9rerBnBmNQ5Jvd9YazV6kj3wNrd1qSHb95TaCD9yWkzYBWzBt6jpNPft9UYiZBhAEEXAkaZ5YZ3iMqNt7bgvs5",
+      "userId": 447108,
+      "nfNodeId": 1134,
+      "userSocketId": "pVM_uftLSMyXgnyIABBB",
+      "walletAddress": "2UMBrL9kBzesio5WLA6JBsZNtUzKMQETy61y2iA7L3fW"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "Su9XuYZW4D7QvYnbpC1vemSvnq8x6YvCRHg7KzEDHJcSK7mVm1L58XxdPxvFthpSuJh93Pu39MhnJ8s6h9X3MaE",
+      "userId": 447091,
+      "nfNodeId": 964,
+      "userSocketId": "P_xFNCmJ8XFXa2JkABCR",
+      "walletAddress": "DfbJ9CuNoxexCWxmdr93aDjF7FMB7uMSYyN3s6cAy2zR"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3jfc9VxfdW71K6vz3B9oWAb6N9tivEEwxKw47MPpBDeTaMJnoAd2B7FNTxHFzC9HXzMEeP9xMoojHb9vp6nEPGDS",
+      "userId": 447425,
+      "nfNodeId": 1195,
+      "userSocketId": "N3cEwlRqN09CYtoAABGv",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4veEJzWiuYpVcofkTtE7kzQ4gbj1LyXt6R2KKsM2XSqTgHc5iBx1ZyKJLujRTuqgPDiQmewxXgjfCpVzfykQh3mv",
+      "userId": 447444,
+      "nfNodeId": 1417,
+      "userSocketId": "-hpSScnFMqix-fiSABLZ",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3TkkuJrU2L5uUSTzxpHSrXagf8YrqHcezrW6Ht8koxL22K11UL3RcTNiVLj119mcSHDQwg46PgFHnMzZD8t8Loem",
+      "userId": 447444,
+      "nfNodeId": 1150,
+      "userSocketId": "HCUTOZnN4yQo2lkNABLz",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4VW534a8YUNmXsYUZAiU8fixi192EtdFMbSVpEGeFDxZg6NQPnpHnmNB45B4cWsidCeaBZ4kxUhZeMXsjNvPsZcF",
+      "userId": 447444,
+      "nfNodeId": 1150,
+      "userSocketId": "XojZHcKVdm_FygcqABL5",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5wpXod4mwJ3ZQDCcNAYErVYqwZWnaRtgGXpAm3vL8Rb7HdNYz6bnQUUNS3peFnuwZiHgGRRaJEwyzGcHi2uQMv4M",
+      "userId": 447202,
+      "nfNodeId": 1058,
+      "userSocketId": "X6pa1B1QHbaOsXezABON",
+      "walletAddress": "F6s7K6QXtRuHK9vTtuDscDYr8TMw93jt4rE9sVD3ahDC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4zH1St3daj6xuCWzysBfs8YKy2rXyyPmNJEejgYCvuwhNGMQykzeSQBkVrUhkYnm6ZCoA8DTPBzLsNYWJwPVarVh",
+      "userId": 450299,
+      "latitude": 48.6324702,
+      "nfNodeId": 1812,
+      "solPrice": "173.9600",
+      "longitude": 1.8310282,
+      "discountCode": "",
+      "userSocketId": "hJgYSfVtZYW9WLpAABOR",
+      "walletAddress": "4NueVGmfia88T1JUHh3vZZYj4UW5v49ez16NovqwcfJ5"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "3skGEQW5raZZJs3tdyT3FR5sj7Vijs8FG34RWBKDfuSRraCPryeVVL3LQgYSEEV6w3iMciht9PAXuhkau13GHWwC",
+      "userId": 163818,
+      "nfNodeId": 1361,
+      "userSocketId": "pRCNSR3wOxD6tbWcABR5",
+      "walletAddress": "A3BfGif9gtUZAjDPdaXSJVQjCU4b383pC3vbwRDAdn9w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2mvK7sVu1yS9Sqp5X7gK2VaaXWAzZb6JdW2bWJSL81py3qyngppPVAmsbKChW4D3dVYePmmz6DYgH4KW6e31mdK2",
+      "userId": 163818,
+      "nfNodeId": 1402,
+      "userSocketId": "FL6uyKrujQUNfahxABXm",
+      "walletAddress": "A3BfGif9gtUZAjDPdaXSJVQjCU4b383pC3vbwRDAdn9w"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "z2qbYoBQe4cbr8NUcsfKJcZt77BiSnAoKoT4CpkcuR9jWF1Qtq64VcWvJXNy2MavEAVr77B9wBig28x5Hf2xZhC",
+      "userId": 447651,
+      "nfNodeId": 1282,
+      "userSocketId": "71CWN3rZ8uCA78YjABX6",
+      "walletAddress": "9YD99AMaQDcnyBgmfW9D6JdVecNvUxzLdfgHfD7nBojP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2XS56fVZsjtMD9D9A5Qyr9CzkxDfBiJiphQ5UaehrzK3duWYqB34gktLmDbYMMveY39xzeux5WdPQ5uWmvTFvzs9",
+      "userId": 447651,
+      "nfNodeId": 1277,
+      "userSocketId": "3QeSUyFS6Vg9fTJ5ABYC",
+      "walletAddress": "9YD99AMaQDcnyBgmfW9D6JdVecNvUxzLdfgHfD7nBojP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "TFdwZhxWUGMXy9Mgzw113JwbLwqEKFD859y1U1rXicFrApEcGNXsErvR9ZyfmLXo1FeJVV1Fx9VPXFFMKNSqWB2",
+      "userId": 40267,
+      "nfNodeId": 540,
+      "userSocketId": "FhG-grgtmjS6Rm2lABmW",
+      "walletAddress": "EEhaF1sbr3epa4aHqHo1iSJsGkQCFXn48XdMSaiLsmpe"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "47ebozksGeDL2LEFVJyxgj2DKoe9nzfne5qvWWQrLYqBGhFtc9RFQmFrsf6KDUQUYQ2n3PUYNDFEQGd4g9hkPpSX",
+      "userId": 436916,
+      "nfNodeId": 793,
+      "userSocketId": "8r5QYvNGo-aApvUKABm-",
+      "walletAddress": "ARg4ihUqiMiFkHQ81rhkA1e2gyGRNjtcx5pcHi5nD9Vz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5TpJtXSyFvuuG7LpeFA5Noy7Qt4YBZPzmLYVA1Z8e3WMjML2189p3JrEupK2SHbaV2pt5miJkAHnxkCJUPxGp2Ay",
+      "userId": 153365,
+      "nfNodeId": 931,
+      "userSocketId": "XMHM21AlkrIW3uTtABqZ",
+      "walletAddress": "HY9ztzimVYNJR5uYWMrNAjVqYEqMzYXL7JESZVBGc9Wy"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "265Wzaz7fdgMMAWSB1zKbY77hM4A9LmFVdSizYeEBD28fqDWPC2pKWkXNiHRkBzn5ea2Xxy3tV8rDQ7oCJ9DmUgB",
+      "userId": 155588,
+      "nfNodeId": 869,
+      "userSocketId": "ONEvuUjdF-BFwzAXAB_g",
+      "walletAddress": "7GHhBFR7UWTXH6mjX9nnWTuhb1MwDj7BkofxWmPCVpET"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4RNNfDzWVXHh912gL7BzHwbMTpJYL2nCgXFYjQ5tfRzgquVetcimiYEijVPuHoxwWTZBw6N3ySNC1jx9MRQcHf3j",
+      "userId": 447723,
+      "nfNodeId": 1198,
+      "userSocketId": "q4cMTSTW7FMNraGGABun",
+      "walletAddress": "CaS9P5aircWdRN7VtDxqH5RVc4vvtMBTTeAZqqxLXnhb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "67HDJ8DYWTdhgdaqbG26ZvaJkdxC6W4PAy3TPZuvi1Pa3JArLV5KXuVjsqr8ZtiyuzYdsj2GiQqFCCxBi7vsbQUe",
+      "userId": 447156,
+      "nfNodeId": 1033,
+      "userSocketId": "4yK_GlKhGyWugvGuACJy",
+      "walletAddress": "J6UWPdfztpT2mJiqL1nEys4Zi8nChrwRwFC6X8pG8Kp9"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3uqpXqYBNzx9kQFZ4wej1LX5yfX7oZTvF3vUbs3KYiJ2xZPWw6kAShfZyPxyT2WHvT6yA87uXpK3j7Z3hoWo1nn8",
+      "userId": 450118,
+      "latitude": 51.531023,
+      "nfNodeId": 1813,
+      "solPrice": "173.1300",
+      "longitude": 6.9304782,
+      "discountCode": "",
+      "userSocketId": "RJSOcqCXFQvnpTRNACM5",
+      "walletAddress": "C1GQRdz49uwvzWRiSTHZtJsWr19SK6jyjPuszhuGHMLE"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "d7qvT7G2homR8SSk8TUJkbaFTK2dngi1Cjf56ZzMX1xHm2LGdanEkdbNdRkKbxfS2Qr2tJNWt4hWAxhJKWLshB8",
+      "userId": 448073,
+      "nfNodeId": 1257,
+      "userSocketId": "_4ue2cL2v9Ph7T6RACNy",
+      "walletAddress": "8YN1ZWmYeGo5TKNDfnxd9dTkW6mG3JXmKwwcXp3ajLvx"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4wtCfRJwGezjnzqcFLzf5xYbBZenQSHuT8gQVg42AjgGeopCNRyzX8NHTrHhiFMHpiDKm4XqRT7asnVR3P8YeEGp",
+      "userId": 447974,
+      "nfNodeId": 1291,
+      "userSocketId": "6Boa5HIk5HfkDStUACZA",
+      "walletAddress": "48z9CrqsXxysuVPDYDvDEi5rJBsD3i6gzctJy2kpZf3N"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "UNDGsiuHZXAgZoBRqkLUQuedWUC78kWBmjLn5TZqVH368a9XBtewGaZKn1STdeePoyhsZqo1JUtDuLVnCYHmPZm",
+      "userId": 447974,
+      "nfNodeId": 1310,
+      "userSocketId": "-oYUrsQYSQyqj5qrACZO",
+      "walletAddress": "48z9CrqsXxysuVPDYDvDEi5rJBsD3i6gzctJy2kpZf3N"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "53uLX9kmuiDx3WZPV6By4hFUfsjwGoPNJNGp4j4svoXeLaDaHttJz57qm3pKWZ3JA5XSGaszE3xyiqUNHL2EyNEt",
+      "userId": 447974,
+      "nfNodeId": 1309,
+      "userSocketId": "Z2b8w0M-UtpjssVuACZa",
+      "walletAddress": "48z9CrqsXxysuVPDYDvDEi5rJBsD3i6gzctJy2kpZf3N"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "cW4LqESbG92WmYVd3qQmqWBnCpPmPXHHcJg3jjkmwuzHxKSfZGw9AbGU6ShvDfcwB4iHsCGxTmCkbDp1Zh395h8",
+      "userId": 447444,
+      "nfNodeId": 1206,
+      "userSocketId": "vIPbazoxhW7VYofvACn4",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2Latgna27puos4usjdkHmSrCN98XC6TRAs4QQGCrKBSE1Gygsuir4jG7y7JUP3LX2sf9MiVqh1NHpWicpsfdpjN5",
+      "userId": 447444,
+      "nfNodeId": 1216,
+      "userSocketId": "BsattX8o8FqVfzVHACoQ",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5qhGwTAb5pYGwgHaRcb6g611mdgEQfGE2Qddh2AjfhG7KeYKbShLssB684TqJ3W6X4SsAnk99cRTssWuqgC8N8HS",
+      "userId": 448201,
+      "nfNodeId": 1276,
+      "userSocketId": "rzZWWJDCOqFVRwp8ACpu",
+      "walletAddress": "98PM1Qd81dRpybEvrrYR1EHSw91bwQuJRAH37yN4xGJ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "64B92vot1LrsAjW7f3Qva2Eqn1D5gsoGTqyExXCfWb1EgCGe3LkDTXRSaCQ1ECRrottyuA5cVNBB8eUmBNqnCTt6",
+      "userId": 447189,
+      "nfNodeId": 1059,
+      "userSocketId": "raYrOpje__t7QOJmAC7_",
+      "walletAddress": "5iRjNRdpuJvY6TG8oPPE7jnr1To5PUEGPb97KatsZLgb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4wz3WRiEMubMPpmxtk77ukchFbmMi1A9mEeXvnvoB2VBYNwWSMv19yLjYbF3ApX88fAx1g9WkYSF1nRB1GKoXeB1",
+      "userId": 447223,
+      "nfNodeId": 1068,
+      "userSocketId": "2mIjvTypMF3MFFGaAACa",
+      "walletAddress": "7B4SpiGMiXQUJMNmigX6993TNgCyn187u4XSwqaSuqFq"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "35N3mLHyfG3EV1m3zcJ1pcGHM8ygiSqMxkkYi9jevFFegxB9pJCrSmWALTB4GPeAm3TKzXSECxjSqX2eGmcFDrzR",
+      "userId": 448362,
+      "nfNodeId": 1421,
+      "userSocketId": "5EwSlpYvV6aQjeZqAALW",
+      "walletAddress": "6e7Gy8NVw3dBPVzR2aAXhEy3TcsFpAjkEwVWD2L6TAPm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2TDcA7te4rJGA32TAD66Gezm5qjdreRBFWEyg3HSK9dSe6rChcTE2LpQn4ch1VYGekJNYYKtCnJAJf9t3CfMFV63",
+      "userId": 448362,
+      "nfNodeId": 1325,
+      "userSocketId": "zE1hj9KtPMq7el4eAALg",
+      "walletAddress": "6e7Gy8NVw3dBPVzR2aAXhEy3TcsFpAjkEwVWD2L6TAPm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5iybMWCT1uV8MhwVqMirkkWP95u45hDjRfeFgwVHdqTSguLbkqw45qqqN5L38TJf3gWG3WovisfjVsuAcbV5uEBP",
+      "userId": 121525,
+      "nfNodeId": 1029,
+      "userSocketId": "hYJUXR3Z1fIUAcw1AARR",
+      "walletAddress": "CWjcbF3trtsABVuLog3kSZA2oLKLemzEqYinPwggnvDx"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "479TbB8rSwPf4LorJz1aXRnhfiLrDBuwRdNNgL4cTRVfTMibzTApLzajay1hwxExdaGHtFz4tJ8CeTix7cnUbtzJ",
+      "userId": 446744,
+      "nfNodeId": 809,
+      "userSocketId": "Zk6nuHv-1nk_p5XsAATn",
+      "walletAddress": "bfGQUU2N8XoNaz2UjAayRWP5D9QCjrgjNSe3GwHWhdt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "wHM3teJQVGuVKckChkHybJwHxdMxRSLAaGjcp7eWn5Ut7D1UCe9XaACkakJMsfwHP5XW9cypa7e8k2dvQ82YYhP",
+      "userId": 121749,
+      "nfNodeId": 776,
+      "userSocketId": "pVoIGJC1D8dtatQ2AAUL",
+      "walletAddress": "He85CZKWfnUrDNZgnLHVmssabxdH5MPBey1kbhixCFBh"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4c4Hn5NSNr1sf59cgtvQFTRJhEXTKxBNyNJq1ohwqs82e9ba6gKQkhd5izjGX89hKzw9aAnRbE9bovxdgrKUuUsN",
+      "userId": 447211,
+      "nfNodeId": 1064,
+      "userSocketId": "cDVku6HSOiCUGVjKAAaQ",
+      "walletAddress": "3H3eEQn3PrJdUMEfLa8BD5geSC2mK2DpKd6uVqJQG4VX"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "298Bv5yPmWqxjWLsQMueqKo55jUP9Vb8HzFiWAdrCdVueTYVaoE4c9txwQqYTPEBvXFJkCmQ2RxW7xb8Pq4nB9WQ",
+      "userId": 447444,
+      "nfNodeId": 1273,
+      "userSocketId": "mhe4tnsDFqtr9AKXAAdy",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5h8xN6fFwqvYYErafgabsC69wbiNRpB4Rw4kbAFv6nTk5YkX4Xdi98Jc2zEqhpbemXnPYtxPu2weqh31D6YyTH3V",
+      "userId": 447444,
+      "nfNodeId": 1292,
+      "userSocketId": "Fwfm1CTd_SU9n0_dAAd8",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4KBmyPH9aQAYiaqTNQCMxcB3fXHzZ4xdbgCbzZwE5ZwzLStbi1YkfzhS1eyRyjp5CKMLaMRuG8GjWuA7aWUkJcmo",
+      "userId": 447444,
+      "nfNodeId": 1314,
+      "userSocketId": "S0C9hrGD0dt8uobRAAeK",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "45nDwDkdrySHcR5G5KJR1EiBCQ2ZP8C86qLFeexqMsFTQY3zMfGEAKbBLpSbY98MeNVT5uwZjgN9rfshYnVtrSsU",
+      "userId": 447444,
+      "nfNodeId": 1347,
+      "userSocketId": "WIrSCTOVUE_cJsntAAe6",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "KquAoK6TfGNf3sjE7v8fGZqPfgEc7LgssXZnkk5fj5ftoW1Zk29UmuLG3ph7a3q6f2zMuwYtrDLnLPEidWKjYnk",
+      "userId": 121789,
+      "nfNodeId": 850,
+      "userSocketId": "3ph09WkK9OvYqusGAAjp",
+      "walletAddress": "CagE1Esu2cchPPK5xhXLFf6aykifxzfhCvM6xXQNqPF5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2pGV7EanaxPz15bfWyWzjnGTUH2zX8sYvopxbjXSHYups6R9p5sDJfyx3GwYY8UCdidAWF1Pf1Qvye6A5ai84Gve",
+      "userId": 75022,
+      "nfNodeId": 832,
+      "userSocketId": "4saMfiZh25LvmAzNAAud",
+      "walletAddress": "CKRVjUBQYfAm4YjM7podhTmJQmfczjEv7XpDG9aVCt7x"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2CgE94SbvxpL4aQ7KiS2CHbdGKbd341xNRJ2zuevRXb5KcRfgoPs7w9wgaT3YQTwbdCxnJK9tMoHniedkeHvPdRE",
+      "userId": 447288,
+      "nfNodeId": 1098,
+      "userSocketId": "z4-sPDfVIdmO1RhQAA2l",
+      "walletAddress": "HFk8fFJkw1bUYrf5dfbiPM2AwAcspt4U6XCwDkXboMKz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3LFMC9uB5Lgv5UkiYf3wBW1enV61QVstnZjkgY22ykZmMwriLRvfHeTg2oQkLpoeetGz9XSqbLD9vyvVAb3pcvbs",
+      "userId": 447444,
+      "nfNodeId": 1392,
+      "userSocketId": "rVJIlOYdVi8sESLxAA2t",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ZAZot5VGMkS4woKCZh6cradhCQWE98kpsd9S7uih2zpia7H3jUxaghMPsLRvs7w1ie1BVCdNK2x5NwHrXeKzaQ6",
+      "userId": 447444,
+      "nfNodeId": 1395,
+      "userSocketId": "gGLRWzLHs2b4CXWdAA3D",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "KKwHB9P9sNgeis3CthyMxSM1zw2Wm65gG7DFKEKgKQ96p3E2A3pSavLAV5hUSbcByr3twifHAUw2xY76tX5kLeA",
+      "userId": 447444,
+      "nfNodeId": 1412,
+      "userSocketId": "-mYvzvtyZ2n6UuIPAA30",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "52Zkc46t55xrAAMArm2A3aQjRdftAvnheUNXMMwRTVUQedADEmqEXJ65K24nuzNcrJYLf3YPgGZgRufuXmukv2Qx",
+      "userId": 447444,
+      "nfNodeId": 1413,
+      "userSocketId": "Mkunu9DyCptF694bAA3_",
+      "walletAddress": "2ycq7ZG4MN4dQuPic7H4NejtLPojNPfSGD85TX2JynAz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "rtfNSqL8Lkxey4K74jNNAWR9yBsc4NPpd4z5PJFYmmLL9KnPdLr95gDZSxnA8AWKagrraqMWL4PEuhgA3s2Ftnh",
+      "userId": 450433,
+      "latitude": 53.182623,
+      "nfNodeId": 1814,
+      "solPrice": "173.1900",
+      "longitude": -2.538335,
+      "discountCode": "",
+      "userSocketId": "a1zuksDrd6E1S3RZAA_X",
+      "walletAddress": "3N1gbia7CDd2thfz4kzaWzbrqcsuGyS3YZmgpR1SD1uG"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5NsKSH7s1vGWdut9Q9FGWMzNN6PCrwpuF5dmU8xpditH2CWVWQ5kzv9mBxAGopnF27ZLbaztnxu3CFKvEopVRpVy",
+      "userId": 447739,
+      "nfNodeId": 1377,
+      "userSocketId": "eNMXdKEWu_j_g39MAA_h",
+      "walletAddress": "7mSaZbuuxZQB8112UDw9EuPj3NqR71s8tFSvNbyayUi1"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "946zFMjn9wHWR62VUVv5u93TFzwCSt1UWVWA16N1Bf34ggfUby1iLLuSNho3FkgZbbj8Cj3BFJ2u3KGJMXut4zt",
+      "userId": 446842,
+      "latitude": 40.5388627,
+      "nfNodeId": 1815,
+      "solPrice": "172.4600",
+      "longitude": -123.164579,
+      "discountCode": "",
+      "userSocketId": "4mhdHmh7DIvL8WbIABPA",
+      "walletAddress": "7xXibNZxwFbatuep3CREgayMBS8CUmAMtoZdb3NDQfus"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5MKDTXaB2ARKFBC66tsjJCuXMnsEF3gGhDqUMXtrdB6MPDFyD7JYg2nbFqtpPKD597sEMDeT1cJZTJquwb2Mqubb",
+      "userId": 447876,
+      "nfNodeId": 1228,
+      "userSocketId": "gO7XwhYlPNLQcCD6ABSd",
+      "walletAddress": "CRnApe1oqtRejRcgTriTCPzHL2LYvVHwQmNKuuhqtNp7"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2bPMMRrpFHtyFPKsPTTrSwgnyAKiuKtkx6xXtT4UDTh2Jx3ZjU2FYKZoeXDJ9CnwVsYGMfmGMtu94FVRYRma2EqT",
+      "userId": 121665,
+      "nfNodeId": 895,
+      "userSocketId": "RnwA5TSuAgOZnT-hABUT",
+      "walletAddress": "HtrMJCeRSK8bqHyA7kVPtEQZVbUn8FgeWpeUF3PAnmQ3"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4jEVwpFrjxUADcxRVUsVt1V8prYjqTdQpPKxuLQNAbKV1517HfAki7zvr9oCEfJC9VwPHXBWmJokkwh8263rFBV7",
+      "userId": 447066,
+      "nfNodeId": 1055,
+      "userSocketId": "owqb5f4jIO_T-JJSAABK",
+      "walletAddress": "HRFDE2KHi5YD6R2WjB4Shog7ztmhJVq91YkkPbF6rvaJ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "362Dk76Hwf29ra3cbyLjUSnUcaH6rVHCFHEUqgY4HfP573pwf728XwM6sbJwZDXrvzqzm7un2HuKkxY4fDy56JRk",
+      "userId": 293027,
+      "nfNodeId": 943,
+      "userSocketId": "c4P7ghAkL93xiLKbAAFK",
+      "walletAddress": "Fq2tQkDufDBfRFTkarwBKuGCpeojeSLXbfpW83pubidJ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2kJJjDoBnvP4fddXTjoRhXUs3dFhBsyy3Vwu8YAtv2Fi7qWgMkAHzsqvAW8mRcHf3UV3rcW4jg9oT5CLFaM8LyJb",
+      "userId": 447127,
+      "nfNodeId": 998,
+      "userSocketId": "UIa1x_SbkqOqcmy1AAHC",
+      "walletAddress": "GkqCkoSPgnE8pGh9g67rRBfsXWULnmEZt6eZSbBi5hHA"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4PTE8mjFXAwR3UN18Qhasw8Ht7neBDXpgdWF8TZt9T7KCM1Ggq6kTQycaECneFtf2sCWSjM8ueqyBY33LoWdyccB",
+      "userId": 447955,
+      "latitude": 44.02027162732705,
+      "nfNodeId": 1816,
+      "solPrice": "171.6300",
+      "longitude": -88.53651,
+      "discountCode": "",
+      "userSocketId": "nteErszWveS4jSSbAALD",
+      "walletAddress": "BMazc9zc3HfooaHCg6LpsrwDUke7NMAfAr12PnDa5xEp"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5T1Ychq9dgpX16ir9daz19v6sebMjCCC9HF4hNoDPPBYZmeBmYGANwN8ZM8jfmXb9vH9LtevZ9mzPwGz3hgqwNrd",
+      "userId": 126666,
+      "nfNodeId": 916,
+      "userSocketId": "MZB94Ef2hIJqvSTZAAMT",
+      "walletAddress": "5VfYmXyTzDP6yXRm4aLGqU2SBikyWMcmeiiGH88SAaPv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3Zu3yXDZzUH7ppQYiHWs2NXxiKczdPQue64AgHDAr6sTCvHxG9mPgMbUC2t7kkeod4zbTMsJAmhVLbXZrzyRVFBf",
+      "userId": 446747,
+      "nfNodeId": 808,
+      "userSocketId": "FE0ZJ_wTYJIZ39rgAANB",
+      "walletAddress": "DgcXBsdUc4g58eK6nCkup2ZRBFSc39QqUX9mYc9vWbBp"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3XnZ5CetcYVmti9nxQrYxyAAJbyXUKJL9rYgTiyaxBUV59qfbUCMDuTzqeQjESi1Zrch8MW5AaWuigqzq42bdZQt",
+      "userId": 126666,
+      "nfNodeId": 894,
+      "userSocketId": "PCw2zYUeO6uNi-NeAAOS",
+      "walletAddress": "5VfYmXyTzDP6yXRm4aLGqU2SBikyWMcmeiiGH88SAaPv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "67j7m5LUkPQAC77twZUJJhvRHAaCnAgzv9M7j7Gf2YPeenFss3yJ7yTRCuRum77kZ8dYM8XsgVMJPfktvzFSnps3",
+      "userId": 446992,
+      "nfNodeId": 906,
+      "userSocketId": "XcDvt4t4VAnjYfPoAAU2",
+      "walletAddress": "BKmQGoYuqtwSppcScJgCbWWDbpz1PuRqVKtuArCs9q6X"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "45cWNxfVcCV7L1rhtNVFSK88SpCGRYCYe9m3saRnDcGv6pU95hbP9KgPBh4N1Xih9UYHukTKoEeQpKyNqeHki563",
+      "userId": 447955,
+      "nfNodeId": 1233,
+      "userSocketId": "7fhSxJNd7Sb8tvOYAAVz",
+      "walletAddress": "BMazc9zc3HfooaHCg6LpsrwDUke7NMAfAr12PnDa5xEp"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5BXMSxVT1HqpvVETUtc2dsumkZnBMSxCcyJhDYw7EHmU9s9hyWXKubv9L9dnjwYHMfz6hNVzpwePgrv7XqH9VJHW",
+      "userId": 445864,
+      "nfNodeId": 831,
+      "userSocketId": "IFq1apLmIQ3ZCZ9BAAe0",
+      "walletAddress": "UHVenqNuUTHfFixyAn1MjHVNMEMrr2FwgioCoh7xzDc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "21FyGSvhCkoppworHSurbJKPdkWU9m4GgR5sPKiuNXEHNmRbsZ99FpdJwiQvuLW9rbvNYabREcApuA64m15qCkfk",
+      "userId": 445864,
+      "nfNodeId": 939,
+      "userSocketId": "naKiaXdrHkJCCpgpAAe2",
+      "walletAddress": "UHVenqNuUTHfFixyAn1MjHVNMEMrr2FwgioCoh7xzDc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "45We93CPfT3HXywWiGU3xsV5YCkAFqoU44ACUrEF5WSD52PGZSrKU8Yymt67ZfDWDFkHdyxJ97sUtnXwvKjZZTEs",
+      "userId": 445864,
+      "nfNodeId": 1051,
+      "userSocketId": "ntYEH5GdIaNIZqiTAAfC",
+      "walletAddress": "UHVenqNuUTHfFixyAn1MjHVNMEMrr2FwgioCoh7xzDc"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3511XrMiqJp8gJQE6LvPFBAiuQuo3hrfNgFB5dJwhpMwAQDSMvks9mXXgeJ5KWL4VorNpf4NMQeeodEJjiA94Y94",
+      "userId": 446870,
+      "nfNodeId": 1056,
+      "userSocketId": "o9O2AHlfX8fYLfHdAAkP",
+      "walletAddress": "Do9MVZTWdYRNmFyN7rqktPQ8asopNcK3bKjtNFqbDii6"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2ajDvXSgjBAPg7ZxfdVhs7nHbUHvQFqHUmqVuhQdPgFZ43a7pe47ZBjgmjTiCWqRuaaro1YeeBZZ5PHCbqhiXdpR",
+      "userId": 121850,
+      "nfNodeId": 1178,
+      "userSocketId": "FeeFsgnLFdDNSjdFAAmG",
+      "walletAddress": "8XNQ22U1jh9McCerrvSoSKX8tviuvJS6CSfTiKGf3Z1H"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "44rSxVtLo3LdEngvLXi6qYv2GWUMDFFycexgW3Fq7X6gJzoeLfD1gqbHAsUUFiw5JZBLjJcqkgVxYVB7zjuaceWt",
+      "userId": 121850,
+      "nfNodeId": 1078,
+      "userSocketId": "4GNUf5chGpsdXbrxAAmQ",
+      "walletAddress": "8XNQ22U1jh9McCerrvSoSKX8tviuvJS6CSfTiKGf3Z1H"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5PuFSsQU11YJzJ3HJznhwincVKUfosUQ3hwk5KGnMwnxxW5F5z1cUgVJcfB3Bb2x5mhEf4eBPHyLyENGjLhhCbrh",
+      "userId": 75022,
+      "nfNodeId": 1004,
+      "userSocketId": "dCer53-kgHZErGAaAAn4",
+      "walletAddress": "CKRVjUBQYfAm4YjM7podhTmJQmfczjEv7XpDG9aVCt7x"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2QT17xfQ9pCXWEsD69gyxFMyQtuZBsVVugASVkNv7eH2YFy4AkGASDjMjFUzRp9zH8uDAQ1LzmWvEQ3zdvwzE7Vy",
+      "userId": 121792,
+      "nfNodeId": 1316,
+      "userSocketId": "312UWkOQEScX0BLiAAwj",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3UDNJ7dkv8eCWFAri1Xnqaru5quhpxf91zY6tDf5JND3GJC1ePtCYJPuZEpW8uwKgY6tRx63Bg8fA3ZXdWE3Aj2",
+      "userId": 120088,
+      "nfNodeId": 747,
+      "userSocketId": "xqz2JbkbL4IcIcS1AA_A",
+      "walletAddress": "54TDEL41dbe7WC4sGpn7FD6XjXwLzwp52rxSCKNhM5Ep"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "52KzC7ixxrV2FQNNMRVXBHqnR9SqH6FA4p4BHNg553hQBFB4vaa4buocF7htJ8E2RbudhNtYDxzyBpjkf3jJ1NYy",
+      "userId": 446846,
+      "nfNodeId": 947,
+      "userSocketId": "wIOvduxeMLC00hgpABAm",
+      "walletAddress": "EgDFkxQ92F8SvMqqNZ1vUaRYvCEfHs35JJ4DF21H1doC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5tWjzdPJVjrezPoAgruEJoQajhsyk16Hpo7fX84PCgyQb5SRPNQckEtTTCmPayxzBPFC115zKsbVZUrB2ZJiy5ET",
+      "userId": 436956,
+      "nfNodeId": 827,
+      "userSocketId": "IcE9AkwQEBLaN9ABABBl",
+      "walletAddress": "76F4TJzVtuRXZ2Bg9meb1kbth9VDCLYzkBD9Cj9qbXkM"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2Zxj36NX16JPQdnTEPiYFcPzNpU2z49MjHmN7GqNoccS5z8ytvUcds9uuJp771ugLTkTHMyCRBxHohv91mMZM5NK",
+      "userId": 293611,
+      "nfNodeId": 945,
+      "userSocketId": "AMimvdJAuMrMSaMNABCX",
+      "walletAddress": "F958FBDBziQ2VbC1xkfd8b4NM3LiBTqz8NDxDTsdFGWv"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2CWKZD5f64MbSYEC4FVXNmupXcaBePEK4nmM32bZV4WJCMohb9dedH4MJGYjakbUfLWaRUh7SAdMAQqmndZLoaaJ",
+      "userId": 121792,
+      "nfNodeId": 1315,
+      "userSocketId": "16Q2-1XsXfZrKWlDABN4",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2bGvtx147m7AZjaDNDPJ4JFJd6T7giGC77ZRN6a7iSuX6AgYpySBesshYbXqiUkcQ7gpqumfs7kGMdjMm8cFHMAi",
+      "userId": 121792,
+      "nfNodeId": 1073,
+      "userSocketId": "RoUkM2rSQs5FWFEbABN-",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2ZD4ovDVBXcdmcr6tKCWPNwz6evJHpuUms3fgBdVYFmuBFjrPARJnspMF69znWAhfppDhRmevEmrbrfxEuPrtZQF",
+      "userId": 121792,
+      "nfNodeId": 790,
+      "userSocketId": "nsER7QDivxU0aJ8CABOI",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4Wz24CF9moWEb5pphuCf8diF1f5PQtKJdM317AqYB5mVTR14Aq4yZ2cLQvCxMtPbhYBD6oqyHCXUu6eE5tCrNgMF",
+      "userId": 121792,
+      "nfNodeId": 763,
+      "userSocketId": "U5k8DDHsf5MdikztABOM",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4ELxZc7dF2tH98wh6XctaKaJjYXtB1GGexqPbjMRcvFrd9Vfh1XwMsifXXNEcaDeSQ4gPVuvasANKbiAPTE5wkH5",
+      "userId": 51050,
+      "nfNodeId": 977,
+      "userSocketId": "qnoDv_8qJ2B0snrMABVj",
+      "walletAddress": "Bn49z3keCzvyhcKPg73iWy6783muZj6ujo8oYfSWkzNj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4bNESY44uLQs52woTnNU5aCxvBk4gnFaznsYfNEmLfAHqyC7WoBk68k3FrpwQr7qfLdjMDTc2JzhV8UypKWHNhTW",
+      "userId": 51050,
+      "nfNodeId": 996,
+      "userSocketId": "VbYf2wz5eIjbSCJIABVw",
+      "walletAddress": "Bn49z3keCzvyhcKPg73iWy6783muZj6ujo8oYfSWkzNj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "ozgaZbX5BfGxnQu1Scqs2hWXsbTWTBbgb4bTUDoGkYRVekeUKDAyxGamT74rWgGwz2XFaeSEzDYaainB2N1Jx6V",
+      "userId": 51050,
+      "nfNodeId": 1002,
+      "userSocketId": "Tv5h7ky2vuYN_a1zABV8",
+      "walletAddress": "Bn49z3keCzvyhcKPg73iWy6783muZj6ujo8oYfSWkzNj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3AV2BvDG2Hu9ibv9KAoPZopQquZ8ue5NmGRQJbQKzYZU3ZEUK8FvgCZupRHxAXxWHTfj1nV2CxTA2WX7beGA68A3",
+      "userId": 51050,
+      "nfNodeId": 1035,
+      "userSocketId": "RydBnD1vefIFIJ6pABWC",
+      "walletAddress": "Bn49z3keCzvyhcKPg73iWy6783muZj6ujo8oYfSWkzNj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "H4Dsqw9cHLTM9CW5qgpmCfQLH7NTWese3EtmN8eyhrtEyXUvtGfu9r4zjADfnt6mjHUBoCMgkindbPZJihghh5K",
+      "userId": 447425,
+      "nfNodeId": 1319,
+      "userSocketId": "4x8numnT6xikaWqSABhM",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5XRJFiEbpY9VuiCUuzQgvBhvZvRpkuPW1zvrBGj8VpRwCop4eWumf2NM4sT4Ey25mQMMySYCBwTPsUaPgAvrAfdw",
+      "userId": 447425,
+      "nfNodeId": 1258,
+      "userSocketId": "eMHlbiw_OkF_zEheABhw",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4NuBPCTc7iPBiypXtj5FBphCWpBT971nsYz75YeCyqiA8jpDttMntY81Ft6EEGamqySGYpMQHTpLiww1zH4VKeSv",
+      "userId": 447425,
+      "nfNodeId": 1267,
+      "userSocketId": "mPfnRHOkBJx2HDgaABh6",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5jE3wFnKRW9TijBRDqDrm6GkHSmJYFvFy7mGScw9mxiA9Jpp5BC2ymajUsB2qPtnWvWAuhwQZ7izavRJRMuWqeY5",
+      "userId": 447425,
+      "nfNodeId": 1279,
+      "userSocketId": "aP5ApY0FnxmW0GN3ABiC",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2QSo2K65MgPQK4Tvv638p8gskZFRQMmsSAEnE2goL5MpCX6RxS8kidaWRcENioKb9KLqMrdahqPVpa4weAKtxhoz",
+      "userId": 447425,
+      "nfNodeId": 1297,
+      "userSocketId": "ikyIP2LGehMVclJkABiH",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ffjxXvni4pTJyDsdzhHa1Jz2CACkAAgTNRtieTiQHkrtt1aB5sGsAbgv3GB54CB6NNWAfD5VaT23CtrhKK37zU",
+      "userId": 447425,
+      "nfNodeId": 1298,
+      "userSocketId": "ORK7_m2gwyEwEsSpABiU",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5PeBokYiVDGCyCbeKVjadRwzDwzAPb7UZ4jba5acf2SsUw7CHeiDNZrsz33EhgMnMUgVi1jDtEeq2y9cq9odA7pc",
+      "userId": 447425,
+      "nfNodeId": 1298,
+      "userSocketId": "ORK7_m2gwyEwEsSpABiU",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ikd79oNVfMaxBsgnsjpgzKzUsZLg2m6McLVbVgSeZttVn6vaevjwGSd5dsEWKHBCogQgWxBYZigd3VPsWrEyRFC",
+      "userId": 447425,
+      "nfNodeId": 1303,
+      "userSocketId": "F4atZ09lu_bMqfn2ABia",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5iC9iX8g2D8GM1cMqztAyEHtYuA224sNeu7wezU6UxXM4qezi3PSxv35biES24GrfcHamXbrDdSLxZQfqnNtQUK2",
+      "userId": 447425,
+      "nfNodeId": 1311,
+      "userSocketId": "p0yuF0fP8l2_5MTiABik",
+      "walletAddress": "GVAhAozUyNRMm61q8dgHVdD6DLY6PWqPTGrRSRxDdk5S"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5rvLtxKyHV7zAqHxrcEaYYt8oNJs4JBrPeN7w4cEScBgDoQp4y9bXiirWKjmLE2cucm4XaKydv353gY9reNRN9FP",
+      "userId": 159838,
+      "nfNodeId": 1038,
+      "userSocketId": "V2Y1qnrE2m-F_il5ABq-",
+      "walletAddress": "AkfUQBnFEo6EHyXV2opN4Rw8ANqNRFujbnTdxcbFqR8M"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3S7vdmCUs1q4bAXTzbtm11aJ9iPFQQXAqBk6ETmgPxV8C3fxtnSrdLmDuUStwg78cGab5Ywmj6MGAGYhSkfarv4k",
+      "userId": 133631,
+      "nfNodeId": 860,
+      "userSocketId": "_z1XE-h8QikbaDPdAByo",
+      "walletAddress": "GHbuTBek11qtxYkzebvQnEZrHGt4KJNFHBHhBGrEw6xP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5GuFz7q5zzAVc1kyAzvJtbh9gSEEEmmd4SsxmL58Lkd1KcQdtoFYVKrAHaHEhD11tsWiuXBXbkTXLNTXT8isYALS",
+      "userId": 447566,
+      "nfNodeId": 1171,
+      "userSocketId": "mkAV_FSd3M0VgM_pABy2",
+      "walletAddress": "BLTQiyTF2amnMH75uwVypnAoGfoq8geuU8wM9oqKRHaQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3QP7crmZusoVD1MCJf7YrDho2yChmyjGDWFg5dB8TXWXzjQ9vBQo35NmT1kS9EzyKipFgSrwCFjyqR96gvZVcrKH",
+      "userId": 133631,
+      "nfNodeId": 955,
+      "userSocketId": "u2C6ON8cpwjfw1cJABzH",
+      "walletAddress": "GHbuTBek11qtxYkzebvQnEZrHGt4KJNFHBHhBGrEw6xP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5cS6P1tdifbGAZJmde4WgzKx1nMsEawjSKNmfDKqPBrzh75imi1oTPzhMCc8sPdWG5KY4oRUXd13vXP5xEsi2m5s",
+      "userId": 447361,
+      "nfNodeId": 1343,
+      "userSocketId": "barWXtOlObwg9SaSAB1V",
+      "walletAddress": "2AqNmF3qSKWUGeXkEeu4Zxtzz7q74QSaV5kMJsu5PgsE"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "21yX6RAv1GscEP36qQF5uWhmMhcxM4JP9LxrNW1UgBmiQwQ7vyoDfSbHQadbq4nAkR5MVjVYe4fQ8WU5kEsgb8Um",
+      "userId": 447361,
+      "nfNodeId": 1337,
+      "userSocketId": "QGUCSafrsMa8LaFYAB1X",
+      "walletAddress": "2AqNmF3qSKWUGeXkEeu4Zxtzz7q74QSaV5kMJsu5PgsE"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4kGJheFYwkfG7B6DQuYmvFttYaNx9TNxC3QcqsVsZjYgXarssD4Rt4EqzqSmvhLkLEmsZ7RS2AzzubC6nxPV8Az1",
+      "userId": 447361,
+      "nfNodeId": 1127,
+      "userSocketId": "H2lGAzkB0SuPBWeLAB1d",
+      "walletAddress": "2AqNmF3qSKWUGeXkEeu4Zxtzz7q74QSaV5kMJsu5PgsE"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4sgmx9webnjVCjJ399ux3hn9KPdEPGsmyKJWf23Ced9o3jbPBCSdmLoAj7ctDbto7aviY5HZbk7WgK8qdHsGxNwN",
+      "userId": 121792,
+      "nfNodeId": 1075,
+      "userSocketId": "aAACT6AJBC6w19nSAB3T",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "wtTee6MNSfjjKsgZgsFBpmwPpWjoRG9tBjTcziEJZtyvZGfQ72fit19BnT4dBFFk7qDXUpGgebKSEsd28moYc8M",
+      "userId": 121792,
+      "nfNodeId": 791,
+      "userSocketId": "63Mag3tqrKWex_EBAB3d",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5VE964Kfqy4711CXZKhsbXaC6QBU5rhNVB7ByK1JWGhmGVPE2t8o9skAkRKruYgoj6VvLhQcu8eAvygT4N42p7mv",
+      "userId": 448037,
+      "nfNodeId": 1253,
+      "userSocketId": "Ahc88AAiAb6wCBXeAB4l",
+      "walletAddress": "GjuTZhBfws9N8rePBcw8BbEw5w1uEaQT9swXoNM3kgEL"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "7Fr3cJPRNE72CkzERyneCS6YXCcK4uMpD5wK7zXYXbgmQJ5zS92MAV6nx6QbnrLVm1aJGguvVLed5DTK61bWVKc",
+      "userId": 121792,
+      "nfNodeId": 785,
+      "userSocketId": "JGjbDbyCGTlOcA4iAB6z",
+      "walletAddress": "2cTpfa54dBkYRt5Ft26hoanLreJi5bSZ8WeYq3Q7U61J"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "23P8wHpnH6Wbm4WcDgLwxnVUgbDXehN6vpGHzgVZskSYJUounT2BgisM3HhsrfymfZwhpYA4wRMKZ9Y4ag7xzeBt",
+      "userId": 121509,
+      "latitude": 53.542478211956116,
+      "nfNodeId": 1817,
+      "solPrice": "171.2200",
+      "longitude": -2.7029200794107155,
+      "discountCode": "",
+      "userSocketId": "CuiTuA8fbIpd0WgxACC2",
+      "walletAddress": "4xXH271oDYWbd6wTiT8PDtNjhFDUPDZdPNjoQCiJH2FM"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "TQhC4ypUgkXrLLDd4orZibyWkNsDPxZCvEvoCbpzwFr7QmMktm4gm3518eGBhX8fMG2iaPXYMmkZsbp1Qf8pB2c",
+      "userId": 318896,
+      "nfNodeId": 1049,
+      "userSocketId": "sApwXc7i6H48nI2eACS4",
+      "walletAddress": "5cMkTL8M7brhBkAuuRWdoubLLbDixhMri6Hw29wFziUD"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5m3GWf7xmp6QvYJPHqY2KRnc8tYeVu1hfegWNUdTUqvzbMrrCSBLpSjjxCsQwG6qmjmXfEVverF13gowbwekrUZ3",
+      "userId": 447464,
+      "nfNodeId": 1169,
+      "userSocketId": "KrUeOFxPTaZoAOzNACfp",
+      "walletAddress": "7fnfZYZJDWunrRTAFYW7iS2Kcw8L9tJX6VTjsEf14a37"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4p8K9YDM6xJKww3ZPWLY6cL2fqGyrkZEqsL6QgcfNt7XezmXq4GZ73NkSMyEUXr6SFix5Vp4SHrsxRP73Aj8Un7m",
+      "userId": 51050,
+      "nfNodeId": 1050,
+      "userSocketId": "gx4qXmd0wL7n_KHNACtB",
+      "walletAddress": "Bn49z3keCzvyhcKPg73iWy6783muZj6ujo8oYfSWkzNj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4ankQbwm6N1FkJhe5pcUZWKMx6uvGVohqLBQobCyFJESL9tNf16cm6rt7bJ5msZ2dG9WG9hMarZAwrMNMM9tcnh1",
+      "userId": 51050,
+      "nfNodeId": 778,
+      "userSocketId": "A10TlcsRpHWHv59oACt1",
+      "walletAddress": "Bn49z3keCzvyhcKPg73iWy6783muZj6ujo8oYfSWkzNj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3sZbXa6uNenh98NPbc9YhntazK94AKicpzSWhVtGukVDKbNvvcg5vFbSH9wEeP7bMwR4Rcdy8JMYoZrcNPx8Z3Dy",
+      "userId": 447266,
+      "nfNodeId": 1306,
+      "userSocketId": "EW05d1vxtAFxACPeACv7",
+      "walletAddress": "4PWaM7HyCna3wdzRWMSTaYRyRsHa6Mtg63cvAvKVkqLq"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "e9Ne6pV4RB5tTGYKLu3o8Jd1Te2zctk86DLZ7b7AL7FCp8Tfb7m9KLrq37XkeBpSZVfsTuWby4KESXrGrxvXKBW",
+      "userId": 447072,
+      "nfNodeId": 949,
+      "userSocketId": "UvBACVC9SlT8Uuv4ACyF",
+      "walletAddress": "AEawkvuJJu3yCxZBJmS6p9HZPhJ5gt4Gbp9MtoRMkQmj"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3pzCrj1vcutRWDfGMyvut2tCGUWFRkpekp9MAFNbSngdd6WZw3sMJbwpPRG4utUdc1mobM2gCHg8t9Nnuuskj5Xo",
+      "userId": 450648,
+      "latitude": 41.885727,
+      "nfNodeId": 1818,
+      "solPrice": "168.6400",
+      "longitude": 12.5042762,
+      "discountCode": "",
+      "userSocketId": "ZPEJA37ELrneGwnxADKG",
+      "walletAddress": "BtiEXVn3kPBwZp9aA5UrDnY3xMvUFR8RuEHpZU92fkAC"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "5tgfcGvggVCNcGd9PHuU8qreHZDRJArVMTnahQQVQexUCLNBfZMdpbYZWPEtiL2m68hWiWs3yQMHNRwXFpduaEGg",
+      "userId": 447800,
+      "nfNodeId": 1280,
+      "userSocketId": "aCSeyB7XlUgBB33gADK0",
+      "walletAddress": "3sbQvkQ5QtrT1TjqCaQHG6QmTMto5qiZuNSaKjr46WMS"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3FnMEcuAL56ecZMSNcDRXv4xkwBqaEGhe3uZf7LZsDFP7iNYjbcivGSTusUcVQ5ahkxZDyh6zYTtJFTEdq8at51L",
+      "userId": 447800,
+      "nfNodeId": 1212,
+      "userSocketId": "hBpJbUHONTFt9iASADK8",
+      "walletAddress": "3sbQvkQ5QtrT1TjqCaQHG6QmTMto5qiZuNSaKjr46WMS"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "34wt3sU299h5pPsxGYrWCSWcok5Uf8bzZMsYYPZXYLwvw8m2wgV2FeX6Z5DctxwGSyG7W6NcJNT2ZyxxRUvt9p1Q",
+      "userId": 449269,
+      "nfNodeId": 1459,
+      "userSocketId": "T3p-NpY8_oxsD1hRADRz",
+      "walletAddress": "35Li6KU751t9itzN6bMMv4pRfGkvA5BgXPzmH7QWMed4"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3LqG7pktM6RFgXmgExwCnkCUQWqHBXUg3X9m5jeeSBwfaiuV4fpM1S7yF5btZz6ULnuvKymS3WC2ndz35uMkEQoh",
+      "userId": 186359,
+      "nfNodeId": 963,
+      "userSocketId": "4QIhFoSb47iIo9U9ADXI",
+      "walletAddress": "5w3fKJi8tngai2rndiB9vwUg4xwpHGnFmuFzW8ES7Kgz"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2b13G1nVHfxAYx1yYv8Uxudti35CuCQ4USS1u4WjNP6K6UMnLKn3nH3NtS5bq7f95iKahycR9XVQqh7psyvX7i2Y",
+      "userId": 446833,
+      "nfNodeId": 1099,
+      "userSocketId": "97Se3BSIZ3Redi4aADoC",
+      "walletAddress": "EUp1CyK5Q7acdXeW9PPq6tJ7Br7ZShuvr2zQNjAFy5a8"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3SE4VGQsFaQP2ZCqohp3tsfTgpymLBnCjaV1bjCziXg2geve5NRQN7BEFiVJCEswAacB3puWmH16JCbUDivNFcAy",
+      "userId": 121975,
+      "nfNodeId": 941,
+      "userSocketId": "bpMtJdNL_LjbaYocADw-",
+      "walletAddress": "4WW5CptpmkakjCrt2YskHk2DKewLeSdUJsiVtC15NQKV"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5PKyykEFS19U7sakuAxQZpfvHFzNPTG3jAzGyKcbFA4qiE1UEe4rccENvJcRombHvYNNh1ouiKR1y2Pvn1G75Hkk",
+      "userId": 121893,
+      "nfNodeId": 828,
+      "userSocketId": "k04MCgAbAyMof3tkADzI",
+      "walletAddress": "EqHCwduNP5HSFziHVGwqM94E8eJR24fC86LkSRFYyZqf"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2TCkeuiDcj6TCutm5Y2Gihy8rFEMfiGo4e5evWg4VGWmP41nnFnrLNAwG2NKkW4FB5gAKqJ7MynvhY5N41E1ZERh",
+      "userId": 447078,
+      "nfNodeId": 957,
+      "userSocketId": "YYSNKvLgsH9KrzXHAEA6",
+      "walletAddress": "4SCN92CAzBYuxyF8mGgvBqCS1MoD9WjN6Zqad8GySyfq"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "Nwf9SYuHu9rhNBFDTFG8R8yiPwXw5G9aLNWqRhBBaDg1vyVC8BjYw6Xd6Jef6AcHVafMdt4SpML9BeFjtCGvRbc",
+      "userId": 448622,
+      "nfNodeId": 1023,
+      "userSocketId": "Fx4K5qFW1FELVZWoAEHU",
+      "walletAddress": "7t43TVZUuFyaCcvQGgzXtVu15vVhMVxsvy5MHk4YsNyY"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3ePRT4skMe6jzvXZuzSrnsFCDb4RHVrWNzTFZJsw4ZK51VvgF8AdhzKgbytjADzGbu6jt5kfzbTC3NpWkyhu3oxF",
+      "userId": 133631,
+      "nfNodeId": 858,
+      "userSocketId": "bA-3OTsqHhSt0n-CAELf",
+      "walletAddress": "GHbuTBek11qtxYkzebvQnEZrHGt4KJNFHBHhBGrEw6xP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5MfWWgDgRRakahGzwPFR2svvXGwvNtFrP1TW3RQuwyMo3JbjemsBenunsjM5SY8d5bcYzgQTFxacs62s2WbsLnRh",
+      "userId": 133631,
+      "nfNodeId": 1100,
+      "userSocketId": "1N6sOhg9Vp1f7lpSAEMH",
+      "walletAddress": "GHbuTBek11qtxYkzebvQnEZrHGt4KJNFHBHhBGrEw6xP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5MGNFuqsyNUCpN26cuBEgMe9YxxtWHSg5EvRmW6jqXomuEhPkvrNorgJutgTfKiHXfBFkQnumNtvLoZvguMcUWM9",
+      "userId": 133631,
+      "nfNodeId": 1102,
+      "userSocketId": "4HyvMQrPkWd-Vk-sAEMh",
+      "walletAddress": "GHbuTBek11qtxYkzebvQnEZrHGt4KJNFHBHhBGrEw6xP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "bpLPzQRbnrKvqJrZ85ELqy1WXaDo1VzAXRHqCVxWvR12HiHQVaSEp4rMxD3PrZxQF9ZU93JyCP4PHjGiSArWb2M",
+      "userId": 133631,
+      "nfNodeId": 1104,
+      "userSocketId": "gFNPV-ts9xDfP6RwAEM_",
+      "walletAddress": "GHbuTBek11qtxYkzebvQnEZrHGt4KJNFHBHhBGrEw6xP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5EAikZrJGJBJfMUi1GyBQfytg8BTrMX9zZjd7uxwoiDRvCAFfmARgEBbqaLPuro7RNLQKGSk8EsDqWtpmtqjsYGR",
+      "userId": 446795,
+      "nfNodeId": 836,
+      "userSocketId": "PE5k25jHvj91yF5kAESL",
+      "walletAddress": "6d5swxVHfKiRmPn9nA9ExkHpcjZDqABZNujyKbft6ddk"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "Y94qtVeahZi5UJVRA5tb6TCtShLuBg4mDPYKrJHNLrkxdVEWQqur8LNpfHE3nFAKeDAiMQECa9V26xy37xdv3BJ",
+      "userId": 447331,
+      "nfNodeId": 1124,
+      "userSocketId": "1HhTbEWUkkhhijDHAEUG",
+      "walletAddress": "CytRXxyLkWmaENA4AQfYgJF1T8majSoR1RSHZQ4FTVMb"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3bvZhxD21dQ9JsCRw82QKnudCGAUZS8Yqqv5hkzeSDLcor4w5m4HfoWbccbWLCzF98CawYRW9BTkKDEqeMY8uu2B",
+      "userId": 121494,
+      "nfNodeId": 1045,
+      "userSocketId": "aiC8pZMENJbAREX8AEbA",
+      "walletAddress": "2mnP317C1bSqvT7XMZAPVpeZAVPTvE8BzxixLLuVorZT"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "34p6qxBMWCLBer4eQjNLZciMW9UHSoyqcCtU6Gd6TThT7dtUzmwcfzbwed8bJPQRq1Avt46G2C49yGkQw34ncTHH",
+      "userId": 448022,
+      "nfNodeId": 1242,
+      "userSocketId": "sRiGvn6u3LHqmcKBAEcw",
+      "walletAddress": "3NBqFDsi7Tj87TMMmohxQ7Bm8DFP2pZMBNHgzvoWvoAP"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5prjjLJphhocNSZLTKpF9u3EaR2M9tTcCTuCF6VimJ5BHMcw3P1A6Su7Vsq6KHynLTCn7tJktphVXEmFhmUHjTc7",
+      "userId": 447082,
+      "nfNodeId": 1000,
+      "userSocketId": "c02VLjWheZGwpRlWAEd9",
+      "walletAddress": "2jsLxEtvzUhWYLz3SRKLigTaWQKmXrQTtDc5zeLhPTid"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2YSe4sW9jP2mcsVoi5ssxUrciXvGQQZuvdgacrsdFUjHtf5BL6pCehm5FMsNNJQLd2DNwGcPqwqBtm9cXYKAHGuK",
+      "userId": 118702,
+      "nfNodeId": 1249,
+      "userSocketId": "G1njn6xY_HTpg8ZbAEiG",
+      "walletAddress": "BZuBRyYmEBCVVXuCpi7CJ3DhkKfv4FPbPK5mHtpUMHp6"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2NCXgKDo23AuDBjwLQpvwqeMoWmoPMcbQPdD3cpswY3tKqqXefba6WVkhqFx6Rvm69iWtFsLPZrH16si77iXAN8Q",
+      "userId": 121594,
+      "nfNodeId": 872,
+      "userSocketId": "LpiR3V4-JKJDsNceAEju",
+      "walletAddress": "7aTY2YvTHZJ5JgAoZRHtkEYNEpPYPbT2HLvMjR4EHcGK"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2K3c51c4xYw8dDzq8iNj8HXdQXUW6FvydW5ojhfck3G2ksxDnCLMBGQs8D2vNjNpeGkdWK4SxdC5SLE9bYFt96sC",
+      "userId": 450762,
+      "latitude": 38.813658199999985,
+      "nfNodeId": 1819,
+      "solPrice": "160.9200",
+      "longitude": -77.1402914,
+      "discountCode": "",
+      "userSocketId": "yBqHxv-IGTgXEYenAEsX",
+      "walletAddress": "6LzjWRDEcZYkXWGB1p9UmkXxd8rYw4KnuJLy5SCUYyd4"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "62mA9zQnwnnGYVxAXQ1gK6Xm4NSWgAr8v6boxhuHZimheR8y6p5afhtkD1f1DRswsuHEoVKon6yvXW3de7oJ371C",
+      "userId": 18617,
+      "nfNodeId": 742,
+      "userSocketId": "6ocqygezOHkvw8m5AEt5",
+      "walletAddress": "HUFLF26V7rfCFiTDmKLUSB3BxyjQxkGh6JLZw284tWr7"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "ggYVtGxr4vAWX11p746UXi57m3V4Ef6bKTMKpL9HnLrmNw5gMEWdz7f2buyAEFXE2Gum4ucqxYj3VJWMJKSxX1m",
+      "userId": 450538,
+      "latitude": 43.641509994836355,
+      "nfNodeId": 1820,
+      "solPrice": "161.5070",
+      "longitude": -79.90334141328896,
+      "discountCode": "",
+      "userSocketId": "SaL9VB3hycrkVoSzAExa",
+      "walletAddress": "5q8aYXWDNpRmLsznyU9JgebzNfp2VjDFh88ECZ3JvfDL"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "VYPEGnJBjFuk6nyhpwkWuyqRqAW56rLscfmpirbhFsQW5zGcWLHjjV4j3VgH95YGock2A8eaGNaqw5VoBaNTrMZ",
+      "userId": 22550,
+      "nfNodeId": 1054,
+      "userSocketId": "KCvp0vBl11w-1AQaAE6i",
+      "walletAddress": "3CqHcFFdY7Yk2uSZ38VYmHbMtVtBmR2sa2KLaUtT5USL"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4jF9tnCMXXpRtehGrh28A2cPNCi59HZ4uiteEn8yQnvrZ1ha7WPXaKWawUW9SBYwXqBtX3oHDBMRzsPH6RaBA5L9",
+      "userId": 22550,
+      "nfNodeId": 1052,
+      "userSocketId": "MeQP4jwG-GTtPw0SAE6q",
+      "walletAddress": "3CqHcFFdY7Yk2uSZ38VYmHbMtVtBmR2sa2KLaUtT5USL"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "WfTHSvY4Rtc3zTr3hjpEcYwtcqn7FEN9VrTEQUYzvXTgtehcXYLLzJtBiWFiyMmaF7espPDUWCPpLrrMnJh8es5",
+      "userId": 22550,
+      "nfNodeId": 783,
+      "userSocketId": "HdhOYhNE5viZIJ37AE6u",
+      "walletAddress": "3CqHcFFdY7Yk2uSZ38VYmHbMtVtBmR2sa2KLaUtT5USL"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4jBhvZBuxMPA2x6qii4QovpEdPJxDiQYhXbzbcZ47FKrWCWQdhAbXbw8p8gAEjgCFt9vWP4bgTWjDXZTsCAjU5Q7",
+      "userId": 447739,
+      "nfNodeId": 1354,
+      "userSocketId": "FtakagUDa4KRYEl9AE96",
+      "walletAddress": "7mSaZbuuxZQB8112UDw9EuPj3NqR71s8tFSvNbyayUi1"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2axv9GMVteNX5GTvEFUxQ8ASVWUPKC6ZXLXHox39oVegqK9evaytyvs5B6zk2MpcHJAP21S3NUNEfAXeT9MvpuP",
+      "userId": 447083,
+      "nfNodeId": 1067,
+      "userSocketId": "3VPDL8fOL6X82c9fAE-C",
+      "walletAddress": "8xEsYRVAQS2MgSfNHkHo7VRy6MKdL7Mh9dWYnjyKh4iC"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "31W9Z51twkRp8LdQEAyPstLbdbw7EKchBndCxZywJVKFdNVT5NxnjAZ8gTjS2sZqnU7jxHu8dARKNJLgi4HuJgwg",
+      "userId": 450802,
+      "nfNodeId": 930,
+      "userSocketId": "a75_uCMDNVZqbqZ7AFA6",
+      "walletAddress": "JCtBL5hx5PvQV1ksrtQjzmbxN4WSZSeMM4BrAN4592SV"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3zoEPEX4etD7AY1avGEChFzuT1Nxs6PKWgAgk36cEpjC2AwHStorNzy1ns127nAyYn5stZnNvVqFAbPk8wQKAV6G",
+      "userId": 447036,
+      "nfNodeId": 930,
+      "userSocketId": "Zmzh1UeYOESP2H9BAAAb",
+      "walletAddress": "JCtBL5hx5PvQV1ksrtQjzmbxN4WSZSeMM4BrAN4592SV"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5ufh5Q1CvoYQuqqAiYPPnXPEVWsN4AAHcND18MVacTdkC8J8U7eZxj9HMDhfp6A1hjPWDaJ3kvyno5ydy22GFCsd",
+      "userId": 47757,
+      "nfNodeId": 1197,
+      "userSocketId": "bkoNlhu-iWYhXMxzAAG3",
+      "walletAddress": "8Z9D7nCnz8JduBvUtNYgSdBwZEYQFEaFeXMqLYJHjfGy"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5sm6kYpJg3cn74VhPAM7VvHM2smt6J81xWv1ksCCJgqGUFJHS1AU1WswteR4vZiUJafNmChrwBe7CTdpMvZCAo6S",
+      "userId": 447575,
+      "nfNodeId": 1217,
+      "userSocketId": "MLWz9Soh1f6ppkCkAAId",
+      "walletAddress": "uJsY5mz9D94AMq4wZWA8sHMGGqNkXeATmH3ckjC3X5v"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2R3zqarawFLbzVxdY5opitF2bSKBeSK8JhqrLwBMddbZ2AXNY7jjG7SFbVbMjB7GP4ZuRXfnzeSgMArWStMmHQDT",
+      "userId": 447601,
+      "nfNodeId": 1176,
+      "userSocketId": "BNCRTdYqQaOAIINLAAUi",
+      "walletAddress": "3dg8tmwxE2RDLpdLE3EFz8onhvj6tdfKw7GArFDckpPU"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4SWyXFxAajaehJgVimYKtqhoeZjXHP3SRttPeau1AeYhqMcAYJhf8JsFR5ACaSrUGLwJvwPTQkLM3rcA6X8y3taw",
+      "userId": 450744,
+      "latitude": 12.873762666339632,
+      "nfNodeId": 1821,
+      "solPrice": "156.1759",
+      "longitude": 77.54319899065746,
+      "discountCode": "",
+      "userSocketId": "W_oloPudKYZLehUoAAWC",
+      "walletAddress": "cNR9yPd3Es93T2yA9t2xHg14rA6twSgNkNzhWkspKVd"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "42KG1KSVtz2UzM1XFyLFG92kSYtn2C4PWbifSAekUvUDwsGmaNpUeWSQb3JZAbUxg112HfR6JMZtJXoZvFkaZ9JS",
+      "userId": 447053,
+      "nfNodeId": 1266,
+      "userSocketId": "AjTsREHtVSTY2bCbAAee",
+      "walletAddress": "7VLPi4TncR7w9P46YgGw69priQKTLcGnCTdWRf51UULF"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5aURyL9YxDTBwHVNoVry9ELE7hGGsz7hzKhRtYkmWbKRAmKUci1iRUoq9dmS2JcdHgJRrTzPasnV8NrwEk8VqbQr",
+      "userId": 447053,
+      "nfNodeId": 936,
+      "userSocketId": "do7eDDOIgnl5Qnr7AAew",
+      "walletAddress": "7VLPi4TncR7w9P46YgGw69priQKTLcGnCTdWRf51UULF"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "jR8oqh2Pj42JQpQjSrnaZbxgFwFsk8QXTo4XPKu8Mi2zrRsKcW5w9N3swWjgwSkeDAuHzUT4nuqxrcowm6hhUwT",
+      "userId": 450454,
+      "latitude": 52.2357576895382,
+      "nfNodeId": 1822,
+      "solPrice": "158.7700",
+      "longitude": 5.380176554167907,
+      "discountCode": "",
+      "userSocketId": "ZIbHBoAZ8SmlmbsbAA9d",
+      "walletAddress": "EfyroMhSSLFw3NMc8XtudtaG3FuvmwLqjYDnaQuckNHv"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "3DnDCawkTzvdt79z5CKNAYZo1VPSBAGpG3P57mP3YVK55xSLA1Rs3jjaTLJ1ninTUdSCosKZk6WWftFFmmBVwdsp",
+      "userId": 22462,
+      "nfNodeId": 595,
+      "userSocketId": "9yopPacRHLJ3jYRQABb-",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "JAz7DCHaPQwzkj33YVhqdMaMm2mMjZ73tiv98CY5ajXF5m5gHDJJYSTWDmLruWRihjFhC8XCuoa45UoACdoV7hX",
+      "userId": 22462,
+      "nfNodeId": 596,
+      "userSocketId": "OXdjxLoupEf_58TMABhn",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5XuXpGVwwtAUh2urfb1ERANvvk8W7b9uTTKuS4msmNqBT43iQtT9GrgCchGLuPUxsobDHZJpY22XeKGU3xbBAZ3A",
+      "userId": 22462,
+      "nfNodeId": 738,
+      "userSocketId": "5zIfVKIlHqgfWSYmABjN",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4JAXXBxkEskxS4jvTtM2DnTPtXDpDuXyE9tBGtGKqcjEw28jmChs2wEv5SjNNC8zKP5M5SE4CsCXqyk6QzbwEfUg",
+      "userId": 364522,
+      "nfNodeId": 1070,
+      "userSocketId": "7x0x14G9HcQ03Ct4ABm-",
+      "walletAddress": "4HqdsDwsK6Tjyyq3jsFN5Mmws7mzMBb8p86DiinNx7pt"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "56Cj7FXH6BniPpMCm5nuw6J83HQFsGZW58akzCr5yek4eCGhRXE2BNViZgeaUdipJ3V2Lrft149Pwx9ER8kDfgFC",
+      "userId": 319266,
+      "nfNodeId": 779,
+      "userSocketId": "oZSBK8zHd_c62ZY2AAAE",
+      "walletAddress": "2asWtdiRivC4chb46GJWcSasUvbbiorkGN1cq3WxXWNm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "deMsuZcV8UdV3WJJ9UFsWq2B8aRWDqcYh5wcQL638He7FNnZ8G4vXT9ivFSxxEjm33WuzinRNiitggwSpcHjLfP",
+      "userId": 447476,
+      "nfNodeId": 1370,
+      "userSocketId": "Tqbtih-04D8yjWHOAAIO",
+      "walletAddress": "AXpRTXLDTBZQKYagNnuVSZAJrhbbCFjVvnkt2jHfGi8c"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2rNmFphsEe4w82NBAD1phALk3ibGJhVtbBzXEZkhdD8ZepZNYa5thC2LicFuS9tthoNyWhk3S4rzbrEMb2SwC4jR",
+      "userId": 22462,
+      "nfNodeId": 597,
+      "userSocketId": "vEqu7W_7F9ZllTMGAAMb",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "1eBj2hfm2fRMYngC4RAxp4sEfeZn7m1j1zpNT2B6YUJQpywDS88NN56ZGfe5Y4GCi2xLaMrez9iYX1D6CHeudFS",
+      "userId": 22462,
+      "nfNodeId": 598,
+      "userSocketId": "nzhy5i4QYP03aTEcAANq",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2dAWeuE2Mt2b4TLEqvcgNnnaNqJaU8HBee1vd6Xj49mvJkhQ7hLknarg242qxSyM7hLxEyQozBsuhCWKU3zFJ9DA",
+      "userId": 160147,
+      "nfNodeId": 976,
+      "userSocketId": "2K1erPJszVjJARmfAAOP",
+      "walletAddress": "DkebjogPegQhkjfndNc5dVsLvbNyb8cv43iAoZyK9nKG"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5hDX3Puki8GV3rSUyoNtMcvVRnVWnREK6xWovYJHLCMFZSSWfTPmsMtMCTupuhrSsmsTi8ubPeKqTFvgxCHCN52C",
+      "userId": 22462,
+      "nfNodeId": 599,
+      "userSocketId": "IVSNZ_PQGYyr_-8fAAOZ",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5haV52grpu4ABJhPv4sJv6V8A1T9TWi21gtHQLgmn3snm3wNZhgkykTRxS7VryHxSCgHuZ4hkQdqG9eWmNL4meRw",
+      "userId": 22462,
+      "nfNodeId": 601,
+      "userSocketId": "l-G5JbNbHqW-TJJfAAPb",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "4mSChbYuXuaJ4GQbrScQKe7QosAHNtf9MTNJoJK5KMKjqyDZaAGhWVWYQaEZa4gpowPn8f81ZnQYk2DJ48s6NL2A",
+      "userId": 22462,
+      "nfNodeId": 611,
+      "userSocketId": "mGg9Ix7Lh0yVSpE9AAQJ",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2LXoF5D2TQnKzpgKFW9QpTL6DhVmx9aTCd6YQWFrqCNWcq3DtgHscj7mx46L5GMAvYJXX3A5YLmME7Kawwuv57FQ",
+      "userId": 22462,
+      "nfNodeId": 614,
+      "userSocketId": "FAsosAltuoavwDVUAARZ",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "322WRavtX3eqB9trXFPoGhCgcJGnDhSkmcMeQN7tzRonoZH6vynos8XjnCJZDVGrmyNPTEgPWCjzhU71GaWbS7FN",
+      "userId": 22462,
+      "nfNodeId": 604,
+      "userSocketId": "AgMBV-4Rpazx1dijAASu",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "KVwrezAGPN1KmsTKoE1snqoD5BNZsQxt264BCXDZ1nENZujUQWQun3VAfn1DWj4jaaf32qQBe8ePt5717G2FzSz",
+      "userId": 22462,
+      "nfNodeId": 610,
+      "userSocketId": "V0dP6KoYXQQNlj7bAAUZ",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3Qk2x479nFqfSt9Wk75RVd5ab31AdstHjxwrgqseWsMffh83gpMRGbaxUgiLfGEPSCTM89YpsWo95iZYRNmyHnE8",
+      "userId": 22462,
+      "nfNodeId": 615,
+      "userSocketId": "xmUgdWmE5PoMOapMAAVF",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "51PSWZyFQ3uFeiZUnwTb4BvGCb1TG2cmaPoZ5sSfkateAxB4sbm1NMKBaVEfeRupAy7gWMhuqQCLEpxJiADtE9sU",
+      "userId": 22462,
+      "nfNodeId": 617,
+      "userSocketId": "ZWZa7u8LWVsZJSkdAAWA",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "46P3PBDujJZEf3M8VjB89U2AbMvqYEgue1Fq5gJh8bgNDfqNzw8AxPjcr1NPxThAV4LgMos3GYitwgx1uF8kkodR",
+      "userId": 390349,
+      "nfNodeId": 1196,
+      "userSocketId": "6Id99SebjvGruKNwAAWo",
+      "walletAddress": "8MJ3db3EKrbih7x8BbZyigXokR1cws313PJTWefcVxC5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2ZwcfLqNT69YvjctPTcbpqg7TurYtSzRr1sg5xgWZg8Ny18xuqLiBhtvswjvDEuGEdecPSFBAnyvH9thxNYMDKhm",
+      "userId": 390349,
+      "nfNodeId": 1231,
+      "userSocketId": "78sfwk4CJa8lFAmuAAYe",
+      "walletAddress": "8MJ3db3EKrbih7x8BbZyigXokR1cws313PJTWefcVxC5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2WHZa7RdA3KT9DFzcNGCJ5AkRjbnNhDFgGGQ6XeMGBRmyKdeGTxQXufUx85o3JnQfmbRzTB1SW3izbfjyCL4faoy",
+      "userId": 390349,
+      "nfNodeId": 1239,
+      "userSocketId": "d_0CKFuibgqo9dnJAAYs",
+      "walletAddress": "8MJ3db3EKrbih7x8BbZyigXokR1cws313PJTWefcVxC5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "hphapFJBjgVztn6tB3Dn72NyE16Gks3uPJ18HmqvAkhr1pS7XDQUgMPnPA2667tK7EZ77cRun675zGPc9fGEWMx",
+      "userId": 390349,
+      "nfNodeId": 1238,
+      "userSocketId": "24s829PuaE6YfLE_AAY1",
+      "walletAddress": "8MJ3db3EKrbih7x8BbZyigXokR1cws313PJTWefcVxC5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5rGvacEATBcrvf5ABbc2gUFtr4dAzg3Uhcb2weSr4AYsop6KkyycpM8HkLvXXirgfSE4aW6TiVLrLga53og7b2wW",
+      "userId": 390349,
+      "nfNodeId": 1237,
+      "userSocketId": "m1f4ojlmha-QUUcxAAZr",
+      "walletAddress": "8MJ3db3EKrbih7x8BbZyigXokR1cws313PJTWefcVxC5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "vPXJr5kYgH2YD3isLdeMkwdRMuRQ7jccSeDeLK2RfPpsWnLhJgRv7UBd5SGJM9cufPzXFqNyYJeVtGDWyia9Z5w",
+      "userId": 319266,
+      "nfNodeId": 904,
+      "userSocketId": "6rv9h2YRT6OB2m_4AAbI",
+      "walletAddress": "2asWtdiRivC4chb46GJWcSasUvbbiorkGN1cq3WxXWNm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "5iyatUo1BqgxLZFKvYHqJcgTcw7fubJowoPVxYHoPS72HxZNHe5gDTFWpWsTcJGgxqohU23eumxR9E6P2yReMoxb",
+      "userId": 319266,
+      "nfNodeId": 780,
+      "userSocketId": "EezcHOmQuOa39b_mAAbU",
+      "walletAddress": "2asWtdiRivC4chb46GJWcSasUvbbiorkGN1cq3WxXWNm"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "qNczh1eTd9v2ezsYu7SqpaRpJAPM7D3zPPc8VXDMZkFEb3JGHwoedfenonuzZShthYjnAzuwbnwgXgygqYFWY2g",
+      "userId": 390349,
+      "nfNodeId": 1232,
+      "userSocketId": "azRW8JugOtqG8RLzAAg6",
+      "walletAddress": "8MJ3db3EKrbih7x8BbZyigXokR1cws313PJTWefcVxC5"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2grEUJeGGzo1KVgnK8KqszydfvH9AneK9mWQyEsYZVQKdnXMvGVuQpdQUbAxCyHpNoRbQrC8uwgAozn57iBVrRWi",
+      "userId": 450678,
+      "latitude": 43.246082299999976,
+      "nfNodeId": 1823,
+      "solPrice": "154.5302",
+      "longitude": -79.907956,
+      "discountCode": "",
+      "userSocketId": "fVmQG9Z6knr7qHapAAiI",
+      "walletAddress": "7t8dMVh5XDiV2XEmoHftgqHsnxpBQFGGiFhvQ4VCWqPY"
+    },
+    "transaction_type": "mint_nfnode"
+  },
+  {
+    "tx_context": {
+      "txHash": "2vpAqNcSfqkUEBWeAK2AitHRPA4YVaG1MhwDUUri8xPg3EVXCYY6g9F5wPZ8vJJqHfxDFyfq8govbUjyzHGt5co4",
+      "userId": 22462,
+      "nfNodeId": 620,
+      "userSocketId": "TL8ll9vg5fQgH-8BAAlE",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "N3rvFRzwHVmj7qaSM2WbDWY8moAA8LQmNCzwkY9uwbm1pUWMp1R2rdjWFob8vcHoP9WTDbk4TPtTD8MktwmJaE9",
+      "userId": 22462,
+      "nfNodeId": 621,
+      "userSocketId": "c4JG0YZ6cQod_QADAAmh",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "3p8FRNVX58tDdgJSf5EMoiy9LVLuzk5xHVdwYEKQCWWxpeA1hEgCQCkGS1Lon2fnB5LSDnpom6cRbneQmVGsS8Rn",
+      "userId": 22462,
+      "nfNodeId": 622,
+      "userSocketId": "rHfVDJH8m5Pjjf68AAnX",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  },
+  {
+    "tx_context": {
+      "txHash": "2bzf35KH2EDAWXVoMsg8CBrUFYNpi8FfvqdqLDZ3FS7nA7oiZCMDw14UdnPcNy4iWRU9BWRsW2C3UZtTkcw5rPPK",
+      "userId": 22462,
+      "nfNodeId": 623,
+      "userSocketId": "zkFccinX-ZbHbPo9AApE",
+      "walletAddress": "Fc8dCaZg5eBZgyU5gjB88CAzwKFHs3eYcMvqFyfcZmLQ"
+    },
+    "transaction_type": "migrate_nfnode_token_standard"
+  }
+]

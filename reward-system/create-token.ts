@@ -7,42 +7,65 @@ import { pinataSdk } from '../spl-token/helpers/pinata';
 import { getKeypair } from '../spl-token/helpers/getKeyPair';
 import { OWNER_TOKENS_PRIVATE_SEED } from "./constants";
 import { getAdminKeypair, getWalletFromUnit8Array } from "../reward-system-v2/helpers/keypair";
-import { MALICIOUS_USER2_PRIVATEKEY } from '../reward-system-v2/constants';
+import { MALICIOUS_USER1_PRIVATEKEY } from '../reward-system-v2/constants';
+import bs58 from 'bs58';
 
 async function main() {
     try {
         console.log("1. Iniciando programa...");
         const program = await getRewardSystemProgram();
         const provider = program.provider as anchor.AnchorProvider;
-        const ownerKeypair = getWalletFromUnit8Array(MALICIOUS_USER2_PRIVATEKEY); // malicious user is the owner
+        const ownerKeypair = getWalletFromUnit8Array(MALICIOUS_USER1_PRIVATEKEY); // malicious user is the owner
         console.log("Owner Keypair:", ownerKeypair.publicKey.toString());
 
-        const DECIMALS = 6; // Definir explícitamente los decimales
-        const INITIAL_SUPPLY = 10_000_000_000_000; // 10 mil tokens con 6 decimales
+        // view owner secret to import to phantom wallet
+        const secretKeyBase58 = bs58.encode(ownerKeypair.secretKey);
+        console.log("Owner Secret (Base58):", secretKeyBase58);
+
+        const DECIMALS = 6;
+        const INITIAL_SUPPLY = 10_000_000_000_000_000; // 10 mil millones de tokens (10,000,000,000.000000)
+        const image = "https://ipfs.algonode.xyz/ipfs/bafkreifwvjebc5rul43627nrjf27hp3nz43imwin2ke2wi7xiswt63mwte";
 
         // Metadata del token
         const tokenMetadata = {
-            name: "WAYRU",
-            symbol: "WAYRU",
-            description: "Official token for the Wayru Network",
-            image: "https://white-capable-coyote-202.mypinata.cloud/files/bafkreigiauh26m3bxnmrwjrk25esg322dvprz2l4xappalo6mh5xk2ybly",
-            external_url: "https://wayru.io",
+            name: "TWAYRU",
+            symbol: "TWAYRU",
+            description: "WAYRU official token for the testnet network",
+            image: image,
+            attributes: [],
+            seller_fee_basis_points: 0,
             properties: {
                 files: [
                     {
-                        uri: "https://white-capable-coyote-202.mypinata.cloud/files/bafkreigiauh26m3bxnmrwjrk25esg322dvprz2l4xappalo6mh5xk2ybly",
-                        type: "image/png"
+                        uri: image,
+                        type: "image/png",
+                        cdn: true
                     }
                 ],
-                category: "token",
+                category: "image",
                 creators: [
                     {
                         address: ownerKeypair.publicKey.toString(),
-                        share: 100
+                        share: 100,
+                        verified: true
                     }
-                ]
+                ],
+                collection: {
+                    name: "WAYRU Collection",
+                    family: "WAYRU"
+                }
             }
         };
+
+        // create metadata
+        const pinataResponse = await pinataSdk.pinJSONToIPFS(tokenMetadata, {
+            pinataMetadata: {
+                name: `${tokenMetadata.name}-metadata`,
+            },
+            pinataOptions: { 
+                cidVersion: 0
+            },
+        });
 
         // Crear nuevo token con metadata
         console.log("4. Creando nuevo token con metadata...");
@@ -51,7 +74,7 @@ async function main() {
             adminKeypair: ownerKeypair,
             name: tokenMetadata.name,
             symbol: tokenMetadata.symbol,
-            uri: 'https://ipfs.algonode.xyz/ipfs/bafkreia75xgum6jyr32figbxegvbb7uwdjyrjvmkmnalohun4zbe3nzqbe',
+            uri: `https://ipfs.algonode.xyz/ipfs/${pinataResponse.IpfsHash}`,
             decimals: DECIMALS
         });
 

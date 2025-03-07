@@ -10,11 +10,10 @@ import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { PublicKey } from "@solana/web3.js";
 import { getUserTokenBalance } from "../helpers/get-balance";
 
-
 const executeFundTokenStorage = async () => {
     const adminKeypair =  getWalletFromUnit8Array(MALICIOUS_USER2_PRIVATEKEY);; // malicious user is the owner
-    const mint = TOKENS.WAYRU.REWARD_TOKEN_MINT;
-    const amount = new BN(convertToTokenAmount(1500, DECIMALS));
+    const mint = TOKENS.WAYRU.T_WAYRU_TOKEN_MINT;
+    const amount = new BN(convertToTokenAmount(50000, DECIMALS));
 
     const program = await getRewardSystemProgram();
     await fundTokenStorage({ program, adminKeypair, mint, amount });
@@ -22,7 +21,8 @@ const executeFundTokenStorage = async () => {
 
 const consultBalance = async () => {
     const program = await getRewardSystemProgram();
-    const mint = TOKENS.WAYRU.REWARD_TOKEN_MINT;
+    console.log("admin_account:", program.programId.toString());
+    const mint = TOKENS.WAYRU.T_WAYRU_TOKEN_MINT;
 
        // Get token storage PDA
        const [tokenStorageAuthority] = PublicKey.findProgramAddressSync(
@@ -52,4 +52,4 @@ const cosultWalletBalance = async () => {
     console.log("User balance:", balance.uiAmount);
 }
 
-executeFundTokenStorage();
+consultBalance();

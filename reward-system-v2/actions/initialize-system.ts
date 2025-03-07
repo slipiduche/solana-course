@@ -7,6 +7,7 @@ import {
 import { RewardSystem } from "../types/reward_system";
 import { TOKENS } from "../constants";
 import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
+const BPF_UPGRADE_LOADER_ID = new PublicKey('BPFLoaderUpgradeab1e11111111111111111111111');
 
 export const initializeSystem = async (
     program: Program<RewardSystem>,
@@ -22,14 +23,20 @@ export const initializeSystem = async (
             program.programId
         );
 
+        const [programDataAddress] = PublicKey.findProgramAddressSync(
+            [program.programId.toBuffer()],
+            BPF_UPGRADE_LOADER_ID
+        );
+
         const accounst = {
             user: admin.publicKey,
             adminAccount: adminAccountPda,
             tokenMint: TOKENS.WAYRU.REWARD_TOKEN_MINT,
             tokenProgram: TOKEN_PROGRAM_ID,
-            program: new PublicKey("49YD9iaXY39zY8tycUg1vJvk6b4cDoVJNrbsmMkk3ihF"),
-            programData: new PublicKey("EkHtKiH6C3aLFmvjZzXTnoCFnAWhkkeaMxzzoXxZRfcN"),
-            systemProgram: SystemProgram.programId
+            program: program.programId,
+            programData: programDataAddress,
+            systemProgram: SystemProgram.programId,
+            mintAuthority: new PublicKey('8QMK1JHzjydq7qHgTo1RwK3ateLm4zVQF7V7BkriNkeD')
         } as const
 
         const tx = await program.methods
