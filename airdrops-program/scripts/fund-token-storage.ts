@@ -17,7 +17,7 @@ const execute = async () => {
         adminKeypair,
         tokenOwnerKeypair,
         tokenMint: TOKEN_MINT,
-        amount: convertToTokenAmount(500)
+        amount: convertToTokenAmount(1000000)
     });
 }
 

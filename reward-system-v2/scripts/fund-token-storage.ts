@@ -1,7 +1,7 @@
 
 import { convertToTokenAmount } from "../../reward-system/utils/token";
 import { fundTokenStorage } from "../actions/fund-token-storage";
-import { TOKENS, DECIMALS, MALICIOUS_USER2_PRIVATEKEY, USER_PRIVATE_SEED } from "../constants";
+import { TOKENS, DECIMALS, MALICIOUS_USER1_PRIVATEKEY, USER_PRIVATE_SEED } from "../constants";
 import { BN } from "bn.js";
 import { getRewardSystemProgram } from "../helpers/program";
 import { getAdminKeypair, getWalletFromUnit8Array } from "../helpers/keypair";
@@ -11,12 +11,14 @@ import { PublicKey } from "@solana/web3.js";
 import { getUserTokenBalance } from "../helpers/get-balance";
 
 const executeFundTokenStorage = async () => {
-    const adminKeypair =  getWalletFromUnit8Array(MALICIOUS_USER2_PRIVATEKEY);; // malicious user is the owner
+    const adminKeypair =  getWalletFromUnit8Array(MALICIOUS_USER1_PRIVATEKEY);; // malicious user is the owner
     const mint = TOKENS.WAYRU.T_WAYRU_TOKEN_MINT;
-    const amount = new BN(convertToTokenAmount(50000, DECIMALS));
+    const amount = new BN(convertToTokenAmount(1000000, DECIMALS));
+    consultBalance()
 
     const program = await getRewardSystemProgram();
     await fundTokenStorage({ program, adminKeypair, mint, amount });
+    consultBalance();
 }
 
 const consultBalance = async () => {
@@ -52,4 +54,4 @@ const cosultWalletBalance = async () => {
     console.log("User balance:", balance.uiAmount);
 }
 
-consultBalance();
+executeFundTokenStorage();

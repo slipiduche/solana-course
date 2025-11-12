@@ -18,6 +18,7 @@
     "ed25519-hd-key": "^1.3.0",
     "esrun": "^3.2.26",
     "micro-ed25519-hdkey": "^0.1.2",
+    "moment": "^2.30.1",
     "rpc-websockets": "7.5.1",
     "tweetnacl": "^1.0.3",
     "typescript": "^5.5.3"
@@ -60,8 +61,23 @@
     "airdrops-program-initialize-system": "npx esrun airdrops-program/scripts/initialize-system.ts",
     "airdrops-program-pause-unpause-system": "npx esrun airdrops-program/scripts/pause-unpause-system.ts",
     "airdrops-program-fund-token-storage": "npx esrun airdrops-program/scripts/fund-token-storage.ts",
-    "airdrops-program-claim-token": "npx esrun airdrops-program/scripts/claim-token.ts"
+    "airdrops-program-claim-token": "npx esrun airdrops-program/scripts/claim-token.ts",
+    "depin-stake-program-v1-init-program": "npx esrun depin-stake-program-v1/scripts/init-program.ts",
+    "depin-stake-program-v1-update-admin": "npx esrun depin-stake-program-v1/scripts/update-admin.ts",
+    "depin-stake-program-v1-add-mint-authority": "npx esrun depin-stake-program-v1/scripts/add-mint-authority.ts",
+    "depin-stake-program-v1-remove-mint-authority": "npx esrun depin-stake-program-v1/scripts/remove-mint-authority.ts",
+    "depin-stake-program-v1-initialize-nfnode": "npx esrun depin-stake-program-v1/scripts/initialize-nfnode.ts",
+    "depin-stake-program-v1-exploit-counter-bug": "npx esrun depin-stake-program-v1/scripts/run-counter-bug-exploit.ts",
+    "depin-stake-program-v1-stake": "npx esrun depin-stake-program-v1/scripts/stake.ts",
+    "depin-stake-program-v1-stake-v2": "npx esrun depin-stake-program-v1/scripts/stake-v2.ts",
+    "depin-stake-program-v1-unstake": "npx esrun depin-stake-program-v1/scripts/unstake.ts",
+    "depin-stake-program-v1-update-fee-amount": "npx esrun depin-stake-program-v1/scripts/update-fee-amount.ts",
+    "depin-stake-program-v1-update-fee-wallet": "npx esrun depin-stake-program-v1/scripts/update-fee-wallet.ts",
+    "depin-stake-program-v1-test-get-all-stake-mints": "npx esrun depin-stake-program-v1/scripts/test-get-all-stake-mints.ts"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0"
+  }
 }

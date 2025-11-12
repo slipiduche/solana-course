@@ -2,8 +2,15 @@ import { PublicKey } from "@solana/web3.js";
 
 
 export const REWARD_SYSTEM_PROGRAM_ID = process.env.REWARD_SYSTEM_PROGRAM_ID || 'DGkrN8CiTvRSZbqa7rZjKJ5SHEmMm9Q7JMDjKubidhtV';
+export const REWARD_SYSTEM_PROGRAM_ID_V2 = process.env.REWARD_SYSTEM_PROGRAM_ID_V2 || 'Ey6f9uyT1s3UrCGpc586aeHmEupYdfR2xo8Nh7TpqLhX';
 
-export const ADMIN_PRIVATE_KEY = [177,109,186,184,20,171,51,93,193,111,214,24,250,113,146,89,231,9,224,90,138,119,87,228,181,209,128,161,183,66,12,58,132,255,195,67,94,86,207,79,39,181,4,62,238,109,163,67,230,188,254,49,33,220,193,163,37,13,237,64,30,202,72,210]
+export const REWARD_SYSTEM_PROGRAM_ID_MAINNET = process.env.REWARD_SYSTEM_PROGRAM_ID_MAINNET || 'EBovcnX1UXsxPuyMd5yUA1Xc1Ld89wEVFCMJVpS16T4A';
+
+export const AIRDROP_PROGRAM_ID = process.env.AIRDROP_PROGRAM_ID || '5KK2ThgEp1AZM8bo79ijJcumSqz9B48bszyhYhuw3K7o';
+
+export const STAKING_PROGRAM_ID = process.env.STAKING_PROGRAM_ID || '44op5JkWQ4KjXNphN5jWxFssvz6iAXYKJZnVZgPLXUXq';
+
+export const ADMIN_PRIVATE_KEY = [177, 109, 186, 184, 20, 171, 51, 93, 193, 111, 214, 24, 250, 113, 146, 89, 231, 9, 224, 90, 138, 119, 87, 228, 181, 209, 128, 161, 183, 66, 12, 58, 132, 255, 195, 67, 94, 86, 207, 79, 39, 181, 4, 62, 238, 109, 163, 67, 230, 188, 254, 49, 33, 220, 193, 163, 37, 13, 237, 64, 30, 202, 72, 210]
 
 export const HOST_PRIVATE_KEY = [2, 158, 14, 251, 126, 198, 100, 48, 32, 199, 71, 90, 22, 100, 101, 42, 73, 216, 183, 141, 58, 158, 13, 239, 141, 0, 174, 76, 139, 250, 65, 171, 189, 63, 141, 40, 56, 56, 191, 155, 230, 159, 25, 252, 153, 174, 88, 127, 26, 110, 61, 165, 180, 152, 138, 231, 70, 50, 157, 246, 11, 35, 231, 21]
 
@@ -12,8 +19,11 @@ export const MALICIOUS_USER1_PRIVATEKEY = [184, 108, 219, 227, 208, 168, 252, 21
 ]
 export const MALICIOUS_USER2_PRIVATEKEY = [14, 122, 165, 222, 181, 183, 166, 17, 100, 243, 112, 16, 230, 53, 185, 108, 7, 113, 64, 72, 133, 107, 15, 16, 214, 91, 17, 49, 87, 6, 111, 244, 88, 203, 34, 190, 37, 207, 133, 175, 127, 115, 63, 188, 209, 173, 193, 64, 50, 81, 35, 233, 214, 81, 9, 255, 252, 43, 94, 101, 101, 127, 71, 193]
 export const USER_PRIVATE_SEED = 'pilot rebel census betray lock predict hub double giraffe purity upon zone'
-export const NETWORK_APP_USER_SED = 'galaxy tobacco alley april kiss where swift trade include dream sugar inmate'
+export const NETWORK_APP_USER_SEED = 'speak square trophy slush crouch secret soldier tattoo year ranch kitchen fish'
+export const USER_TEST_TO_INITIALIZE_NFNODE = 'daughter unable shed early dignity elbow warfare mechanic security panic beauty caution'
 export const PROGRAM_DATA_ADDRESS = new PublicKey("8uwRuVjzG7qjGeW5CALUMQ9e16xxNc6vRrAAWN3GPJZK");
+
+export const WIFI_APP_USER_SEED = "feature culture loop engine assume flame frog flee mountain suggest police lobster"
 
 export const DECIMALS = 6;
 export const TOKENS = {
@@ -29,9 +39,12 @@ export const TOKENS = {
         MINT_TOKEN_ADDRESS_2: new PublicKey("HBMixppFXpXpvuorGvYymyTmunekVPqjYKNm32qxfGa8"),
         OWNER_TOKEN_ACCOUNT_2: new PublicKey("HBMixppFXpXpvuorGvYymyTmunekVPqjYKNm32qxfGa8"),
         T_WAYRU_TOKEN_MINT: new PublicKey("CyVfcAhqHoY28roieSxAx9B4RCcGEDnVrxbwoc3oH7wa"),
+        HOLY_AMARANTH_FROG_NFT_MINT: new PublicKey("6Jdc3YSxkVhkm8FRXeY1h34bbqzhGyUjvSDEpH9S1RSa"),
     }
 } as const;
 
 // try to claim 970 tokens
 
 export const OWNER_TOKENS_PRIVATE_SEED = `east notable network digital unaware asset now donate weather noodle filter prize`;
+
+export const WIFI_APP_HOST_USER_SEED = 'sound moral impose doctor across disorder skirt category exchange dragon evolve swim'

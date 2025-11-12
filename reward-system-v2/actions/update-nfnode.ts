@@ -93,7 +93,7 @@ export const adminCreateAndSignTx = async ({
     treasuryWalletAddress
 }: AdminCreateAndSignTxProps) => {
     try {
-        const hostShare = 44;
+        const hostShare = 50;
         const { blockhash } = await program.provider.connection.getLatestBlockhash();
         
         const transaction = new Transaction();

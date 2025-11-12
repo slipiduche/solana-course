@@ -33,6 +33,7 @@ export const fundTokenStorage = async ({
         console.log("Admin:", adminKeypair.publicKey.toString());
         console.log("Mint:", mint.toString());
         console.log("Amount to deposit:", amount.toString());
+        console.log("Program ID:", program.programId.toString());
 
         // Verificar balance de SOL del admin
         const adminSolBalance = await program.provider.connection.getBalance(adminKeypair.publicKey);
