@@ -73,6 +73,7 @@
     "depin-stake-program-v1-unstake": "npx esrun depin-stake-program-v1/scripts/unstake.ts",
     "depin-stake-program-v1-update-fee-amount": "npx esrun depin-stake-program-v1/scripts/update-fee-amount.ts",
     "depin-stake-program-v1-update-fee-wallet": "npx esrun depin-stake-program-v1/scripts/update-fee-wallet.ts",
+    "depin-stake-program-v1-update-fee-wallet-to-token-account": "npx esrun depin-stake-program-v1/scripts/update-fee-wallet-to-token-account.ts",
     "depin-stake-program-v1-test-get-all-stake-mints": "npx esrun depin-stake-program-v1/scripts/test-get-all-stake-mints.ts"
   },
   "author": "",

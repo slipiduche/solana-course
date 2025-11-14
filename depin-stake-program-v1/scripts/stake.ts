@@ -18,6 +18,7 @@ import { getProgramAdminEntry } from "../helpers/program-entries";
 
         const user1 = getUserKeyPair("userOwnerNft");
         const programAdminEntry = await getProgramAdminEntry();
+        console.log("program admin entry:", programAdminEntry);
         console.log("user1 public key:", user1.publicKey.toString());
         return
         const externalNftMint = TOKENS.NFNODE_3_MINT;

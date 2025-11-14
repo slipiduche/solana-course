@@ -198,44 +198,107 @@ export const stakeV2 = async (user: any, externalNftMint: PublicKey, amount: num
                 // feeReceivingWallet is now the token account itself
                 const feeWalletTokenAccount = feeReceivingWallet;
 
-                const feeWalletTokenAccountInfo = await connection.getAccountInfo(feeWalletTokenAccount);
-                if (!feeWalletTokenAccountInfo) {
-                    console.log("🔧 Creating fee wallet token account...");
-                    const { createAssociatedTokenAccountInstruction } = await import('@solana/spl-token');
+                // Verify that the fee wallet token account exists and is a valid SPL Token account
+                console.log("🔍 Verifying fee wallet token account:", feeWalletTokenAccount.toString());
 
-                    const createFeeWalletTx = new Transaction().add(
-                        createAssociatedTokenAccountInstruction(
-                            user.publicKey, // payer
-                            feeWalletTokenAccount, // associated token account
-                            feeReceivingWallet, // owner
-                            TOKENS.T_WAYRU_TOKEN_MINT, // mint
-                            new PublicKey('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'),
-                            new PublicKey('ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL')
-                        )
+                // Check if the account exists and is a valid token account
+                let feeAccountExists = false;
+                try {
+                    const { getAccount } = await import('@solana/spl-token');
+                    const feeAccountInfo = await getAccount(
+                        connection,
+                        feeWalletTokenAccount,
+                        'confirmed',
+                        TOKEN_PROGRAM_ID
                     );
 
-                    const latestBlockhash = await connection.getLatestBlockhash({ commitment: "recent" });
-                    createFeeWalletTx.recentBlockhash = latestBlockhash.blockhash;
-                    createFeeWalletTx.feePayer = user.publicKey;
-                    createFeeWalletTx.sign(user);
+                    // Verify the mint is correct
+                    if (!feeAccountInfo.mint.equals(TOKENS.T_WAYRU_TOKEN_MINT)) {
+                        throw new Error(`Fee wallet token account has incorrect mint. Expected: ${TOKENS.T_WAYRU_TOKEN_MINT.toString()}, Got: ${feeAccountInfo.mint.toString()}`);
+                    }
 
-                    const createTxHash = await connection.sendRawTransaction(createFeeWalletTx.serialize(), {
-                        skipPreflight: false,
-                        preflightCommitment: "confirmed",
-                    });
+                    feeAccountExists = true;
+                    console.log("✅ Fee wallet token account exists and is valid");
+                    console.log("   - Owner:", feeAccountInfo.owner.toString());
+                    console.log("   - Mint:", feeAccountInfo.mint.toString());
+                    console.log("   - Amount:", feeAccountInfo.amount.toString());
+                } catch (error: any) {
+                    // Check if the account doesn't exist or is invalid
+                    if (error.name === 'TokenAccountNotFoundError' ||
+                        error.code === 'TokenAccountNotFoundError' ||
+                        error.name === 'TokenInvalidAccountOwnerError' ||
+                        error.message?.includes('InvalidAccountOwner') ||
+                        error.message?.includes('invalid account data')) {
+                        console.log("⚠️ Fee wallet token account does not exist or is invalid, creating it...");
+                        feeAccountExists = false;
+                    } else {
+                        throw error;
+                    }
+                }
 
-                    console.log("✅ Fee wallet token account created!");
-                    console.log("📝 Create fee wallet tx signature:", createTxHash);
+                // If the fee wallet token account doesn't exist, try to create it
+                if (!feeAccountExists) {
+                    console.log("🔧 Attempting to create fee wallet token account...");
+                    const { createAssociatedTokenAccountInstruction } = await import('@solana/spl-token');
 
-                    // Wait for the account to be created
-                    await new Promise((resolve) => setTimeout(resolve, 2000));
-                } else {
-                    console.log("✅ Fee wallet token account already exists");
+                    // Try to create the account assuming it's the admin's ATA
+                    const adminWallet = adminAccountInfo.adminPubkey;
+
+                    // Calculate what the admin's ATA should be
+                    const expectedAdminATA = getAssociatedTokenAddressSync(
+                        TOKENS.T_WAYRU_TOKEN_MINT,
+                        adminWallet,
+                        false,
+                        TOKEN_PROGRAM_ID,
+                        ASSOCIATED_TOKEN_PROGRAM_ID
+                    );
+
+                    // If the stored address matches the admin's ATA, create it
+                    if (expectedAdminATA.equals(feeWalletTokenAccount)) {
+                        console.log("✅ Fee wallet is admin's ATA, creating it...");
+                        const createATAInstruction = createAssociatedTokenAccountInstruction(
+                            user.publicKey, // payer
+                            feeWalletTokenAccount, // associated token account
+                            adminWallet, // owner
+                            TOKENS.T_WAYRU_TOKEN_MINT, // mint
+                            TOKEN_PROGRAM_ID,
+                            ASSOCIATED_TOKEN_PROGRAM_ID
+                        );
+
+                        const createATATx = new Transaction().add(createATAInstruction);
+                        const latestBlockhash = await connection.getLatestBlockhash({ commitment: "recent" });
+                        createATATx.recentBlockhash = latestBlockhash.blockhash;
+                        createATATx.feePayer = user.publicKey;
+                        createATATx.sign(user);
+
+                        try {
+                            const createATAHash = await connection.sendRawTransaction(createATATx.serialize(), {
+                                skipPreflight: false,
+                                preflightCommitment: "confirmed",
+                            });
+
+                            console.log("✅ Fee wallet token account created!");
+                            console.log("📝 Create ATA tx signature:", createATAHash);
+
+                            // Wait for the account to be created
+                            await new Promise((resolve) => setTimeout(resolve, 2000));
+                        } catch (createError: any) {
+                            console.log("⚠️ Could not create fee wallet token account:", createError.message);
+                            throw new Error(`Fee wallet token account does not exist and could not be created. The fee wallet address (${feeWalletTokenAccount.toString()}) stored in the admin account may be incorrect. Please update the admin account with a valid token account address. Error: ${createError.message}`);
+                        }
+                    } else {
+                        // The stored address doesn't match the admin's ATA
+                        // We can't create it without knowing the owner
+                        console.log("⚠️ Fee wallet address does not match admin's ATA");
+                        console.log(`   Stored address: ${feeWalletTokenAccount.toString()}`);
+                        console.log(`   Expected admin ATA: ${expectedAdminATA.toString()}`);
+                        throw new Error(`Fee wallet token account does not exist and cannot be automatically created. The stored address (${feeWalletTokenAccount.toString()}) does not match the admin's associated token account (${expectedAdminATA.toString()}). Please ensure the admin account has been properly configured with a valid token account address, or update it using the updateFeeWallet instruction.`);
+                    }
                 }
 
                 // Perform first stake operation using initStakeNft
                 console.log("🔧 Performing first stake operation...");
-                const tx = await program.methods.initStakeNft(
+                const stakeTx = await program.methods.initStakeNft(
                     {
                         name: "Stake NFT",
                         symbol: "STAKE",
@@ -263,16 +326,10 @@ export const stakeV2 = async (user: any, externalNftMint: PublicKey, amount: num
                         systemProgram: SystemProgram.programId
                     } as any)
                     .signers([user])
-                    .transaction();
-
-                // Add feeWalletTokenAccount as writable for transfers
-                tx.instructions[0].keys.push({
-                    pubkey: feeWalletTokenAccount,
-                    isSigner: false,
-                    isWritable: true
-                });
-
-                const stakeTx = await program.provider.sendAndConfirm(tx, [user]);
+                    .rpc({
+                        commitment: 'confirmed',
+                        skipPreflight: false
+                    });
 
                 console.log("✅ First stake operation successful!");
                 console.log("📝 Stake tx signature:", stakeTx);

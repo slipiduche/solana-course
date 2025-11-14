@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 
 // you can confirm the program id in depin-stake-program-v1/types/depin_stake.ts
-export const DEPIN_STAKING_PROGRAM_ID = 'ECcNAeDo6TbYpr1bY2e1uybkiNEuRSbxRbqad4r1azK8';
+export const DEPIN_STAKING_PROGRAM_ID = '217UYcycmuh1Pj5sFcs7gwQRXjbXTx28GAxc9y9kCGJF';
 export const ADMIN_PRIVATE_KEY = (process.env
     .ADMIN_PRIVATE_KEY as unknown as number[]) || [
         19, 230, 119, 65, 149, 33, 72, 209, 116, 183, 186, 150, 10, 218, 176, 64, 213,

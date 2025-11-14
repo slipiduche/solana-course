@@ -2,7 +2,7 @@ import { PublicKey, SystemProgram } from "@solana/web3.js";
 import { getDepinStakingAdminKeypair } from "../helpers/keypair";
 import { getDepinStakingProgram } from "../helpers/program";
 import { TOKENS } from "../constants";
-import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
+import { TOKEN_PROGRAM_ID, getAssociatedTokenAddressSync, ASSOCIATED_TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import BN from "bn.js";
 
 export const initStakingProgram = async () => {
@@ -20,9 +20,19 @@ export const initStakingProgram = async () => {
             program.programId
         );
 
+        // Calculate admin's associated token account for fee receiving
+        const adminTokenAccount = getAssociatedTokenAddressSync(
+            TOKENS.T_WAYRU_TOKEN_MINT,
+            admin.publicKey,
+            false,
+            TOKEN_PROGRAM_ID,
+            ASSOCIATED_TOKEN_PROGRAM_ID
+        );
+
         // prepare transaction
         console.log('preparing transaction...')
         console.log('Admin public key:', admin.publicKey.toString())
+        console.log('Admin token account (fee wallet):', adminTokenAccount.toString())
         console.log('AdminAccount PDA:', adminAccountPDA.toString())
         console.log('ProgramData address:', programDataAddress.toString())
 
@@ -35,7 +45,7 @@ export const initStakingProgram = async () => {
             tokenProgram: TOKEN_PROGRAM_ID,
             program: program.programId,
             systemProgram: SystemProgram.programId,
-            feeReceivingWallet: admin.publicKey
+            feeReceivingWallet: adminTokenAccount
         } as const
 
         console.log('sending transaction...')

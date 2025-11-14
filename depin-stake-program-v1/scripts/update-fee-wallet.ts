@@ -1,16 +1,11 @@
-import { PublicKey } from "@solana/web3.js";
 import { updateFeeWallet } from "../actions/update-fee-wallet";
 
 async function main() {
     try {
-        console.log("🔧 Updating Fee Wallet");
+        console.log("🔧 Updating Fee Wallet to Admin's ATA");
 
-        // New fee wallet address
-        const newFeeWallet = new PublicKey("EWsaCs3fdR8zt26FRX2zum8Yui5DYqTzsawawKkG8gPL");
-
-        await updateFeeWallet({
-            newFeeWallet: newFeeWallet
-        });
+        // Update fee wallet to admin's associated token account (automatically calculated)
+        await updateFeeWallet({});
 
         console.log("✅ Fee wallet update completed!");
 
